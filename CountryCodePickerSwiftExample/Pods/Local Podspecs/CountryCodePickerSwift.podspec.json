@@ -16,7 +16,6 @@
     "tag": "1.0.0"
   },
   "source_files": "CountryCodePickerSwift/**/*.{h,m,swift}",
-  "resources": "CountryCodePickerSwift/**/*.{png,bundle,json}",
   "frameworks": "UIKit",
   "swift_version": "4.0"
 }

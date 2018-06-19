@@ -7,270 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		004A1081FD45F72EA5CEAA4EFD296C93 /* flag_namibia.png in Resources */ = {isa = PBXBuildFile; fileRef = 2E10921EAF14D4F673F86629BC6EE3FD /* flag_namibia.png */; };
-		03A89301AD30D658C31536F12A5DC836 /* flag_barbados.png in Resources */ = {isa = PBXBuildFile; fileRef = B6B0F676184ADA9FD3A66BBA6F8E3774 /* flag_barbados.png */; };
-		03CC107DCBE6E72FA341E86037B4914E /* flag_samoa.png in Resources */ = {isa = PBXBuildFile; fileRef = 910E10B21171680D6C69729EF2206213 /* flag_samoa.png */; };
-		0561840B38DD7350618FFDBE51C853B2 /* flag_lebanon.png in Resources */ = {isa = PBXBuildFile; fileRef = D499075D8C22B126B7FA808DEC5915D5 /* flag_lebanon.png */; };
-		056CB061C22F4C7149ACA6922A24A871 /* flag_united_kingdom.png in Resources */ = {isa = PBXBuildFile; fileRef = 3E1594049C7422830FB941B8F191A597 /* flag_united_kingdom.png */; };
-		07032D991749D1C15334E4264CC04551 /* flag_greece.png in Resources */ = {isa = PBXBuildFile; fileRef = 3E8A377379A631FD2C9431F9CDD34D69 /* flag_greece.png */; };
-		0717A0D938EC13A8C96C81108580D158 /* flag_antigua_and_barbuda.png in Resources */ = {isa = PBXBuildFile; fileRef = 6B02F654FCE712135ADF84571BA6D0D2 /* flag_antigua_and_barbuda.png */; };
-		082FC6D4E609B8C429A9A650B84F588C /* flag_ireland.png in Resources */ = {isa = PBXBuildFile; fileRef = 994411679AD0D1CD47763881A6EF0F7B /* flag_ireland.png */; };
-		0A3192D3E374955E57053EF9ECEF21D5 /* flag_pakistan.png in Resources */ = {isa = PBXBuildFile; fileRef = 6BAC69A6668BD6C1888645A63FDA6311 /* flag_pakistan.png */; };
-		0AD3D4AE6E4AE9CCBE1FE5992DCA992E /* flag_viet_nam.png in Resources */ = {isa = PBXBuildFile; fileRef = 36F404009CC3FF58EE73ADA18A343711 /* flag_viet_nam.png */; };
-		0AEB6E9B421931EA47C519C09A71FD11 /* flag_south_korea.png in Resources */ = {isa = PBXBuildFile; fileRef = B8D6C58022638763D6C96B41CF36C9E8 /* flag_south_korea.png */; };
 		0CAF39A6E0EAF9DD2E201DA34239B78C /* Pods-CountryCodePickerSwiftExampleTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C2F88863FF5D44DE422172513D3AFB2 /* Pods-CountryCodePickerSwiftExampleTests-dummy.m */; };
-		0CBCA8A66D8F53A655CA3F34844DACA7 /* flag_macedonia.png in Resources */ = {isa = PBXBuildFile; fileRef = 1DA139E02FEB0A0AD0D7C8A84DC0E03F /* flag_macedonia.png */; };
-		0CCD0E0F758E3FE6460E7F3C2D85F506 /* CountryCodes.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEFA6FA93586A49B5C9112AC905D99E2 /* CountryCodes.swift */; };
-		0CD811BACCAEBFAEC9F44A0733C547E8 /* flag_croatia.png in Resources */ = {isa = PBXBuildFile; fileRef = 43F9A29C58905CA23A018E84F06A2D30 /* flag_croatia.png */; };
-		0FF216252528F34A23D82BC1587D9F26 /* flag_mali.png in Resources */ = {isa = PBXBuildFile; fileRef = D4ED475A4A79B778DD542AF156233DB3 /* flag_mali.png */; };
-		1017F1DF67362ACD8C5D22D514F254CF /* flag_serbia_and_montenegro.png in Resources */ = {isa = PBXBuildFile; fileRef = 470A2655D819AF7CEFFDB7AEB653B850 /* flag_serbia_and_montenegro.png */; };
-		103653D78C9FD5A1C567C1EB456D6B2F /* flag_comoros.png in Resources */ = {isa = PBXBuildFile; fileRef = 78922FB2D972AA357A35844002976243 /* flag_comoros.png */; };
-		12876A13297E546FF4DB0F70B0D7B9CF /* flag_bhutan.png in Resources */ = {isa = PBXBuildFile; fileRef = 63380EA2DDF6B54CED53F550CF728A87 /* flag_bhutan.png */; };
-		139785BD402F4159D6EEAC5369EF7485 /* flag_tunisia.png in Resources */ = {isa = PBXBuildFile; fileRef = C377105812ACCCCFA68BD513BE9FC403 /* flag_tunisia.png */; };
-		157CB1644A11CED9CD65C32B0659D5D0 /* flag_maldives.png in Resources */ = {isa = PBXBuildFile; fileRef = 1272AD8D85B626945F6316AAF57173DE /* flag_maldives.png */; };
-		15C1A2208A05A90B7039F86F2D9C4CDA /* flag_vanuatu.png in Resources */ = {isa = PBXBuildFile; fileRef = 91488E9607AA4BC85CB56B28A04EE36F /* flag_vanuatu.png */; };
-		172E45280D1C0C26A94E526FD0B0CC54 /* flag_czech_republic.png in Resources */ = {isa = PBXBuildFile; fileRef = C9D3EB9B491945B6D3F28425316F0D30 /* flag_czech_republic.png */; };
-		174AE8C379E60D257ED0CF9AA700FC0C /* flag_botswana.png in Resources */ = {isa = PBXBuildFile; fileRef = E65C87E77D05F0DEE54CA9646D1BDA26 /* flag_botswana.png */; };
-		1788DA772851A07BA31EB7BFBD92A7CE /* flag_mongolia.png in Resources */ = {isa = PBXBuildFile; fileRef = 197886AEE3AE5E9B2A1BBC0455D889D6 /* flag_mongolia.png */; };
-		17F93DE9BAA2C676D65B50BE43751925 /* flag_antarctica.png in Resources */ = {isa = PBXBuildFile; fileRef = 08AD1B1BD5197DBA27045CC6D1D78D4D /* flag_antarctica.png */; };
-		18F562BD84A01AB1F7141F182D2BE9A8 /* flag_of_montenegro.png in Resources */ = {isa = PBXBuildFile; fileRef = 58D8053B78313A582C30715785F26D22 /* flag_of_montenegro.png */; };
-		197659FC37FABEEB3EBD131F304D3C3E /* flag_kyrgyzstan.png in Resources */ = {isa = PBXBuildFile; fileRef = 55B03D9F339EB4707A8E925A46591B84 /* flag_kyrgyzstan.png */; };
-		1C5C0BFD889E90C0560A53CF71614673 /* flag_malta.png in Resources */ = {isa = PBXBuildFile; fileRef = 89A2CD951D241429501718774181961C /* flag_malta.png */; };
-		1E41D144BBCB1E5E804963A0F8D74AF2 /* flag_guatemala.png in Resources */ = {isa = PBXBuildFile; fileRef = D9C1A47F62FB58A529DC72885254B3B2 /* flag_guatemala.png */; };
-		1EDDDB98B532E7525B57AA9202BA8AF0 /* flag_turkmenistan.png in Resources */ = {isa = PBXBuildFile; fileRef = F543093465508B8FF20FB75E0E1D3D25 /* flag_turkmenistan.png */; };
-		1FD4A1D1A0ECA883A6A0FE65C420D06E /* flag_somalia.png in Resources */ = {isa = PBXBuildFile; fileRef = 5AE2C823ED34D46C085803968CCEF85F /* flag_somalia.png */; };
-		208EB30E6E7F5536B0833A2820E1E956 /* flag_mozambique.png in Resources */ = {isa = PBXBuildFile; fileRef = 84CE5F0D99F4E1032D6179664C318231 /* flag_mozambique.png */; };
-		221B6FE3E3F0EBD8222DAF287561A052 /* flag_venezuela.png in Resources */ = {isa = PBXBuildFile; fileRef = 920D5F5D8392AC96D9C40206F2EFB0A8 /* flag_venezuela.png */; };
-		2331B15C51D0D7BD4B11D0EBC0104199 /* CountryCodePickerSwift-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A0CB49A44D93F5A06D0A84D26517200C /* CountryCodePickerSwift-dummy.m */; };
-		24109E5E013AE3C5FDFAC088806BA5F8 /* flag_micronesia.png in Resources */ = {isa = PBXBuildFile; fileRef = 833FEDD59976CA15AA8804AA7C8C1181 /* flag_micronesia.png */; };
-		2507C09B7E6825A780723E16B4A68E91 /* flag_tajikistan.png in Resources */ = {isa = PBXBuildFile; fileRef = E302E12D4455BA82799FF42B031EF8C0 /* flag_tajikistan.png */; };
-		25127A496508FB9D90151ED308656D17 /* flag_bermuda.png in Resources */ = {isa = PBXBuildFile; fileRef = 94F10D3A096758E56D4198D970B86AE2 /* flag_bermuda.png */; };
-		258E01291B48A89429C6EB8698DBEAD6 /* flag_macao.png in Resources */ = {isa = PBXBuildFile; fileRef = 531F81BC2B62C9321A5BADA069592F73 /* flag_macao.png */; };
-		259D6EACA2290739BF6B35006730F170 /* flag_american_samoa.png in Resources */ = {isa = PBXBuildFile; fileRef = F6256AF8AACDBB889F4C0D1C7EEB4E21 /* flag_american_samoa.png */; };
-		27E8BDC2E0F7568140EFA1716C9A6AA8 /* flag_israel.png in Resources */ = {isa = PBXBuildFile; fileRef = AD51CD8595E0AE625F652C329D69F8B9 /* flag_israel.png */; };
-		27F15EC905C3283842860B41D6A1D2C6 /* flag_mayotte.png in Resources */ = {isa = PBXBuildFile; fileRef = 42677FA996DB342F21DFDC5F5081CB46 /* flag_mayotte.png */; };
-		297FF2C49F0B0EC33B094E487193DA03 /* flag_malawi.png in Resources */ = {isa = PBXBuildFile; fileRef = 0740D65A6C519A8365BA8D9B9DE8C85A /* flag_malawi.png */; };
-		2A6334CAB2B44659004D8A1D2B2C1129 /* flag_turks_and_caicos_islands.png in Resources */ = {isa = PBXBuildFile; fileRef = C015AC73C041E343BA152515D954BA16 /* flag_turks_and_caicos_islands.png */; };
 		2A6E0CA9137A98242407C6B6D9B854F7 /* Pods-CountryCodePickerSwiftExampleTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CA3F157FA575499F0C24ECCC8187807C /* Pods-CountryCodePickerSwiftExampleTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		2A9EE376C96B6D4F47A13A94CD36FBA3 /* flag_nicaragua.png in Resources */ = {isa = PBXBuildFile; fileRef = A28F685EE4E561B58BC80A639025A575 /* flag_nicaragua.png */; };
-		2C25982867BDC141ABE22912793E51C4 /* flag_iraq_new.png in Resources */ = {isa = PBXBuildFile; fileRef = BCD4C805F2E00DDD918902599DC4707B /* flag_iraq_new.png */; };
-		2E47964F7D3E266DD7011DDFDB254274 /* flag_egypt.png in Resources */ = {isa = PBXBuildFile; fileRef = 14199A7BA890866626A635DB4E414A96 /* flag_egypt.png */; };
+		2BDA0451C0677636EDB036F83EA31F6F /* CountryCodeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6303A838D7D44698AA145370E1BA9AAC /* CountryCodeController.swift */; };
 		2ED0247C618553F52E63823F65927176 /* Pods-CountryCodePickerSwiftExample-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D4BAD147D18E4FAB2F5A93D27EAD0DFE /* Pods-CountryCodePickerSwiftExample-dummy.m */; };
-		2EDC2796037C3E860B08CD8A03BA3FE9 /* flag_afghanistan.png in Resources */ = {isa = PBXBuildFile; fileRef = B06CD2920599EE24DE6363CF021603EC /* flag_afghanistan.png */; };
-		2F7C3A0416447ACDE7DB3F52F6F4EB2B /* flag_new_caledonia.png in Resources */ = {isa = PBXBuildFile; fileRef = 58754852F4B6E864577E78E24D836B04 /* flag_new_caledonia.png */; };
-		30F31546661A935FA68B23AA6D7A7A6B /* flag_romania.png in Resources */ = {isa = PBXBuildFile; fileRef = 441F9E3B145713F1CE6468EE978048B8 /* flag_romania.png */; };
-		31D52B845AB8B16350687DA094012243 /* flag_north_korea.png in Resources */ = {isa = PBXBuildFile; fileRef = 8FEAB2CAE88E7920EC210313B8B8D02B /* flag_north_korea.png */; };
-		32EFCAB97B9E2018F1CB9ED7CC9CEB41 /* flag_japan.png in Resources */ = {isa = PBXBuildFile; fileRef = 0792412A284D8A811A0F5718AFEE1318 /* flag_japan.png */; };
-		33DA88015C41D31C2E2480AB6D47E6EF /* flag_honduras.png in Resources */ = {isa = PBXBuildFile; fileRef = 34F1F45F8B811B6700C3E34BE17FDBF3 /* flag_honduras.png */; };
-		3495656F9A840C6ABDFE07F322943FEC /* flag_switzerland.png in Resources */ = {isa = PBXBuildFile; fileRef = 457F224D7ED4E19FB268FF8ED311CBA4 /* flag_switzerland.png */; };
-		34F4AF2FF2393FD5040AD24F4E64B9CF /* flag_bahrain.png in Resources */ = {isa = PBXBuildFile; fileRef = F00143747F4BD9A6576BA03180B0871A /* flag_bahrain.png */; };
-		37ECCB9C646D29E9867603E3956C8340 /* flag_poland.png in Resources */ = {isa = PBXBuildFile; fileRef = FD1756FF8EA694F16BED29E862335B56 /* flag_poland.png */; };
-		394E49515AA0161AEBAE36EE4756EAC3 /* flag_transparent.png in Resources */ = {isa = PBXBuildFile; fileRef = EA80E86C16610B210464D6FB52CF3249 /* flag_transparent.png */; };
-		3BF18C4868EC488193FFAA644C9DC49B /* flag_côte_d'ivoire.png in Resources */ = {isa = PBXBuildFile; fileRef = 1CEF99F7CDEB982B5DEC3C5D47836762 /* flag_côte_d'ivoire.png */; };
-		3C0A9ED2C74CE34C7E42674CD0E3A4BD /* flag_réunion.png in Resources */ = {isa = PBXBuildFile; fileRef = 952A7C5289DAAB481CEE7DC92222AB6D /* flag_réunion.png */; };
-		3D1E844498F051BBB3AC5FCB23856AA5 /* flag_holy_see_(vatican_city_state).png in Resources */ = {isa = PBXBuildFile; fileRef = CA19BD642CC8C74BBB9E63F8D103DF6D /* flag_holy_see_(vatican_city_state).png */; };
-		3D8EF09ED567B5F67DE242FD656A4018 /* flag_canada.png in Resources */ = {isa = PBXBuildFile; fileRef = 1DC842AF63E0E1913D99CEF4FC1FA575 /* flag_canada.png */; };
-		401176AB69206D7DB6E4FF9C1108F528 /* flag_sierra_leone.png in Resources */ = {isa = PBXBuildFile; fileRef = 9F0BED8D340C7253698BE5DCE28A4BC6 /* flag_sierra_leone.png */; };
-		40BA63D68A193F7674DECE5C9DFC9E27 /* flag_nepal.png in Resources */ = {isa = PBXBuildFile; fileRef = 9FB50B6AAE409336D0EC4FEF61EA0EE2 /* flag_nepal.png */; };
-		4195E4399526072403E62F60CD33C497 /* flag_serbia.png in Resources */ = {isa = PBXBuildFile; fileRef = 6B969B41D97E2D63EBF166A2F4779E50 /* flag_serbia.png */; };
-		41C14BF1C9253FAC651540FF5E197A49 /* flag_wallis_and_futuna.png in Resources */ = {isa = PBXBuildFile; fileRef = F2C3D5A96A017E6E675FDDFDACFCB911 /* flag_wallis_and_futuna.png */; };
-		4219818584049D1AC9DEF485CDA92552 /* CountryCodeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5CE25C8C26CDC20AF334442C3EEC04D /* CountryCodeController.swift */; };
-		43477ABE9D26BC2B591B45E091156006 /* flag_netherlands_antilles.png in Resources */ = {isa = PBXBuildFile; fileRef = 5CDA540B3B53791BEB26F8FC08AD0AF3 /* flag_netherlands_antilles.png */; };
-		43A99C621A1E57BF9B973C45D08EA37D /* flag_pitcairn.png in Resources */ = {isa = PBXBuildFile; fileRef = 7A0409FD7D65FC797E7D61ABBDFCEED5 /* flag_pitcairn.png */; };
-		447242E18A5190837D85A56DF8BBA651 /* flag_gibraltar.png in Resources */ = {isa = PBXBuildFile; fileRef = 816660530564EC8C20D7165700F91C92 /* flag_gibraltar.png */; };
-		4512148863776518CA3610C3BA4F4392 /* flag_andorra.png in Resources */ = {isa = PBXBuildFile; fileRef = 3103F392787E8F5073AADB556DF1E801 /* flag_andorra.png */; };
-		471A39C3012100D3A925105A02185A75 /* flag_lesotho.png in Resources */ = {isa = PBXBuildFile; fileRef = 13F7F370295D959A523F5E8A75AEA677 /* flag_lesotho.png */; };
-		47869C2074630F16CABC3325654E39F3 /* flag_peru.png in Resources */ = {isa = PBXBuildFile; fileRef = 3FC206C610A9FC463AEEA69F82AE572D /* flag_peru.png */; };
-		489AC9DB26765CF8151FACCB6592E983 /* flag_suriname.png in Resources */ = {isa = PBXBuildFile; fileRef = 4E30C2E85C27644BCB625C1B905F63FE /* flag_suriname.png */; };
-		489C0924B0C175777053CD0F88BE4BD0 /* flag_kenya.png in Resources */ = {isa = PBXBuildFile; fileRef = B6EAFFC0A72EE6AAD147C6CCEDBB88C5 /* flag_kenya.png */; };
-		49498D59BE478A070AAC6E2B1348FD0D /* flag_ecuador.png in Resources */ = {isa = PBXBuildFile; fileRef = 00A52A45618B782FCFD726F914C8EF5A /* flag_ecuador.png */; };
-		49CD386717E4B7787289BA2F8F4F3614 /* flag_benin.png in Resources */ = {isa = PBXBuildFile; fileRef = 76E5C0123774732C1F1B8BA381C9A00C /* flag_benin.png */; };
-		4A6F37957C9A6A67FAB09177EF3A0F96 /* flag_rwanda.png in Resources */ = {isa = PBXBuildFile; fileRef = F6E936505A80EFEE8A09B88DFBAFC26B /* flag_rwanda.png */; };
-		4B30B9E2FB664A47A60562634ADD43F9 /* flag_saint_pierre_and_miquelon.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C3289CE0A96192DFF737D0342654387 /* flag_saint_pierre_and_miquelon.png */; };
-		4C81B5555D2567C44B1165B96E8371F3 /* flag_denmark.png in Resources */ = {isa = PBXBuildFile; fileRef = 4CEB3E89AEC9CF9A3791C7D87DD0BB6C /* flag_denmark.png */; };
-		4E1C1A911895C3821374BB29D4260BFE /* flag_hong_kong.png in Resources */ = {isa = PBXBuildFile; fileRef = C952C00481BB18E86193007878666C85 /* flag_hong_kong.png */; };
-		4ECDCC8C29B1C8E8307C2F69EEFA80E6 /* flag_aruba.png in Resources */ = {isa = PBXBuildFile; fileRef = 476E0366B4DAB4066C6A71F8D91AA31F /* flag_aruba.png */; };
-		50027104B5562215C16444CA8B65EA58 /* flag_ethiopia.png in Resources */ = {isa = PBXBuildFile; fileRef = 743C36ED257CFA84692F27D2BC65EFED /* flag_ethiopia.png */; };
-		50C142FAAC4DCD2383721970D8C57E3A /* flag_guyana.png in Resources */ = {isa = PBXBuildFile; fileRef = 8A9EBD37402BB42666BF1E5D0DBE078D /* flag_guyana.png */; };
-		50C6940AEB2AB1CA56A03B67492543A8 /* flag_azerbaijan.png in Resources */ = {isa = PBXBuildFile; fileRef = F3EFE5275DF3852F679695499739DA18 /* flag_azerbaijan.png */; };
-		514D34452364B574E06EF7C243864211 /* flag_congo.png in Resources */ = {isa = PBXBuildFile; fileRef = BDFA23651E8FD2B38F885596F1836575 /* flag_congo.png */; };
-		51FE72863F1018031C19486D09F5FDD7 /* flag_solomon_islands.png in Resources */ = {isa = PBXBuildFile; fileRef = F040C2EAE1FA7526DDA54033A7CB2BA5 /* flag_solomon_islands.png */; };
-		528C5ACDB7A25D345134455DE4E42E9B /* flag_cayman_islands.png in Resources */ = {isa = PBXBuildFile; fileRef = 9BB4EFDE2D1F64E1587718B98749424F /* flag_cayman_islands.png */; };
-		52B974AB723896E206AF45A87AE65652 /* flag_niger.png in Resources */ = {isa = PBXBuildFile; fileRef = 3EF4ACF26CC13E2CF4EB275ADBCC24E7 /* flag_niger.png */; };
-		52CAE4AC1852207C732BED628FE337EE /* flag_angola.png in Resources */ = {isa = PBXBuildFile; fileRef = 002B8F159086A75B5C4D3C7C46D4C3C9 /* flag_angola.png */; };
-		539F058849EB4C469A9A3730AAE04CA9 /* flag_tuvalu.png in Resources */ = {isa = PBXBuildFile; fileRef = 58EF9C46F62CCC85C727255455C511C1 /* flag_tuvalu.png */; };
-		55545D1D89F26E95240DE5523A170B41 /* flag_kuwait.png in Resources */ = {isa = PBXBuildFile; fileRef = D516713E619278F994E30A9B76822774 /* flag_kuwait.png */; };
-		55BCDB84854C77851DFED67FC4BCA07A /* flag_liechtenstein.png in Resources */ = {isa = PBXBuildFile; fileRef = 6EBAE3E5E25E4D5C4EA929121858C9B6 /* flag_liechtenstein.png */; };
-		55F2D8EA4D1B7E1CDD26AA7058912DC6 /* CountryCodeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAFF7B76649077438975BED89AA0531C /* CountryCodeModel.swift */; };
-		5666C52B931DC729B321C0839E3FF015 /* CountryCodePickerSwift-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 984A3910628B5ECA5B4350BD38599BA5 /* CountryCodePickerSwift-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		59193D5B78B824D5E599A6161136E1B3 /* flag_singapore.png in Resources */ = {isa = PBXBuildFile; fileRef = 93CC538DA48E1DFDF73D42F3245089D3 /* flag_singapore.png */; };
-		5949B909875D43F5C0A4B424AB6A8502 /* flag_lithuania.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D97D1A4DD8778AB9BF6CED851912B3E /* flag_lithuania.png */; };
-		596795049DA34E7B2196917E687A8912 /* flag_senegal.png in Resources */ = {isa = PBXBuildFile; fileRef = 1EDDF4E556F2665AD0159B94F4E49CBF /* flag_senegal.png */; };
-		5A25FA3AEF94685AFE633D8A9C9533FE /* flag_italy.png in Resources */ = {isa = PBXBuildFile; fileRef = 5F19F60EED5AD1E15A55DD8866CCFA85 /* flag_italy.png */; };
-		5A7E997E2C2E0E81898248F80513A3E2 /* flag_qatar.png in Resources */ = {isa = PBXBuildFile; fileRef = 496CDD64C3677D937F24C6C0C087ABB9 /* flag_qatar.png */; };
-		5ADE45FD782D7AFB035199348E39F0F5 /* flag_paraguay.png in Resources */ = {isa = PBXBuildFile; fileRef = 89507D28525A777506680830DC5D6F49 /* flag_paraguay.png */; };
-		5FC93094C8A8701AF396E502FA8CE584 /* flag_eritrea.png in Resources */ = {isa = PBXBuildFile; fileRef = 45FCA47C63855E083F3C9C6C63FD626A /* flag_eritrea.png */; };
-		624964DD7733F9FFC92166660567E86E /* flag_el_salvador.png in Resources */ = {isa = PBXBuildFile; fileRef = D70D8103A492E3BB06796FE4321B076F /* flag_el_salvador.png */; };
-		62AF73E53BD01354C6FFE46D14388D80 /* flag_guinea.png in Resources */ = {isa = PBXBuildFile; fileRef = 86157B0F1D3AA0483795BEB09A49D243 /* flag_guinea.png */; };
-		638641132FA7A08D3D1DF3BD3F65AC5D /* flag_nauru.png in Resources */ = {isa = PBXBuildFile; fileRef = 973722ABB5A305DB9C0BFCC5EF484B93 /* flag_nauru.png */; };
-		63CBDC942B3C42903767499DCB6D88F4 /* flag_slovenia.png in Resources */ = {isa = PBXBuildFile; fileRef = 935E75D7C6D25CDFC04D8EAB2FE6635F /* flag_slovenia.png */; };
-		665573BF35AD3692232F1FA75E30E49D /* flag_cocos_(keeling)_islands.png in Resources */ = {isa = PBXBuildFile; fileRef = A43DE8BC03AA456E47AA567CAF0865BB /* flag_cocos_(keeling)_islands.png */; };
-		6760DF5C029A9A62159B1FBE216C0CCA /* flag_sint_maarten.png in Resources */ = {isa = PBXBuildFile; fileRef = C57292212A17722F4E75F916B148304B /* flag_sint_maarten.png */; };
+		3F789CC89A0D351B5FE6C667DE31744A /* CountryCodePickerSwift-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DB0BE41763F62DE2462FF844B29A5F6D /* CountryCodePickerSwift-dummy.m */; };
+		429F79693DA8646819100F5E5B4E8AC3 /* CountryCodePickerSwift.h in Headers */ = {isa = PBXBuildFile; fileRef = AEB6915FF85112AE5CF0C99ED0E7F208 /* CountryCodePickerSwift.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4C71A55CEDDE628A6291D64EB553C774 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC2C02191C153C1554B35DEE8B2D09D4 /* UIKit.framework */; };
+		52259DB3A4C91F47AA2BD92D7956B2A2 /* CountryCodeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A08D6A6CC1374D5226E73294FFB5F1C /* CountryCodeModel.swift */; };
 		6793C029457A8C8D4C83C8F40B40AC80 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 908E902E026C5C22904CF9014A5604AD /* Foundation.framework */; };
-		68A00F8EB590AC30A21CEB146FA50B2B /* flag_albania.png in Resources */ = {isa = PBXBuildFile; fileRef = 1D55B324C85B971BA608D1F7159FDE55 /* flag_albania.png */; };
-		6C1CDD27E686E9AB6DFF740AA125144E /* flag_vatican_city.png in Resources */ = {isa = PBXBuildFile; fileRef = 7BD49CD7F3FC523EE129A41B369B4CD8 /* flag_vatican_city.png */; };
-		6C2B3CC1007CAD1A156FF866792BE31C /* flag_south_georgia.png in Resources */ = {isa = PBXBuildFile; fileRef = ACC10C6A7D9723EDD6ABB15C366D2ECC /* flag_south_georgia.png */; };
-		6C96A64AF5C4B1BCF61B2A86FA13DECD /* flag_belize.png in Resources */ = {isa = PBXBuildFile; fileRef = D036E60DF08EF8CAD3F8108737CE9806 /* flag_belize.png */; };
-		6D29A5106CE1373D46E101BFACF50D4D /* flag_ukraine.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B14528D45A1675DA4BF89D2ED613B21 /* flag_ukraine.png */; };
-		6E7532350F4A62D7C24C9F73469E414A /* flag_guyane.png in Resources */ = {isa = PBXBuildFile; fileRef = FA50AFA6950B7DE6831D12E627B63AF0 /* flag_guyane.png */; };
-		6ED33EFBB6368F0FDA0E73AEEE02BF39 /* flag_soviet_union.png in Resources */ = {isa = PBXBuildFile; fileRef = A90B876F0D0126DCF031E01C7BB6C0F6 /* flag_soviet_union.png */; };
-		6F54D3916399F0A977094FAF793FF2FB /* flag_mauritania.png in Resources */ = {isa = PBXBuildFile; fileRef = 4EEFA5B4CC92C25481CA4488F52EBB03 /* flag_mauritania.png */; };
-		705661B5454967426B311B8B717B6D64 /* flag_bosnia_and_herzegovina.png in Resources */ = {isa = PBXBuildFile; fileRef = C475F8A4C8F3C078C5DE31E222CD4E1B /* flag_bosnia_and_herzegovina.png */; };
-		70FADD6EB03BFE6CFCFE25135687662A /* flag_yemen.png in Resources */ = {isa = PBXBuildFile; fileRef = 23BBA24AD444D93B02338E7A53DDE61A /* flag_yemen.png */; };
-		71390875BAE8072F894303EC6F108DCE /* flag_south_africa.png in Resources */ = {isa = PBXBuildFile; fileRef = 98D609405BC7BFCF8E47A08629D68680 /* flag_south_africa.png */; };
-		716A787E94C51EA6CF4E79FBCC142012 /* flag_french_polynesia.png in Resources */ = {isa = PBXBuildFile; fileRef = BD5941DAED3E4C94D8140C5543959D7C /* flag_french_polynesia.png */; };
-		71D2187B2FECE254769E4B5AAAC46B48 /* flag_malaysia.png in Resources */ = {isa = PBXBuildFile; fileRef = 714034BBB365A399E3D151B93328604E /* flag_malaysia.png */; };
-		71E1ADFC3D1D7D714A0AD45B5553CA6A /* flag_saint_kitts_and_nevis.png in Resources */ = {isa = PBXBuildFile; fileRef = BA3D88B89C8861EF7CE0A5C8C2E1D097 /* flag_saint_kitts_and_nevis.png */; };
-		7203B001B84170583960507ECAEE9089 /* flag_nigeria.png in Resources */ = {isa = PBXBuildFile; fileRef = 0117E6508A9248FF1B439667279BEF86 /* flag_nigeria.png */; };
-		724F09593741AA9C69F89E1B88E11D89 /* flag_christmas_island.png in Resources */ = {isa = PBXBuildFile; fileRef = E46EE7F71F300746D2F949DA54A12580 /* flag_christmas_island.png */; };
-		750E10FED59F38C2A1FC0F0A024AA3B5 /* flag_slovakia.png in Resources */ = {isa = PBXBuildFile; fileRef = EA126B0328AC8EC9F660A9C7EE6EEB8C /* flag_slovakia.png */; };
-		758B03A9B0655A89B90283547D3E4497 /* flag_brazil.png in Resources */ = {isa = PBXBuildFile; fileRef = F44F93BC4348484884C5139E5922A922 /* flag_brazil.png */; };
-		76E1EF2A8562F8CB8500A05DF29419B6 /* UIView+Anchors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65490FB7537D3AF7CF7DDA79C0995946 /* UIView+Anchors.swift */; };
-		77EA1DAA88AB0FAF594D16BD91DAA7B3 /* flag_estonia.png in Resources */ = {isa = PBXBuildFile; fileRef = CE5809911013A1B8473C2B239ACE23E7 /* flag_estonia.png */; };
-		79300BFA487B53638BE65F1ADA6A6AEC /* flag_falkland_islands_(malvinas).png in Resources */ = {isa = PBXBuildFile; fileRef = 08673CF0F8D610C2D5AE745E0AA1984B /* flag_falkland_islands_(malvinas).png */; };
-		7B24FC35F224B40886769EB01F4D452B /* flag_finland.png in Resources */ = {isa = PBXBuildFile; fileRef = 22669DDEC81EC20518934A1A47385342 /* flag_finland.png */; };
-		7CC9C2A498F25F089DA34A2198C8710A /* flag_myanmar.png in Resources */ = {isa = PBXBuildFile; fileRef = 65C428280976DFBDAE816578B4C0F2D0 /* flag_myanmar.png */; };
-		7CD003A53412A8B7C866379310ACCC16 /* flag_san_marino.png in Resources */ = {isa = PBXBuildFile; fileRef = 556467C00056FC21C3C56FB075990AF7 /* flag_san_marino.png */; };
-		7D06987BDC942C0F9FACB92A25C64E5C /* flag_mauritius.png in Resources */ = {isa = PBXBuildFile; fileRef = B62B65D489CD8BCFE0796A041EF82360 /* flag_mauritius.png */; };
-		7DB61E311A67686D7F94FAC7FCDB36D1 /* CountryCodesAssets.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 6312B7D8F9876C3B2A6BACC8844B2840 /* CountryCodesAssets.bundle */; };
-		7DD852F665CCEDF8EDE4B546089AC414 /* flag_netherlands.png in Resources */ = {isa = PBXBuildFile; fileRef = 2A13CAFD962324ECE6818705A1832AD7 /* flag_netherlands.png */; };
-		7E20E6BEDC6234E63346EA69186B228D /* flag_cape_verde.png in Resources */ = {isa = PBXBuildFile; fileRef = 500A00999AD741F1A94DE5F39C7A05E0 /* flag_cape_verde.png */; };
-		7EFE6EAAC32E5A560A7BF3F7D7925F8E /* flag_turkey.png in Resources */ = {isa = PBXBuildFile; fileRef = 35E4FAB8312BA9F67A9B9C78068CE03E /* flag_turkey.png */; };
-		81A88B81A38553E6D724D2770A1877C5 /* flag_cuba.png in Resources */ = {isa = PBXBuildFile; fileRef = 7131ACF991ACA8F1E42C96A4D04CC6F2 /* flag_cuba.png */; };
-		831728B08C189629B329F03AE4241252 /* flag_equatorial_guinea.png in Resources */ = {isa = PBXBuildFile; fileRef = 95439E0F62C67561D0AE30AB9D1A7B27 /* flag_equatorial_guinea.png */; };
-		8349DE171A690925BEE8D0B05CD3B149 /* flag_moldova.png in Resources */ = {isa = PBXBuildFile; fileRef = C28CB022310443F898843E2C123E8BED /* flag_moldova.png */; };
+		6ED224385ED771A52AB7ECB7FEE41EBF /* CountryCodePickerSwift-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5B4C1800370F43DDA8DFBD633CF783FC /* CountryCodePickerSwift-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		77489512B8B0BD1BCD1EEF7BF33A8629 /* CountryCodes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1241B7ADC25B5BFEC9F25AA2A8CD741F /* CountryCodes.swift */; };
 		842EE300643E44250F1D049E28C828EF /* Pods-CountryCodePickerSwiftExample-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 45090308599325301FB1B49B1ECE834C /* Pods-CountryCodePickerSwiftExample-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		843A637BFA6F4EFAF3938AAE9FB4EC61 /* flag_marshall_islands.png in Resources */ = {isa = PBXBuildFile; fileRef = C635D223CF0114603E24908C2A31CD06 /* flag_marshall_islands.png */; };
-		8447C1B2FBE50D5567010ADDBDE65A0D /* flag_norway.png in Resources */ = {isa = PBXBuildFile; fileRef = 60E5A4E87AFBC9CE6B29720A5A36C2FA /* flag_norway.png */; };
-		85FFD50168AE80D42D6705F720B67311 /* flag_togo.png in Resources */ = {isa = PBXBuildFile; fileRef = 49060F8E4FC17BDCD3A0BD24D447FCFF /* flag_togo.png */; };
-		8682133C8A0A16484192AD8270D136D1 /* flag_argentina.png in Resources */ = {isa = PBXBuildFile; fileRef = 9B83F3224D8FA54A77DD66DF909E5B04 /* flag_argentina.png */; };
-		87C652ACCC32B5204ACF50166D82EC0F /* flag_madagascar.png in Resources */ = {isa = PBXBuildFile; fileRef = B4808725292E2A6D4810A97F049259E4 /* flag_madagascar.png */; };
-		87EAEC5D194F86BB66626A53AD14D734 /* flag_iran.png in Resources */ = {isa = PBXBuildFile; fileRef = 40DD6AC9C4ACAF24A1CED3760B3D8E94 /* flag_iran.png */; };
-		88FCE8151350F7A5D13F55D4FF2B01F4 /* CountryCodePickerSwift.h in Headers */ = {isa = PBXBuildFile; fileRef = A65ECE1E83B8B518249CA309B865436C /* CountryCodePickerSwift.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		89DEC88F4B1A427BDB74B5E7528D68B9 /* flag_central_african_republic.png in Resources */ = {isa = PBXBuildFile; fileRef = 8DB2634C39E181D98491E40B91FB8F6E /* flag_central_african_republic.png */; };
-		8ACE8BCB48014734E847D936E6EE4999 /* flag_mexico.png in Resources */ = {isa = PBXBuildFile; fileRef = 084B936147314C5E759C7D60396F8AE8 /* flag_mexico.png */; };
-		8ADD3985BCCB30FF8A56D1B0E067FECF /* flag_portugal.png in Resources */ = {isa = PBXBuildFile; fileRef = C5B3C3C6E83DF20999B03C0925AD6C69 /* flag_portugal.png */; };
-		8BAC55526CE4F3F6B47BDF0590EC7BEA /* flag_palau.png in Resources */ = {isa = PBXBuildFile; fileRef = 11029A78001393B50F6C41ADACD9194F /* flag_palau.png */; };
-		8F9907577166C24C11769EBC60528D7C /* flag_kiribati.png in Resources */ = {isa = PBXBuildFile; fileRef = 1DCB4B9FC7DFF8E337BC58FABB9FEE42 /* flag_kiribati.png */; };
-		8FCC35EC2002AF6DEED2DCF67AABA470 /* flag_montenegro.png in Resources */ = {isa = PBXBuildFile; fileRef = 696DF6F9F72B0DDB79355A055AEE6B7C /* flag_montenegro.png */; };
-		9044D6CB8D028E5F1616677D6AF76129 /* flag_jordan.png in Resources */ = {isa = PBXBuildFile; fileRef = 1020944D8CDE0B8DE00488E43C1CEBB0 /* flag_jordan.png */; };
-		9166DB76B41A6D5274C65CCA619280B6 /* flag_niue.png in Resources */ = {isa = PBXBuildFile; fileRef = 2D41E8DBD54EA0488052C076D101A1EB /* flag_niue.png */; };
-		917A32E5C503E5F124A19304FB204FF5 /* flag_dominican_republic.png in Resources */ = {isa = PBXBuildFile; fileRef = 88D3FA74DB784C18883BA00B03F3526B /* flag_dominican_republic.png */; };
-		91CC5FADC650FF8135898948BAE2FE73 /* flag_libya.png in Resources */ = {isa = PBXBuildFile; fileRef = 2506412DB7635CE5C3B2425EC07356C4 /* flag_libya.png */; };
-		933CFDB34D7CCC1849E4191959BB9A9F /* flag_uganda.png in Resources */ = {isa = PBXBuildFile; fileRef = ED387512C9A0B073EFBA694FD0EFDA4C /* flag_uganda.png */; };
-		93A387B556527A014B74FA78EC550330 /* CountryCodes.json in Resources */ = {isa = PBXBuildFile; fileRef = 3A5AFE0ED2B12ACF73E25ADC4A6C2494 /* CountryCodes.json */; };
-		93F2436703352E675C1AB74C0D619455 /* flag_tonga.png in Resources */ = {isa = PBXBuildFile; fileRef = 2CACCAA2D49575C6BBFE8137F285EF1B /* flag_tonga.png */; };
+		88860B6BB538F47DB505CAFFD657593E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 908E902E026C5C22904CF9014A5604AD /* Foundation.framework */; };
 		94132126CA4D1769E7E9611A485A0F40 /* Pods-CountryCodePickerSwiftExampleUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C0387C4C741C3FB8A4DB68F05E8824C /* Pods-CountryCodePickerSwiftExampleUITests-dummy.m */; };
-		9676C0C8C19F1283656EF455A4D42BCA /* flag_panama.png in Resources */ = {isa = PBXBuildFile; fileRef = 11E311425EA1533765BB4B8D88DB860B /* flag_panama.png */; };
-		96ABDBEB2B5FD2C0515339860A4CFDDD /* flag_trinidad_&_tobago.png in Resources */ = {isa = PBXBuildFile; fileRef = F2B25998192A2675E139D1F519DA27BA /* flag_trinidad_&_tobago.png */; };
-		971C401299E1AB6EA1758AAAFF181EB2 /* flag_bolivia.png in Resources */ = {isa = PBXBuildFile; fileRef = 61E803902276E88DFB6924134C138D93 /* flag_bolivia.png */; };
-		971D553027A714E80CE19CF974BAF7FB /* flag_republic_of_the_congo.png in Resources */ = {isa = PBXBuildFile; fileRef = 5B345F1891CB2E5CF00B905B171F5012 /* flag_republic_of_the_congo.png */; };
-		97C63F8DCE71A532D4015007E6F90CED /* flag_gabon.png in Resources */ = {isa = PBXBuildFile; fileRef = F92FC7A059245DDDD6945ACE6102F0B0 /* flag_gabon.png */; };
-		99A3573B5AAE1A760A531AE0892536F0 /* flag_faroe_islands.png in Resources */ = {isa = PBXBuildFile; fileRef = A4AF15C47C8205F1D0CF494A6F2810D1 /* flag_faroe_islands.png */; };
-		9A5F8EA0FE7DE93BB8CEF0163CBFCFC3 /* flag_new_zealand.png in Resources */ = {isa = PBXBuildFile; fileRef = 9E0062208D10B6DCEBF6EC4664847608 /* flag_new_zealand.png */; };
 		9BB77F37D4F4A405CF1D3D8B08474CEF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 908E902E026C5C22904CF9014A5604AD /* Foundation.framework */; };
-		9C869E117AB78E0F1458E094EE2FA2FE /* flag_swaziland.png in Resources */ = {isa = PBXBuildFile; fileRef = 425DAC587613E61AC9A8BAC9D0705F2E /* flag_swaziland.png */; };
-		9D6A3648AE0E7F37CB2A3B05EFF70DE4 /* flag_taiwan.png in Resources */ = {isa = PBXBuildFile; fileRef = 02A5895D46EB4A70EBA9A63051A8AFB3 /* flag_taiwan.png */; };
-		9FFBE67D3219CC8F4F87904B4C2195F8 /* flag_iraq.png in Resources */ = {isa = PBXBuildFile; fileRef = 38521747DC06A23A207A433C4D0200E5 /* flag_iraq.png */; };
-		A00020644EE2AA1102C95633A7B354E0 /* flag_zimbabwe.png in Resources */ = {isa = PBXBuildFile; fileRef = 59541D30F9CB004AFB523C91A4910CE7 /* flag_zimbabwe.png */; };
-		A28159E99FE7117DBB134E9371313394 /* flag_saint_vincent_&_the_grenadines.png in Resources */ = {isa = PBXBuildFile; fileRef = 7BDBC776CCE2BA06C2A8FB8318C3C0EC /* flag_saint_vincent_&_the_grenadines.png */; };
-		A2A03972879C23464331173112C65655 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 908E902E026C5C22904CF9014A5604AD /* Foundation.framework */; };
-		A316046667F49342D8C227A0733E4BAF /* flag_sweden.png in Resources */ = {isa = PBXBuildFile; fileRef = 65D9F66D8F3CE811D14A3BE4B91F6347 /* flag_sweden.png */; };
-		A3CFAED7C1756609AB771493E15D5441 /* flag_seychelles.png in Resources */ = {isa = PBXBuildFile; fileRef = 2E7CC8A0066F9FCCB232C7A20DB4F119 /* flag_seychelles.png */; };
-		A70D605E72DA0D619535EACCB6A155C5 /* flag_martinique.png in Resources */ = {isa = PBXBuildFile; fileRef = FDAE191763653285C2693339B757A67D /* flag_martinique.png */; };
-		A75B7594EA44DEC04439FBDB7CBD4C60 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC2C02191C153C1554B35DEE8B2D09D4 /* UIKit.framework */; };
-		AC39EB8B409100FB5250A10A8C529175 /* flag_thailand.png in Resources */ = {isa = PBXBuildFile; fileRef = FB019BDDC112423E5319399B41545605 /* flag_thailand.png */; };
-		AE024AA89250E224D169FC7721EC5A4E /* flag_china.png in Resources */ = {isa = PBXBuildFile; fileRef = 1F2C7DA5E3A18320CC7A0B129ECAEFE5 /* flag_china.png */; };
-		B07A32DF63C6D6E5AAC3A10A64685DC7 /* flag_monaco.png in Resources */ = {isa = PBXBuildFile; fileRef = 68C04D7C7B387C8E29B0B955363E44A8 /* flag_monaco.png */; };
-		B11091697DE4155420F83B56C446C008 /* flag_costa_rica.png in Resources */ = {isa = PBXBuildFile; fileRef = DCB6DBEF6DDA04D6AF9B148130E4120E /* flag_costa_rica.png */; };
-		B212A868B77C09C170EFC11959A2685B /* flag_dominica.png in Resources */ = {isa = PBXBuildFile; fileRef = B8DD82B998350CC20CDFB63C67A45EF3 /* flag_dominica.png */; };
-		B411AA0AB17D30005B77256824872833 /* flag_spain.png in Resources */ = {isa = PBXBuildFile; fileRef = 9BB3980379EFD903C4BC91FD4824B163 /* flag_spain.png */; };
-		B539106C47D3AE0FCF968F5AE0A26F36 /* flag_sudan.png in Resources */ = {isa = PBXBuildFile; fileRef = 3ADFA3025304FF90BD11156DCB1E00CF /* flag_sudan.png */; };
-		B5F1CCB452A1C4B6757891889679DBC3 /* flag_palestine.png in Resources */ = {isa = PBXBuildFile; fileRef = F92E155FFC2923EB948DDEE3AD9100CB /* flag_palestine.png */; };
-		B6DCCC459A274C5DD8C1C1A68BFF5DE9 /* flag_tanzania.png in Resources */ = {isa = PBXBuildFile; fileRef = 0712C7673C9C6E2BCABA1DB788402E26 /* flag_tanzania.png */; };
-		B7830D57D7C5DDE1BD042FFFFFCFC4A2 /* flag_grenada.png in Resources */ = {isa = PBXBuildFile; fileRef = B79D88EDE14AF6F742CAFB1E3BB71E90 /* flag_grenada.png */; };
-		B7AD668C9C364523529E4FC7137C9055 /* flag_austria.png in Resources */ = {isa = PBXBuildFile; fileRef = 2385DBA1934FC8E840DFC4618F9D93A3 /* flag_austria.png */; };
-		B7BED1AEE732EB1F99AC91508C2A8599 /* flag_morocco.png in Resources */ = {isa = PBXBuildFile; fileRef = 18AF360D436FA3A7024186371CA093A5 /* flag_morocco.png */; };
-		B824B6BBE6A423D9D8FA198DC9B02961 /* flag_laos.png in Resources */ = {isa = PBXBuildFile; fileRef = 812D2BFD3DCA90B120C2E738ADF84B95 /* flag_laos.png */; };
-		B9AF5C12028BBC3FD77E6ED6445F158B /* flag_tokelau.png in Resources */ = {isa = PBXBuildFile; fileRef = 8A15052B17681CFD517F626D22F6B49B /* flag_tokelau.png */; };
-		BA623CF5F4373017855F5D12B25CE028 /* flag_cambodia.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B8183F83356061A935981EADD5F6F30 /* flag_cambodia.png */; };
-		BB1DE6AEC503187800087E43292CC6B1 /* flag_haiti.png in Resources */ = {isa = PBXBuildFile; fileRef = 0B4D0A77A532378118B748D5A8D060DA /* flag_haiti.png */; };
-		BB47C24010A96D268D62F882F680D75B /* flag_montserrat.png in Resources */ = {isa = PBXBuildFile; fileRef = 8AB7C7CCCA285F41F580838BF2325D5F /* flag_montserrat.png */; };
-		BC6578ADBFCFD7AED63703CDE24267DE /* flag_sao_tome_and_principe.png in Resources */ = {isa = PBXBuildFile; fileRef = C6F7E27C76BC8293B72F2F010D72450C /* flag_sao_tome_and_principe.png */; };
-		BE86BA638CEA790C8FF52F3F471C4BB4 /* flag_cameroon.png in Resources */ = {isa = PBXBuildFile; fileRef = 6325C0BB2702AE12B3396D3B54A11309 /* flag_cameroon.png */; };
-		C082ED454E56F98931E52CA5F6AE5885 /* flag_liberia.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C9AAEAE5BAAB99BF16813A5A32F6E68 /* flag_liberia.png */; };
-		C1B44FEF30A9AD07ACF60B52297DD817 /* flag_france.png in Resources */ = {isa = PBXBuildFile; fileRef = C0BC6E71F983F7CE39EE2D6389B79038 /* flag_france.png */; };
-		C1D4307F976EA5D396A258AACDD1BB51 /* flag_anguilla.png in Resources */ = {isa = PBXBuildFile; fileRef = EDDB53914CCD04BE6F7D1E1762F8F00C /* flag_anguilla.png */; };
-		C2C4F9DE0E2FEE4534D56C98E62C9B77 /* flag_cook_islands.png in Resources */ = {isa = PBXBuildFile; fileRef = F0F5FED92E99069D6C8E4AA2139C20E1 /* flag_cook_islands.png */; };
-		C2CC8F58CFFEE53D8079939FC528C29D /* flag_belarus.png in Resources */ = {isa = PBXBuildFile; fileRef = 6D33614394FA49306FECFF2F663D3A37 /* flag_belarus.png */; };
-		C5A219E286E5E0A98F9E5DB4B10F33BE /* flag_colombia.png in Resources */ = {isa = PBXBuildFile; fileRef = 09C1CD5649259F07E6B8C39702ECAE4D /* flag_colombia.png */; };
-		C7818F581437BC1EC4A2A96ACB6BF704 /* flag_guam.png in Resources */ = {isa = PBXBuildFile; fileRef = EB5EA18B8E10699CD58CD3A356CFC0FE /* flag_guam.png */; };
-		CA90377C4657CCB1DAB4A76FFCB5C3D8 /* flag_bulgaria.png in Resources */ = {isa = PBXBuildFile; fileRef = ED88CA1F14C08291563A0AFC8109C514 /* flag_bulgaria.png */; };
-		CC39D7BA9A6C7B393C210A0ED4825CAA /* flag_zambia.png in Resources */ = {isa = PBXBuildFile; fileRef = E1A02B4FC73FC77FEE9BD2020C05FB0B /* flag_zambia.png */; };
-		CC4C0A7FA13165C64EA1700126B017C7 /* flag_gambia.png in Resources */ = {isa = PBXBuildFile; fileRef = 07842D10896E18C3824BA101A47E2F8E /* flag_gambia.png */; };
-		CF529E4E750385E91712CEFB9AAB86D5 /* flag_democratic_republic_of_the_congo.png in Resources */ = {isa = PBXBuildFile; fileRef = 57FCBCCDA9ABEAA5CECB3DE11E5C6936 /* flag_democratic_republic_of_the_congo.png */; };
-		CFCD6A961C4373C2E8F9D4F1E0BD2F26 /* flag_puerto_rico.png in Resources */ = {isa = PBXBuildFile; fileRef = BC53C3B3C9FCDBEF2F03266BE7DA00F7 /* flag_puerto_rico.png */; };
-		CFD50FBB225D1C027D506D2A7D789E8C /* flag_sri_lanka.png in Resources */ = {isa = PBXBuildFile; fileRef = 508BBB2C57422A92E2325F0AAF304FEA /* flag_sri_lanka.png */; };
-		D1E6B4D129177BE770B9077A3480B1B9 /* flag_burundi.png in Resources */ = {isa = PBXBuildFile; fileRef = EBB56E0D36CBA8869FA477AF1E2EC3CD /* flag_burundi.png */; };
-		D250A5A6197F2105A5E585B21AE3EFAB /* flag_uruguay.png in Resources */ = {isa = PBXBuildFile; fileRef = 3BA52975A7C4462B4311A36AA7D85F57 /* flag_uruguay.png */; };
-		D2E5407FBA17BD595E212812AD2EBBCB /* flag_oman.png in Resources */ = {isa = PBXBuildFile; fileRef = DEBF45119E6CD7165BAB40DC4D07976F /* flag_oman.png */; };
-		D3AA3E9DD3D949509D70D5FE82083DD4 /* flag_germany.png in Resources */ = {isa = PBXBuildFile; fileRef = 3C944A83BA2DC73A38B7BDFF81075896 /* flag_germany.png */; };
-		D677CA1521C2A2115028FDFD330AB304 /* flag_chad.png in Resources */ = {isa = PBXBuildFile; fileRef = 754B6B658A872A50B8EBA9951EAAF3D4 /* flag_chad.png */; };
-		D70B33ECA27365F19D3114BFB6DAEA61 /* flag_french_guyana.png in Resources */ = {isa = PBXBuildFile; fileRef = E5FA464879340F715FF56EA1A352A73A /* flag_french_guyana.png */; };
-		D7918DE7C4EC81420082160D9FCD086F /* flag_timor-leste.png in Resources */ = {isa = PBXBuildFile; fileRef = C31C54983B0E862BDDD7AC6BE8D34604 /* flag_timor-leste.png */; };
-		D80B077C14BAB6B23B858F3BA23205A6 /* flag_chile.png in Resources */ = {isa = PBXBuildFile; fileRef = 809C832A99745ACCF74F6944BDDB6537 /* flag_chile.png */; };
-		D8884EF7C1BEACDE056D15876DC5C0B8 /* flag_bangladesh.png in Resources */ = {isa = PBXBuildFile; fileRef = 0ED1C274FB8C64D45A7FB71A5DA64D06 /* flag_bangladesh.png */; };
-		D889F4A3B0DD172F19C65E246510F9AA /* flag_united_arab_emirates.png in Resources */ = {isa = PBXBuildFile; fileRef = B4D95D30F0CC738175765EAE6EA63D5E /* flag_united_arab_emirates.png */; };
-		D980D4300A737060B7F57C14043B2A40 /* flag_ghana.png in Resources */ = {isa = PBXBuildFile; fileRef = F32B82AA4188C1A14D4FF10C904DD99F /* flag_ghana.png */; };
-		DA416D22532D4CF60623B888F9D40B67 /* flag_norfolk_island.png in Resources */ = {isa = PBXBuildFile; fileRef = 243E92A94019ED608AB661CA29535B0A /* flag_norfolk_island.png */; };
-		DADF06997A2F8D66E7D04F519D2DE52A /* flag_united_states.png in Resources */ = {isa = PBXBuildFile; fileRef = D0702B24874BF20D153D2DEC8028A987 /* flag_united_states.png */; };
-		DC491D13B5F87C6574456675546F4D60 /* flag_armenia.png in Resources */ = {isa = PBXBuildFile; fileRef = FF72FF78D30FFF6EC1A1B85A65F0933E /* flag_armenia.png */; };
-		DD417B0F6860B58AA623CE2F4DD86D7E /* flag_latvia.png in Resources */ = {isa = PBXBuildFile; fileRef = 6B6C2CBCCF15AA070643E8E36296EA55 /* flag_latvia.png */; };
-		DE679F7691C31E14C721D70952048A9C /* flag_guinea-bissau.png in Resources */ = {isa = PBXBuildFile; fileRef = 405425868BDA0F9D29374FBCA78ABC3C /* flag_guinea-bissau.png */; };
-		E09FDFEF94BE11F4F0067D631DE539F1 /* flag_papua_new_guinea.png in Resources */ = {isa = PBXBuildFile; fileRef = 257C18DC8297EA9A556DFECDDB63A428 /* flag_papua_new_guinea.png */; };
-		E130C18851300EBB1AD0437D910009A8 /* flag_congo,_the_democratic_republic_of_the.png in Resources */ = {isa = PBXBuildFile; fileRef = 34296E59F1FA8379CA3B0831F75AAE87 /* flag_congo,_the_democratic_republic_of_the.png */; };
-		E238C3CA46547240CCF477FA2F9B4581 /* flag_bahamas.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F5C8C6C7FA5A71178D1DE38EDF665A3 /* flag_bahamas.png */; };
-		E4EAA9385ACF925EBCB8EB98AEE7966A /* flag_iceland.png in Resources */ = {isa = PBXBuildFile; fileRef = DCA2F87B86D6A4163DC5EE7DE7D164EF /* flag_iceland.png */; };
-		E6241844327A19C250D24F3B05F9A8A5 /* flag_philippines.png in Resources */ = {isa = PBXBuildFile; fileRef = CBCD8750C0C13588D759CAC2D60446A3 /* flag_philippines.png */; };
-		E737D818D07683E1F76D847B28B5D450 /* flag_saint_barthélemy.png in Resources */ = {isa = PBXBuildFile; fileRef = DB2917171F1FB3B906F79F976B3BC1EA /* flag_saint_barthélemy.png */; };
-		E7A4B6F0BE1E4E838CD1193BD03CBFB9 /* flag_jamaica.png in Resources */ = {isa = PBXBuildFile; fileRef = 07155B4ADA90F286574675A2D9B31C10 /* flag_jamaica.png */; };
-		E7ECB2BA667680F9F1C4A219160A3343 /* flag_djibouti.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B246032B599AB115AB8D1A6EA7E854D /* flag_djibouti.png */; };
-		EA7F4CF96BDDBDE7541DA86829855B0B /* flag_fiji.png in Resources */ = {isa = PBXBuildFile; fileRef = 93E5586060DA4809E527DBE4C120C7EF /* flag_fiji.png */; };
-		EAAFCAC0D4EBB88D3E6DCB37922C380E /* flag_russian_federation.png in Resources */ = {isa = PBXBuildFile; fileRef = 2DF453B7D9896E3AED57B41783B7F83D /* flag_russian_federation.png */; };
-		EC175E2044DB4755AB817A197AD457F0 /* flag_british_virgin_islands.png in Resources */ = {isa = PBXBuildFile; fileRef = 34B0BD7FDB09B59BA08849A4405A1D3C /* flag_british_virgin_islands.png */; };
 		ED08B3F02DCEE8E494B36DA3C79CCBF0 /* Pods-CountryCodePickerSwiftExampleUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9BCE2CE9C7786854595E9EACCB57C301 /* Pods-CountryCodePickerSwiftExampleUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		EE1CEA18733B80789640FB6E2043928B /* flag_burkina_faso.png in Resources */ = {isa = PBXBuildFile; fileRef = 213D644F65326D3183BE7784AB34DEDF /* flag_burkina_faso.png */; };
-		EF54CEF4F519E220025F482000268E5D /* flag_us_virgin_islands.png in Resources */ = {isa = PBXBuildFile; fileRef = 23DDA0DEFA2F410B53B911EDE146657B /* flag_us_virgin_islands.png */; };
-		EF966BF56E255FC50C55BEF8FD13B3BA /* flag_saudi_arabia.png in Resources */ = {isa = PBXBuildFile; fileRef = 213119C4DFCFDC30DF3B0B4EBB2CCC7F /* flag_saudi_arabia.png */; };
 		F1212138C42523CDE9F67F3E7B406408 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 908E902E026C5C22904CF9014A5604AD /* Foundation.framework */; };
-		F1C874D2110524A63FDF3F1976945C72 /* flag_uzbekistan.png in Resources */ = {isa = PBXBuildFile; fileRef = C0D95609B46D8B425F091670612202EE /* flag_uzbekistan.png */; };
-		F289ADD07B798C36D865E1E44A48A526 /* flag_syrian_arab_republic.png in Resources */ = {isa = PBXBuildFile; fileRef = 62F5C6B8A07B59A1484FDF8CECE37379 /* flag_syrian_arab_republic.png */; };
-		F30542CC5F46463E04146E9C74B9CE18 /* flag_kazakhstan.png in Resources */ = {isa = PBXBuildFile; fileRef = BD3ECCBBBDE3A07E916F5920586F2E2A /* flag_kazakhstan.png */; };
-		F45F3537155A747F40181129BA5EC26F /* flag_georgia.png in Resources */ = {isa = PBXBuildFile; fileRef = 9BF63DDBF699B9031C93FCBB7C71C0C2 /* flag_georgia.png */; };
-		F4A2D5B10C6C0FE389FBCFD70742AA40 /* flag_isle_of_man.png in Resources */ = {isa = PBXBuildFile; fileRef = 4F0DC0E3659F9593C48C59600DF98671 /* flag_isle_of_man.png */; };
-		F502B52B92768AAEB64207C34A3EBB08 /* flag_luxembourg.png in Resources */ = {isa = PBXBuildFile; fileRef = C63FC3765C878C00B9CDCFE43C771E9C /* flag_luxembourg.png */; };
-		F749AC4E1B3C88DEA3ABA77C8ADC5B70 /* flag_greenland.png in Resources */ = {isa = PBXBuildFile; fileRef = AEDB279FFD7DD60CB8CA45EC754F06A3 /* flag_greenland.png */; };
-		F79CF42B22E9C6D96CF0A6C26CDD8FFB /* flag_india.png in Resources */ = {isa = PBXBuildFile; fileRef = 0AC7567B4EA4BD30E1354ABE9960F950 /* flag_india.png */; };
-		F86E15855C45DD0DCDF60E2BCCF95B48 /* flag_australia.png in Resources */ = {isa = PBXBuildFile; fileRef = 23C1176EAB1EF945AD3F8DB919D6C30A /* flag_australia.png */; };
-		F87CA0ACA5A6044630F6C87DD050C215 /* flag_tibet.png in Resources */ = {isa = PBXBuildFile; fileRef = 097A3A996B273DED2F764FB86BB79C7B /* flag_tibet.png */; };
-		F948B7BE2940D61559CBFBD5ACA837E7 /* flag_brunei_darussalam.png in Resources */ = {isa = PBXBuildFile; fileRef = E5FA931BCB8849774DA38B48A237DAAD /* flag_brunei_darussalam.png */; };
-		F9C1533B88A4E230BE4A3BEDD7B7306C /* flag_hungary.png in Resources */ = {isa = PBXBuildFile; fileRef = B0D49C0F89E1485134D946D2643061EC /* flag_hungary.png */; };
-		F9F299E626EBFEB5F2757FBA91017EC5 /* flag_belgium.png in Resources */ = {isa = PBXBuildFile; fileRef = 7AC9A0D77696F39955E9A3A345C3D546 /* flag_belgium.png */; };
-		FB30744710723ABE541B32DF26BC084F /* flag_algeria.png in Resources */ = {isa = PBXBuildFile; fileRef = 6DFDB33107CBF990273C0A516B334256 /* flag_algeria.png */; };
-		FC6BC3BF4AA2DEE7D828C046F57B3807 /* flag_saint_lucia.png in Resources */ = {isa = PBXBuildFile; fileRef = 7C0CBD738F91839E3CC7F56D2F788483 /* flag_saint_lucia.png */; };
-		FCEB40D274215CCD85AB0A2B17282CE8 /* flag_cyprus.png in Resources */ = {isa = PBXBuildFile; fileRef = F4A616FE6CA1A13B4A8DCC889F7E2305 /* flag_cyprus.png */; };
-		FD6494B2E29878B000F9E7EDB184C75D /* flag_indonesia.png in Resources */ = {isa = PBXBuildFile; fileRef = 69DFD42BCC2C5A62126D355D47BA891C /* flag_indonesia.png */; };
-		FEC19F61272877029CC3D20527DC728B /* flag_saint_helena.png in Resources */ = {isa = PBXBuildFile; fileRef = 66FA5E74103ADB2997E91026363C3DA1 /* flag_saint_helena.png */; };
+		F75A8D5C770602EB61F4D9FCBD79A80A /* UIView+Anchors.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCCEC07BEE026A7922E061FF7F150ADB /* UIView+Anchors.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -285,7 +39,7 @@
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = DB0F898A1F02B5BFB6003BC44AFBC8AD;
+			remoteGlobalIDString = E50F0245FBBD8E1C189F53B551D374F5;
 			remoteInfo = CountryCodePickerSwift;
 		};
 		D83F3C0D6460CCAC6367A1B23CBB7417 /* PBXContainerItemProxy */ = {
@@ -298,301 +52,55 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		002B8F159086A75B5C4D3C7C46D4C3C9 /* flag_angola.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = flag_angola.png; sourceTree = "<group>"; };
-		00A52A45618B782FCFD726F914C8EF5A /* flag_ecuador.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = flag_ecuador.png; sourceTree = "<group>"; };
 		00AC533A75E5081906AA10949976CFC0 /* Pods-CountryCodePickerSwiftExampleUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CountryCodePickerSwiftExampleUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		0117E6508A9248FF1B439667279BEF86 /* flag_nigeria.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = flag_nigeria.png; sourceTree = "<group>"; };
-		02A5895D46EB4A70EBA9A63051A8AFB3 /* flag_taiwan.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = flag_taiwan.png; sourceTree = "<group>"; };
-		0712C7673C9C6E2BCABA1DB788402E26 /* flag_tanzania.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = flag_tanzania.png; sourceTree = "<group>"; };
-		07155B4ADA90F286574675A2D9B31C10 /* flag_jamaica.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = flag_jamaica.png; sourceTree = "<group>"; };
-		0740D65A6C519A8365BA8D9B9DE8C85A /* flag_malawi.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = flag_malawi.png; sourceTree = "<group>"; };
-		07842D10896E18C3824BA101A47E2F8E /* flag_gambia.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = flag_gambia.png; sourceTree = "<group>"; };
-		0792412A284D8A811A0F5718AFEE1318 /* flag_japan.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = flag_japan.png; sourceTree = "<group>"; };
-		084B936147314C5E759C7D60396F8AE8 /* flag_mexico.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = flag_mexico.png; sourceTree = "<group>"; };
-		08673CF0F8D610C2D5AE745E0AA1984B /* flag_falkland_islands_(malvinas).png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "flag_falkland_islands_(malvinas).png"; sourceTree = "<group>"; };
-		08AD1B1BD5197DBA27045CC6D1D78D4D /* flag_antarctica.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = flag_antarctica.png; sourceTree = "<group>"; };
-		097A3A996B273DED2F764FB86BB79C7B /* flag_tibet.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = flag_tibet.png; sourceTree = "<group>"; };
-		09C1CD5649259F07E6B8C39702ECAE4D /* flag_colombia.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = flag_colombia.png; sourceTree = "<group>"; };
 		09F19CA7BF8E2848CA98662A9BC932F1 /* Pods-CountryCodePickerSwiftExampleUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CountryCodePickerSwiftExampleUITests-resources.sh"; sourceTree = "<group>"; };
 		0A6BE4527CF184CEEDC1C816183A9FC0 /* Pods-CountryCodePickerSwiftExampleTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CountryCodePickerSwiftExampleTests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		0AC7567B4EA4BD30E1354ABE9960F950 /* flag_india.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = flag_india.png; sourceTree = "<group>"; };
-		0B4D0A77A532378118B748D5A8D060DA /* flag_haiti.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = flag_haiti.png; sourceTree = "<group>"; };
-		0ED1C274FB8C64D45A7FB71A5DA64D06 /* flag_bangladesh.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = flag_bangladesh.png; sourceTree = "<group>"; };
-		1020944D8CDE0B8DE00488E43C1CEBB0 /* flag_jordan.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = flag_jordan.png; sourceTree = "<group>"; };
-		11029A78001393B50F6C41ADACD9194F /* flag_palau.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = flag_palau.png; sourceTree = "<group>"; };
-		11E311425EA1533765BB4B8D88DB860B /* flag_panama.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = flag_panama.png; sourceTree = "<group>"; };
-		1272AD8D85B626945F6316AAF57173DE /* flag_maldives.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = flag_maldives.png; sourceTree = "<group>"; };
-		13F7F370295D959A523F5E8A75AEA677 /* flag_lesotho.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = flag_lesotho.png; sourceTree = "<group>"; };
-		14199A7BA890866626A635DB4E414A96 /* flag_egypt.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = flag_egypt.png; sourceTree = "<group>"; };
+		1241B7ADC25B5BFEC9F25AA2A8CD741F /* CountryCodes.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CountryCodes.swift; sourceTree = "<group>"; };
 		1477938D39FC37BF5FE2DDD1BF75DB78 /* Pods-CountryCodePickerSwiftExample-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CountryCodePickerSwiftExample-acknowledgements.plist"; sourceTree = "<group>"; };
-		18AF360D436FA3A7024186371CA093A5 /* flag_morocco.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = flag_morocco.png; sourceTree = "<group>"; };
-		1938341A71A3E6EFBE72B39B848D64D0 /* CountryCodePickerSwift.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = CountryCodePickerSwift.modulemap; sourceTree = "<group>"; };
-		197886AEE3AE5E9B2A1BBC0455D889D6 /* flag_mongolia.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = flag_mongolia.png; sourceTree = "<group>"; };
+		1A08D6A6CC1374D5226E73294FFB5F1C /* CountryCodeModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CountryCodeModel.swift; sourceTree = "<group>"; };
 		1ADC284BD07BD573A9CF82715CC17F90 /* Pods_CountryCodePickerSwiftExampleUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_CountryCodePickerSwiftExampleUITests.framework; path = "Pods-CountryCodePickerSwiftExampleUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		1CEF99F7CDEB982B5DEC3C5D47836762 /* flag_côte_d'ivoire.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "flag_côte_d'ivoire.png"; sourceTree = "<group>"; };
-		1D55B324C85B971BA608D1F7159FDE55 /* flag_albania.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = flag_albania.png; sourceTree = "<group>"; };
-		1DA139E02FEB0A0AD0D7C8A84DC0E03F /* flag_macedonia.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = flag_macedonia.png; sourceTree = "<group>"; };
-		1DC842AF63E0E1913D99CEF4FC1FA575 /* flag_canada.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = flag_canada.png; sourceTree = "<group>"; };
-		1DCB4B9FC7DFF8E337BC58FABB9FEE42 /* flag_kiribati.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = flag_kiribati.png; sourceTree = "<group>"; };
-		1EDDF4E556F2665AD0159B94F4E49CBF /* flag_senegal.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = flag_senegal.png; sourceTree = "<group>"; };
-		1F2C7DA5E3A18320CC7A0B129ECAEFE5 /* flag_china.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = flag_china.png; sourceTree = "<group>"; };
-		213119C4DFCFDC30DF3B0B4EBB2CCC7F /* flag_saudi_arabia.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = flag_saudi_arabia.png; sourceTree = "<group>"; };
-		213D644F65326D3183BE7784AB34DEDF /* flag_burkina_faso.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = flag_burkina_faso.png; sourceTree = "<group>"; };
-		222D1BDF4576279BDC7ED67CB269B5C3 /* CountryCodePickerSwift.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = CountryCodePickerSwift.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		22669DDEC81EC20518934A1A47385342 /* flag_finland.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = flag_finland.png; sourceTree = "<group>"; };
-		2385DBA1934FC8E840DFC4618F9D93A3 /* flag_austria.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = flag_austria.png; sourceTree = "<group>"; };
-		23BBA24AD444D93B02338E7A53DDE61A /* flag_yemen.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = flag_yemen.png; sourceTree = "<group>"; };
-		23C1176EAB1EF945AD3F8DB919D6C30A /* flag_australia.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = flag_australia.png; sourceTree = "<group>"; };
-		23DDA0DEFA2F410B53B911EDE146657B /* flag_us_virgin_islands.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = flag_us_virgin_islands.png; sourceTree = "<group>"; };
-		243E92A94019ED608AB661CA29535B0A /* flag_norfolk_island.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = flag_norfolk_island.png; sourceTree = "<group>"; };
 		24DF2B8C734BC15858EF0ABD4EEAA342 /* Pods-CountryCodePickerSwiftExampleTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CountryCodePickerSwiftExampleTests-resources.sh"; sourceTree = "<group>"; };
 		24F871657B606EEB99998DF5D4A4DC21 /* Pods-CountryCodePickerSwiftExample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CountryCodePickerSwiftExample.debug.xcconfig"; sourceTree = "<group>"; };
-		2506412DB7635CE5C3B2425EC07356C4 /* flag_libya.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = flag_libya.png; sourceTree = "<group>"; };
-		257C18DC8297EA9A556DFECDDB63A428 /* flag_papua_new_guinea.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = flag_papua_new_guinea.png; sourceTree = "<group>"; };
-		2A13CAFD962324ECE6818705A1832AD7 /* flag_netherlands.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = flag_netherlands.png; sourceTree = "<group>"; };
-		2B8183F83356061A935981EADD5F6F30 /* flag_cambodia.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = flag_cambodia.png; sourceTree = "<group>"; };
+		29ABCE2541BAB36E6103E3C8B7A0F312 /* CountryCodePickerSwift.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = CountryCodePickerSwift.modulemap; sourceTree = "<group>"; };
 		2C0387C4C741C3FB8A4DB68F05E8824C /* Pods-CountryCodePickerSwiftExampleUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CountryCodePickerSwiftExampleUITests-dummy.m"; sourceTree = "<group>"; };
-		2CACCAA2D49575C6BBFE8137F285EF1B /* flag_tonga.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = flag_tonga.png; sourceTree = "<group>"; };
-		2D41E8DBD54EA0488052C076D101A1EB /* flag_niue.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = flag_niue.png; sourceTree = "<group>"; };
-		2DF453B7D9896E3AED57B41783B7F83D /* flag_russian_federation.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = flag_russian_federation.png; sourceTree = "<group>"; };
-		2E10921EAF14D4F673F86629BC6EE3FD /* flag_namibia.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = flag_namibia.png; sourceTree = "<group>"; };
-		2E7CC8A0066F9FCCB232C7A20DB4F119 /* flag_seychelles.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = flag_seychelles.png; sourceTree = "<group>"; };
-		3103F392787E8F5073AADB556DF1E801 /* flag_andorra.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = flag_andorra.png; sourceTree = "<group>"; };
 		313606BA66D9D7DDC5BB521A2B4A03B3 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		34296E59F1FA8379CA3B0831F75AAE87 /* flag_congo,_the_democratic_republic_of_the.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "flag_congo,_the_democratic_republic_of_the.png"; sourceTree = "<group>"; };
-		34B0BD7FDB09B59BA08849A4405A1D3C /* flag_british_virgin_islands.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = flag_british_virgin_islands.png; sourceTree = "<group>"; };
-		34F1F45F8B811B6700C3E34BE17FDBF3 /* flag_honduras.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = flag_honduras.png; sourceTree = "<group>"; };
-		35E4FAB8312BA9F67A9B9C78068CE03E /* flag_turkey.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = flag_turkey.png; sourceTree = "<group>"; };
-		36F404009CC3FF58EE73ADA18A343711 /* flag_viet_nam.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = flag_viet_nam.png; sourceTree = "<group>"; };
-		38521747DC06A23A207A433C4D0200E5 /* flag_iraq.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = flag_iraq.png; sourceTree = "<group>"; };
-		3A5AFE0ED2B12ACF73E25ADC4A6C2494 /* CountryCodes.json */ = {isa = PBXFileReference; includeInIndex = 1; name = CountryCodes.json; path = CountryCodePickerSwift/Sources/CountryCodes.json; sourceTree = "<group>"; };
-		3ADFA3025304FF90BD11156DCB1E00CF /* flag_sudan.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = flag_sudan.png; sourceTree = "<group>"; };
+		3439A7E4DBA1897B72AB8F71E724ED48 /* CountryCodePickerSwift.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CountryCodePickerSwift.xcconfig; sourceTree = "<group>"; };
 		3B32BDD92832338E983EDFAFB013773D /* Pods-CountryCodePickerSwiftExampleTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CountryCodePickerSwiftExampleTests.release.xcconfig"; sourceTree = "<group>"; };
-		3BA52975A7C4462B4311A36AA7D85F57 /* flag_uruguay.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = flag_uruguay.png; sourceTree = "<group>"; };
-		3C944A83BA2DC73A38B7BDFF81075896 /* flag_germany.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = flag_germany.png; sourceTree = "<group>"; };
-		3D97D1A4DD8778AB9BF6CED851912B3E /* flag_lithuania.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = flag_lithuania.png; sourceTree = "<group>"; };
-		3E1594049C7422830FB941B8F191A597 /* flag_united_kingdom.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = flag_united_kingdom.png; sourceTree = "<group>"; };
-		3E8A377379A631FD2C9431F9CDD34D69 /* flag_greece.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = flag_greece.png; sourceTree = "<group>"; };
-		3EF4ACF26CC13E2CF4EB275ADBCC24E7 /* flag_niger.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = flag_niger.png; sourceTree = "<group>"; };
-		3F5C8C6C7FA5A71178D1DE38EDF665A3 /* flag_bahamas.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = flag_bahamas.png; sourceTree = "<group>"; };
-		3FC206C610A9FC463AEEA69F82AE572D /* flag_peru.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = flag_peru.png; sourceTree = "<group>"; };
-		405425868BDA0F9D29374FBCA78ABC3C /* flag_guinea-bissau.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "flag_guinea-bissau.png"; sourceTree = "<group>"; };
-		40DD6AC9C4ACAF24A1CED3760B3D8E94 /* flag_iran.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = flag_iran.png; sourceTree = "<group>"; };
-		425DAC587613E61AC9A8BAC9D0705F2E /* flag_swaziland.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = flag_swaziland.png; sourceTree = "<group>"; };
-		42677FA996DB342F21DFDC5F5081CB46 /* flag_mayotte.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = flag_mayotte.png; sourceTree = "<group>"; };
-		43F9A29C58905CA23A018E84F06A2D30 /* flag_croatia.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = flag_croatia.png; sourceTree = "<group>"; };
-		441F9E3B145713F1CE6468EE978048B8 /* flag_romania.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = flag_romania.png; sourceTree = "<group>"; };
 		45090308599325301FB1B49B1ECE834C /* Pods-CountryCodePickerSwiftExample-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CountryCodePickerSwiftExample-umbrella.h"; sourceTree = "<group>"; };
-		457F224D7ED4E19FB268FF8ED311CBA4 /* flag_switzerland.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = flag_switzerland.png; sourceTree = "<group>"; };
-		45FCA47C63855E083F3C9C6C63FD626A /* flag_eritrea.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = flag_eritrea.png; sourceTree = "<group>"; };
-		470A2655D819AF7CEFFDB7AEB653B850 /* flag_serbia_and_montenegro.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = flag_serbia_and_montenegro.png; sourceTree = "<group>"; };
-		476E0366B4DAB4066C6A71F8D91AA31F /* flag_aruba.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = flag_aruba.png; sourceTree = "<group>"; };
-		49060F8E4FC17BDCD3A0BD24D447FCFF /* flag_togo.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = flag_togo.png; sourceTree = "<group>"; };
-		496CDD64C3677D937F24C6C0C087ABB9 /* flag_qatar.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = flag_qatar.png; sourceTree = "<group>"; };
 		4C1CFB3EEE75472AD48CB0954A236057 /* Pods-CountryCodePickerSwiftExample-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CountryCodePickerSwiftExample-resources.sh"; sourceTree = "<group>"; };
-		4C3289CE0A96192DFF737D0342654387 /* flag_saint_pierre_and_miquelon.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = flag_saint_pierre_and_miquelon.png; sourceTree = "<group>"; };
-		4CEB3E89AEC9CF9A3791C7D87DD0BB6C /* flag_denmark.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = flag_denmark.png; sourceTree = "<group>"; };
 		4D152D2601136F280DCA3A8F0E0F5480 /* Pods-CountryCodePickerSwiftExampleTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-CountryCodePickerSwiftExampleTests.modulemap"; sourceTree = "<group>"; };
-		4E30C2E85C27644BCB625C1B905F63FE /* flag_suriname.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = flag_suriname.png; sourceTree = "<group>"; };
-		4EEFA5B4CC92C25481CA4488F52EBB03 /* flag_mauritania.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = flag_mauritania.png; sourceTree = "<group>"; };
-		4F0DC0E3659F9593C48C59600DF98671 /* flag_isle_of_man.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = flag_isle_of_man.png; sourceTree = "<group>"; };
-		500A00999AD741F1A94DE5F39C7A05E0 /* flag_cape_verde.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = flag_cape_verde.png; sourceTree = "<group>"; };
-		508BBB2C57422A92E2325F0AAF304FEA /* flag_sri_lanka.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = flag_sri_lanka.png; sourceTree = "<group>"; };
-		51102AC4024092C8B3B95728D6377977 /* CountryCodePickerSwift-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CountryCodePickerSwift-prefix.pch"; sourceTree = "<group>"; };
 		52526B1634015C64A102D0969F0A9D79 /* Pods_CountryCodePickerSwiftExampleTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_CountryCodePickerSwiftExampleTests.framework; path = "Pods-CountryCodePickerSwiftExampleTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		531F81BC2B62C9321A5BADA069592F73 /* flag_macao.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = flag_macao.png; sourceTree = "<group>"; };
-		556467C00056FC21C3C56FB075990AF7 /* flag_san_marino.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = flag_san_marino.png; sourceTree = "<group>"; };
-		55B03D9F339EB4707A8E925A46591B84 /* flag_kyrgyzstan.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = flag_kyrgyzstan.png; sourceTree = "<group>"; };
-		57FCBCCDA9ABEAA5CECB3DE11E5C6936 /* flag_democratic_republic_of_the_congo.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = flag_democratic_republic_of_the_congo.png; sourceTree = "<group>"; };
 		585A699C01AFEC8C5ABEAFF9B9937C4C /* Pods-CountryCodePickerSwiftExampleTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CountryCodePickerSwiftExampleTests-acknowledgements.plist"; sourceTree = "<group>"; };
-		58754852F4B6E864577E78E24D836B04 /* flag_new_caledonia.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = flag_new_caledonia.png; sourceTree = "<group>"; };
-		58D8053B78313A582C30715785F26D22 /* flag_of_montenegro.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = flag_of_montenegro.png; sourceTree = "<group>"; };
-		58EF9C46F62CCC85C727255455C511C1 /* flag_tuvalu.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = flag_tuvalu.png; sourceTree = "<group>"; };
-		59541D30F9CB004AFB523C91A4910CE7 /* flag_zimbabwe.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = flag_zimbabwe.png; sourceTree = "<group>"; };
-		5AE2C823ED34D46C085803968CCEF85F /* flag_somalia.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = flag_somalia.png; sourceTree = "<group>"; };
-		5B345F1891CB2E5CF00B905B171F5012 /* flag_republic_of_the_congo.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = flag_republic_of_the_congo.png; sourceTree = "<group>"; };
-		5CDA540B3B53791BEB26F8FC08AD0AF3 /* flag_netherlands_antilles.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = flag_netherlands_antilles.png; sourceTree = "<group>"; };
+		5B4C1800370F43DDA8DFBD633CF783FC /* CountryCodePickerSwift-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CountryCodePickerSwift-umbrella.h"; sourceTree = "<group>"; };
 		5D1A61CA8D60B8E4CC440B7C6B9126B1 /* Pods-CountryCodePickerSwiftExample-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CountryCodePickerSwiftExample-acknowledgements.markdown"; sourceTree = "<group>"; };
-		5F19F60EED5AD1E15A55DD8866CCFA85 /* flag_italy.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = flag_italy.png; sourceTree = "<group>"; };
-		60E5A4E87AFBC9CE6B29720A5A36C2FA /* flag_norway.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = flag_norway.png; sourceTree = "<group>"; };
-		61E803902276E88DFB6924134C138D93 /* flag_bolivia.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = flag_bolivia.png; sourceTree = "<group>"; };
-		62F5C6B8A07B59A1484FDF8CECE37379 /* flag_syrian_arab_republic.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = flag_syrian_arab_republic.png; sourceTree = "<group>"; };
-		6312B7D8F9876C3B2A6BACC8844B2840 /* CountryCodesAssets.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = CountryCodesAssets.bundle; path = CountryCodePickerSwift/Sources/CountryCodesAssets.bundle; sourceTree = "<group>"; };
-		6325C0BB2702AE12B3396D3B54A11309 /* flag_cameroon.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = flag_cameroon.png; sourceTree = "<group>"; };
-		63380EA2DDF6B54CED53F550CF728A87 /* flag_bhutan.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = flag_bhutan.png; sourceTree = "<group>"; };
-		65490FB7537D3AF7CF7DDA79C0995946 /* UIView+Anchors.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UIView+Anchors.swift"; sourceTree = "<group>"; };
-		65C428280976DFBDAE816578B4C0F2D0 /* flag_myanmar.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = flag_myanmar.png; sourceTree = "<group>"; };
-		65D9F66D8F3CE811D14A3BE4B91F6347 /* flag_sweden.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = flag_sweden.png; sourceTree = "<group>"; };
-		66FA5E74103ADB2997E91026363C3DA1 /* flag_saint_helena.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = flag_saint_helena.png; sourceTree = "<group>"; };
-		68C04D7C7B387C8E29B0B955363E44A8 /* flag_monaco.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = flag_monaco.png; sourceTree = "<group>"; };
-		696DF6F9F72B0DDB79355A055AEE6B7C /* flag_montenegro.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = flag_montenegro.png; sourceTree = "<group>"; };
-		69DFD42BCC2C5A62126D355D47BA891C /* flag_indonesia.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = flag_indonesia.png; sourceTree = "<group>"; };
-		6B02F654FCE712135ADF84571BA6D0D2 /* flag_antigua_and_barbuda.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = flag_antigua_and_barbuda.png; sourceTree = "<group>"; };
-		6B6C2CBCCF15AA070643E8E36296EA55 /* flag_latvia.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = flag_latvia.png; sourceTree = "<group>"; };
-		6B969B41D97E2D63EBF166A2F4779E50 /* flag_serbia.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = flag_serbia.png; sourceTree = "<group>"; };
-		6BAC69A6668BD6C1888645A63FDA6311 /* flag_pakistan.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = flag_pakistan.png; sourceTree = "<group>"; };
-		6D33614394FA49306FECFF2F663D3A37 /* flag_belarus.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = flag_belarus.png; sourceTree = "<group>"; };
-		6DFDB33107CBF990273C0A516B334256 /* flag_algeria.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = flag_algeria.png; sourceTree = "<group>"; };
-		6EBAE3E5E25E4D5C4EA929121858C9B6 /* flag_liechtenstein.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = flag_liechtenstein.png; sourceTree = "<group>"; };
-		7131ACF991ACA8F1E42C96A4D04CC6F2 /* flag_cuba.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = flag_cuba.png; sourceTree = "<group>"; };
-		714034BBB365A399E3D151B93328604E /* flag_malaysia.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = flag_malaysia.png; sourceTree = "<group>"; };
+		5DD50A77AB1921B438549CBF5D59379E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6303A838D7D44698AA145370E1BA9AAC /* CountryCodeController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CountryCodeController.swift; sourceTree = "<group>"; };
+		6CCAC05D7F9484D5029FCDDEC97976C4 /* CountryCodePickerSwift-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CountryCodePickerSwift-prefix.pch"; sourceTree = "<group>"; };
 		7274DA2D5374909BD332D4B243756175 /* Pods-CountryCodePickerSwiftExample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CountryCodePickerSwiftExample.release.xcconfig"; sourceTree = "<group>"; };
-		743C36ED257CFA84692F27D2BC65EFED /* flag_ethiopia.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = flag_ethiopia.png; sourceTree = "<group>"; };
-		754B6B658A872A50B8EBA9951EAAF3D4 /* flag_chad.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = flag_chad.png; sourceTree = "<group>"; };
-		76E5C0123774732C1F1B8BA381C9A00C /* flag_benin.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = flag_benin.png; sourceTree = "<group>"; };
 		7774C34005E4355C7EFE7A9354821533 /* Pods-CountryCodePickerSwiftExampleTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CountryCodePickerSwiftExampleTests-frameworks.sh"; sourceTree = "<group>"; };
-		78922FB2D972AA357A35844002976243 /* flag_comoros.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = flag_comoros.png; sourceTree = "<group>"; };
-		7A0409FD7D65FC797E7D61ABBDFCEED5 /* flag_pitcairn.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = flag_pitcairn.png; sourceTree = "<group>"; };
-		7AC9A0D77696F39955E9A3A345C3D546 /* flag_belgium.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = flag_belgium.png; sourceTree = "<group>"; };
-		7B14528D45A1675DA4BF89D2ED613B21 /* flag_ukraine.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = flag_ukraine.png; sourceTree = "<group>"; };
-		7B246032B599AB115AB8D1A6EA7E854D /* flag_djibouti.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = flag_djibouti.png; sourceTree = "<group>"; };
-		7BD49CD7F3FC523EE129A41B369B4CD8 /* flag_vatican_city.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = flag_vatican_city.png; sourceTree = "<group>"; };
-		7BDBC776CCE2BA06C2A8FB8318C3C0EC /* flag_saint_vincent_&_the_grenadines.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "flag_saint_vincent_&_the_grenadines.png"; sourceTree = "<group>"; };
-		7C0CBD738F91839E3CC7F56D2F788483 /* flag_saint_lucia.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = flag_saint_lucia.png; sourceTree = "<group>"; };
-		809C832A99745ACCF74F6944BDDB6537 /* flag_chile.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = flag_chile.png; sourceTree = "<group>"; };
-		812D2BFD3DCA90B120C2E738ADF84B95 /* flag_laos.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = flag_laos.png; sourceTree = "<group>"; };
-		816660530564EC8C20D7165700F91C92 /* flag_gibraltar.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = flag_gibraltar.png; sourceTree = "<group>"; };
 		82A16C58C08E6292889362537A746423 /* Pods-CountryCodePickerSwiftExampleUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CountryCodePickerSwiftExampleUITests.debug.xcconfig"; sourceTree = "<group>"; };
-		833FEDD59976CA15AA8804AA7C8C1181 /* flag_micronesia.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = flag_micronesia.png; sourceTree = "<group>"; };
-		84CE5F0D99F4E1032D6179664C318231 /* flag_mozambique.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = flag_mozambique.png; sourceTree = "<group>"; };
-		86157B0F1D3AA0483795BEB09A49D243 /* flag_guinea.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = flag_guinea.png; sourceTree = "<group>"; };
-		88D3FA74DB784C18883BA00B03F3526B /* flag_dominican_republic.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = flag_dominican_republic.png; sourceTree = "<group>"; };
-		89507D28525A777506680830DC5D6F49 /* flag_paraguay.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = flag_paraguay.png; sourceTree = "<group>"; };
-		89A2CD951D241429501718774181961C /* flag_malta.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = flag_malta.png; sourceTree = "<group>"; };
-		8A15052B17681CFD517F626D22F6B49B /* flag_tokelau.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = flag_tokelau.png; sourceTree = "<group>"; };
-		8A9EBD37402BB42666BF1E5D0DBE078D /* flag_guyana.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = flag_guyana.png; sourceTree = "<group>"; };
-		8AB7C7CCCA285F41F580838BF2325D5F /* flag_montserrat.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = flag_montserrat.png; sourceTree = "<group>"; };
 		8AB7C992A080EAFF1FE792E3943DD406 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8C59E080B6EFE2E4B6DC6402CBD51671 /* Pods-CountryCodePickerSwiftExampleTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CountryCodePickerSwiftExampleTests.debug.xcconfig"; sourceTree = "<group>"; };
-		8C9AAEAE5BAAB99BF16813A5A32F6E68 /* flag_liberia.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = flag_liberia.png; sourceTree = "<group>"; };
-		8DB2634C39E181D98491E40B91FB8F6E /* flag_central_african_republic.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = flag_central_african_republic.png; sourceTree = "<group>"; };
-		8FEAB2CAE88E7920EC210313B8B8D02B /* flag_north_korea.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = flag_north_korea.png; sourceTree = "<group>"; };
 		908E902E026C5C22904CF9014A5604AD /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		910E10B21171680D6C69729EF2206213 /* flag_samoa.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = flag_samoa.png; sourceTree = "<group>"; };
-		91488E9607AA4BC85CB56B28A04EE36F /* flag_vanuatu.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = flag_vanuatu.png; sourceTree = "<group>"; };
-		920D5F5D8392AC96D9C40206F2EFB0A8 /* flag_venezuela.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = flag_venezuela.png; sourceTree = "<group>"; };
-		935E75D7C6D25CDFC04D8EAB2FE6635F /* flag_slovenia.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = flag_slovenia.png; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		93CC538DA48E1DFDF73D42F3245089D3 /* flag_singapore.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = flag_singapore.png; sourceTree = "<group>"; };
-		93E5586060DA4809E527DBE4C120C7EF /* flag_fiji.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = flag_fiji.png; sourceTree = "<group>"; };
-		94F10D3A096758E56D4198D970B86AE2 /* flag_bermuda.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = flag_bermuda.png; sourceTree = "<group>"; };
-		952A7C5289DAAB481CEE7DC92222AB6D /* flag_réunion.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "flag_réunion.png"; sourceTree = "<group>"; };
-		95439E0F62C67561D0AE30AB9D1A7B27 /* flag_equatorial_guinea.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = flag_equatorial_guinea.png; sourceTree = "<group>"; };
-		973722ABB5A305DB9C0BFCC5EF484B93 /* flag_nauru.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = flag_nauru.png; sourceTree = "<group>"; };
 		9754F7DF3E7B14D0BEDB82D313E53E87 /* Pods-CountryCodePickerSwiftExampleUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CountryCodePickerSwiftExampleUITests.release.xcconfig"; sourceTree = "<group>"; };
-		984A3910628B5ECA5B4350BD38599BA5 /* CountryCodePickerSwift-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CountryCodePickerSwift-umbrella.h"; sourceTree = "<group>"; };
-		988B6D4F4BB3B36828D1C396364CD273 /* CountryCodePickerSwift.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CountryCodePickerSwift.xcconfig; sourceTree = "<group>"; };
-		98D609405BC7BFCF8E47A08629D68680 /* flag_south_africa.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = flag_south_africa.png; sourceTree = "<group>"; };
-		994411679AD0D1CD47763881A6EF0F7B /* flag_ireland.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = flag_ireland.png; sourceTree = "<group>"; };
-		9B83F3224D8FA54A77DD66DF909E5B04 /* flag_argentina.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = flag_argentina.png; sourceTree = "<group>"; };
-		9BB3980379EFD903C4BC91FD4824B163 /* flag_spain.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = flag_spain.png; sourceTree = "<group>"; };
-		9BB4EFDE2D1F64E1587718B98749424F /* flag_cayman_islands.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = flag_cayman_islands.png; sourceTree = "<group>"; };
 		9BCE2CE9C7786854595E9EACCB57C301 /* Pods-CountryCodePickerSwiftExampleUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CountryCodePickerSwiftExampleUITests-umbrella.h"; sourceTree = "<group>"; };
-		9BF63DDBF699B9031C93FCBB7C71C0C2 /* flag_georgia.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = flag_georgia.png; sourceTree = "<group>"; };
 		9C2F88863FF5D44DE422172513D3AFB2 /* Pods-CountryCodePickerSwiftExampleTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CountryCodePickerSwiftExampleTests-dummy.m"; sourceTree = "<group>"; };
-		9E0062208D10B6DCEBF6EC4664847608 /* flag_new_zealand.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = flag_new_zealand.png; sourceTree = "<group>"; };
 		9E0EF6BA6BF1DC19DEDAEE2D1C4C1D53 /* Pods-CountryCodePickerSwiftExampleUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CountryCodePickerSwiftExampleUITests-acknowledgements.plist"; sourceTree = "<group>"; };
-		9F0BED8D340C7253698BE5DCE28A4BC6 /* flag_sierra_leone.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = flag_sierra_leone.png; sourceTree = "<group>"; };
-		9FB50B6AAE409336D0EC4FEF61EA0EE2 /* flag_nepal.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = flag_nepal.png; sourceTree = "<group>"; };
-		A0CB49A44D93F5A06D0A84D26517200C /* CountryCodePickerSwift-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CountryCodePickerSwift-dummy.m"; sourceTree = "<group>"; };
-		A28F685EE4E561B58BC80A639025A575 /* flag_nicaragua.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = flag_nicaragua.png; sourceTree = "<group>"; };
-		A43DE8BC03AA456E47AA567CAF0865BB /* flag_cocos_(keeling)_islands.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "flag_cocos_(keeling)_islands.png"; sourceTree = "<group>"; };
-		A4AF15C47C8205F1D0CF494A6F2810D1 /* flag_faroe_islands.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = flag_faroe_islands.png; sourceTree = "<group>"; };
-		A65ECE1E83B8B518249CA309B865436C /* CountryCodePickerSwift.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CountryCodePickerSwift.h; path = CountryCodePickerSwift/CountryCodePickerSwift.h; sourceTree = "<group>"; };
-		A90B876F0D0126DCF031E01C7BB6C0F6 /* flag_soviet_union.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = flag_soviet_union.png; sourceTree = "<group>"; };
-		ACC10C6A7D9723EDD6ABB15C366D2ECC /* flag_south_georgia.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = flag_south_georgia.png; sourceTree = "<group>"; };
-		AD51CD8595E0AE625F652C329D69F8B9 /* flag_israel.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = flag_israel.png; sourceTree = "<group>"; };
-		AEDB279FFD7DD60CB8CA45EC754F06A3 /* flag_greenland.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = flag_greenland.png; sourceTree = "<group>"; };
-		B06CD2920599EE24DE6363CF021603EC /* flag_afghanistan.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = flag_afghanistan.png; sourceTree = "<group>"; };
-		B0D49C0F89E1485134D946D2643061EC /* flag_hungary.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = flag_hungary.png; sourceTree = "<group>"; };
-		B4808725292E2A6D4810A97F049259E4 /* flag_madagascar.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = flag_madagascar.png; sourceTree = "<group>"; };
-		B4D95D30F0CC738175765EAE6EA63D5E /* flag_united_arab_emirates.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = flag_united_arab_emirates.png; sourceTree = "<group>"; };
-		B62B65D489CD8BCFE0796A041EF82360 /* flag_mauritius.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = flag_mauritius.png; sourceTree = "<group>"; };
-		B6B0F676184ADA9FD3A66BBA6F8E3774 /* flag_barbados.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = flag_barbados.png; sourceTree = "<group>"; };
-		B6EAFFC0A72EE6AAD147C6CCEDBB88C5 /* flag_kenya.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = flag_kenya.png; sourceTree = "<group>"; };
-		B79D88EDE14AF6F742CAFB1E3BB71E90 /* flag_grenada.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = flag_grenada.png; sourceTree = "<group>"; };
+		AEB6915FF85112AE5CF0C99ED0E7F208 /* CountryCodePickerSwift.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CountryCodePickerSwift.h; path = CountryCodePickerSwift/CountryCodePickerSwift.h; sourceTree = "<group>"; };
 		B86BE60789F0F902590911911DF43311 /* Pods_CountryCodePickerSwiftExample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_CountryCodePickerSwiftExample.framework; path = "Pods-CountryCodePickerSwiftExample.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		B8D6C58022638763D6C96B41CF36C9E8 /* flag_south_korea.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = flag_south_korea.png; sourceTree = "<group>"; };
-		B8DD82B998350CC20CDFB63C67A45EF3 /* flag_dominica.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = flag_dominica.png; sourceTree = "<group>"; };
-		BA3D88B89C8861EF7CE0A5C8C2E1D097 /* flag_saint_kitts_and_nevis.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = flag_saint_kitts_and_nevis.png; sourceTree = "<group>"; };
 		BB623359059FEE594B0DC90815BF82F2 /* Pods-CountryCodePickerSwiftExample.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-CountryCodePickerSwiftExample.modulemap"; sourceTree = "<group>"; };
 		BC2C02191C153C1554B35DEE8B2D09D4 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
-		BC53C3B3C9FCDBEF2F03266BE7DA00F7 /* flag_puerto_rico.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = flag_puerto_rico.png; sourceTree = "<group>"; };
-		BCD4C805F2E00DDD918902599DC4707B /* flag_iraq_new.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = flag_iraq_new.png; sourceTree = "<group>"; };
-		BD3ECCBBBDE3A07E916F5920586F2E2A /* flag_kazakhstan.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = flag_kazakhstan.png; sourceTree = "<group>"; };
-		BD5941DAED3E4C94D8140C5543959D7C /* flag_french_polynesia.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = flag_french_polynesia.png; sourceTree = "<group>"; };
-		BDFA23651E8FD2B38F885596F1836575 /* flag_congo.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = flag_congo.png; sourceTree = "<group>"; };
-		BEFA6FA93586A49B5C9112AC905D99E2 /* CountryCodes.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CountryCodes.swift; sourceTree = "<group>"; };
-		C015AC73C041E343BA152515D954BA16 /* flag_turks_and_caicos_islands.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = flag_turks_and_caicos_islands.png; sourceTree = "<group>"; };
-		C0BC6E71F983F7CE39EE2D6389B79038 /* flag_france.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = flag_france.png; sourceTree = "<group>"; };
-		C0D95609B46D8B425F091670612202EE /* flag_uzbekistan.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = flag_uzbekistan.png; sourceTree = "<group>"; };
-		C28CB022310443F898843E2C123E8BED /* flag_moldova.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = flag_moldova.png; sourceTree = "<group>"; };
-		C31C54983B0E862BDDD7AC6BE8D34604 /* flag_timor-leste.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "flag_timor-leste.png"; sourceTree = "<group>"; };
-		C377105812ACCCCFA68BD513BE9FC403 /* flag_tunisia.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = flag_tunisia.png; sourceTree = "<group>"; };
-		C475F8A4C8F3C078C5DE31E222CD4E1B /* flag_bosnia_and_herzegovina.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = flag_bosnia_and_herzegovina.png; sourceTree = "<group>"; };
-		C57292212A17722F4E75F916B148304B /* flag_sint_maarten.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = flag_sint_maarten.png; sourceTree = "<group>"; };
-		C5B3C3C6E83DF20999B03C0925AD6C69 /* flag_portugal.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = flag_portugal.png; sourceTree = "<group>"; };
-		C5CE25C8C26CDC20AF334442C3EEC04D /* CountryCodeController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CountryCodeController.swift; sourceTree = "<group>"; };
-		C635D223CF0114603E24908C2A31CD06 /* flag_marshall_islands.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = flag_marshall_islands.png; sourceTree = "<group>"; };
-		C63FC3765C878C00B9CDCFE43C771E9C /* flag_luxembourg.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = flag_luxembourg.png; sourceTree = "<group>"; };
+		C40748B93FEE0E30FF878560C393D945 /* CountryCodePickerSwift.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = CountryCodePickerSwift.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		C6CC877AE15A35362741E540DA64D95A /* CountryCodePickerSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = CountryCodePickerSwift.framework; path = CountryCodePickerSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		C6F7E27C76BC8293B72F2F010D72450C /* flag_sao_tome_and_principe.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = flag_sao_tome_and_principe.png; sourceTree = "<group>"; };
-		C952C00481BB18E86193007878666C85 /* flag_hong_kong.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = flag_hong_kong.png; sourceTree = "<group>"; };
-		C9D3EB9B491945B6D3F28425316F0D30 /* flag_czech_republic.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = flag_czech_republic.png; sourceTree = "<group>"; };
-		CA19BD642CC8C74BBB9E63F8D103DF6D /* flag_holy_see_(vatican_city_state).png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "flag_holy_see_(vatican_city_state).png"; sourceTree = "<group>"; };
 		CA3F157FA575499F0C24ECCC8187807C /* Pods-CountryCodePickerSwiftExampleTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CountryCodePickerSwiftExampleTests-umbrella.h"; sourceTree = "<group>"; };
-		CBCD8750C0C13588D759CAC2D60446A3 /* flag_philippines.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = flag_philippines.png; sourceTree = "<group>"; };
-		CE5809911013A1B8473C2B239ACE23E7 /* flag_estonia.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = flag_estonia.png; sourceTree = "<group>"; };
-		D036E60DF08EF8CAD3F8108737CE9806 /* flag_belize.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = flag_belize.png; sourceTree = "<group>"; };
-		D0702B24874BF20D153D2DEC8028A987 /* flag_united_states.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = flag_united_states.png; sourceTree = "<group>"; };
-		D499075D8C22B126B7FA808DEC5915D5 /* flag_lebanon.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = flag_lebanon.png; sourceTree = "<group>"; };
 		D4BAD147D18E4FAB2F5A93D27EAD0DFE /* Pods-CountryCodePickerSwiftExample-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CountryCodePickerSwiftExample-dummy.m"; sourceTree = "<group>"; };
-		D4ED475A4A79B778DD542AF156233DB3 /* flag_mali.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = flag_mali.png; sourceTree = "<group>"; };
-		D516713E619278F994E30A9B76822774 /* flag_kuwait.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = flag_kuwait.png; sourceTree = "<group>"; };
-		D70D8103A492E3BB06796FE4321B076F /* flag_el_salvador.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = flag_el_salvador.png; sourceTree = "<group>"; };
-		D9C1A47F62FB58A529DC72885254B3B2 /* flag_guatemala.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = flag_guatemala.png; sourceTree = "<group>"; };
-		DAFF7B76649077438975BED89AA0531C /* CountryCodeModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CountryCodeModel.swift; sourceTree = "<group>"; };
-		DB2917171F1FB3B906F79F976B3BC1EA /* flag_saint_barthélemy.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "flag_saint_barthélemy.png"; sourceTree = "<group>"; };
-		DCA2F87B86D6A4163DC5EE7DE7D164EF /* flag_iceland.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = flag_iceland.png; sourceTree = "<group>"; };
-		DCB6DBEF6DDA04D6AF9B148130E4120E /* flag_costa_rica.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = flag_costa_rica.png; sourceTree = "<group>"; };
+		DB0BE41763F62DE2462FF844B29A5F6D /* CountryCodePickerSwift-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CountryCodePickerSwift-dummy.m"; sourceTree = "<group>"; };
+		DCCEC07BEE026A7922E061FF7F150ADB /* UIView+Anchors.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UIView+Anchors.swift"; sourceTree = "<group>"; };
 		DD7E7093CAB058CC08CC04FA9FCEF902 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		DEB2000AE0C012E042687CD5C358151C /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		DEBF45119E6CD7165BAB40DC4D07976F /* flag_oman.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = flag_oman.png; sourceTree = "<group>"; };
-		E1A02B4FC73FC77FEE9BD2020C05FB0B /* flag_zambia.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = flag_zambia.png; sourceTree = "<group>"; };
-		E302E12D4455BA82799FF42B031EF8C0 /* flag_tajikistan.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = flag_tajikistan.png; sourceTree = "<group>"; };
-		E46EE7F71F300746D2F949DA54A12580 /* flag_christmas_island.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = flag_christmas_island.png; sourceTree = "<group>"; };
-		E5FA464879340F715FF56EA1A352A73A /* flag_french_guyana.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = flag_french_guyana.png; sourceTree = "<group>"; };
-		E5FA931BCB8849774DA38B48A237DAAD /* flag_brunei_darussalam.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = flag_brunei_darussalam.png; sourceTree = "<group>"; };
-		E65C87E77D05F0DEE54CA9646D1BDA26 /* flag_botswana.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = flag_botswana.png; sourceTree = "<group>"; };
-		EA126B0328AC8EC9F660A9C7EE6EEB8C /* flag_slovakia.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = flag_slovakia.png; sourceTree = "<group>"; };
-		EA80E86C16610B210464D6FB52CF3249 /* flag_transparent.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = flag_transparent.png; sourceTree = "<group>"; };
-		EB5EA18B8E10699CD58CD3A356CFC0FE /* flag_guam.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = flag_guam.png; sourceTree = "<group>"; };
-		EBB56E0D36CBA8869FA477AF1E2EC3CD /* flag_burundi.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = flag_burundi.png; sourceTree = "<group>"; };
 		EC772CE5E4D8A34774DBCE1636DB57DB /* Pods-CountryCodePickerSwiftExampleUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CountryCodePickerSwiftExampleUITests-frameworks.sh"; sourceTree = "<group>"; };
-		ED387512C9A0B073EFBA694FD0EFDA4C /* flag_uganda.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = flag_uganda.png; sourceTree = "<group>"; };
-		ED88CA1F14C08291563A0AFC8109C514 /* flag_bulgaria.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = flag_bulgaria.png; sourceTree = "<group>"; };
-		EDDB53914CCD04BE6F7D1E1762F8F00C /* flag_anguilla.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = flag_anguilla.png; sourceTree = "<group>"; };
-		F00143747F4BD9A6576BA03180B0871A /* flag_bahrain.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = flag_bahrain.png; sourceTree = "<group>"; };
-		F040C2EAE1FA7526DDA54033A7CB2BA5 /* flag_solomon_islands.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = flag_solomon_islands.png; sourceTree = "<group>"; };
-		F0F5FED92E99069D6C8E4AA2139C20E1 /* flag_cook_islands.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = flag_cook_islands.png; sourceTree = "<group>"; };
-		F2B25998192A2675E139D1F519DA27BA /* flag_trinidad_&_tobago.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "flag_trinidad_&_tobago.png"; sourceTree = "<group>"; };
-		F2C3D5A96A017E6E675FDDFDACFCB911 /* flag_wallis_and_futuna.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = flag_wallis_and_futuna.png; sourceTree = "<group>"; };
-		F32B82AA4188C1A14D4FF10C904DD99F /* flag_ghana.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = flag_ghana.png; sourceTree = "<group>"; };
-		F3EFE5275DF3852F679695499739DA18 /* flag_azerbaijan.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = flag_azerbaijan.png; sourceTree = "<group>"; };
-		F44F93BC4348484884C5139E5922A922 /* flag_brazil.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = flag_brazil.png; sourceTree = "<group>"; };
-		F4A616FE6CA1A13B4A8DCC889F7E2305 /* flag_cyprus.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = flag_cyprus.png; sourceTree = "<group>"; };
 		F5015D037A931C6ABFEFC24CA6997419 /* Pods-CountryCodePickerSwiftExampleUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-CountryCodePickerSwiftExampleUITests.modulemap"; sourceTree = "<group>"; };
-		F543093465508B8FF20FB75E0E1D3D25 /* flag_turkmenistan.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = flag_turkmenistan.png; sourceTree = "<group>"; };
-		F6256AF8AACDBB889F4C0D1C7EEB4E21 /* flag_american_samoa.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = flag_american_samoa.png; sourceTree = "<group>"; };
-		F6E936505A80EFEE8A09B88DFBAFC26B /* flag_rwanda.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = flag_rwanda.png; sourceTree = "<group>"; };
-		F92E155FFC2923EB948DDEE3AD9100CB /* flag_palestine.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = flag_palestine.png; sourceTree = "<group>"; };
-		F92FC7A059245DDDD6945ACE6102F0B0 /* flag_gabon.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = flag_gabon.png; sourceTree = "<group>"; };
-		FA50AFA6950B7DE6831D12E627B63AF0 /* flag_guyane.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = flag_guyane.png; sourceTree = "<group>"; };
-		FB019BDDC112423E5319399B41545605 /* flag_thailand.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = flag_thailand.png; sourceTree = "<group>"; };
-		FD1756FF8EA694F16BED29E862335B56 /* flag_poland.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = flag_poland.png; sourceTree = "<group>"; };
 		FD8B4C0D69932D510BAD4A02A246A57D /* Pods-CountryCodePickerSwiftExample-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CountryCodePickerSwiftExample-frameworks.sh"; sourceTree = "<group>"; };
-		FDAE191763653285C2693339B757A67D /* flag_martinique.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = flag_martinique.png; sourceTree = "<group>"; };
-		FF72FF78D30FFF6EC1A1B85A65F0933E /* flag_armenia.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = flag_armenia.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -604,12 +112,12 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		30A6F9192D524EF94C5B3FC847915B10 /* Frameworks */ = {
+		862EE971C2FCF454642A38B91EAF0328 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A2A03972879C23464331173112C65655 /* Foundation.framework in Frameworks */,
-				A75B7594EA44DEC04439FBDB7CBD4C60 /* UIKit.framework in Frameworks */,
+				88860B6BB538F47DB505CAFFD657593E /* Foundation.framework in Frameworks */,
+				4C71A55CEDDE628A6291D64EB553C774 /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -632,6 +140,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0347DA30476837973140BBA82C6D89F1 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E75A03BE1E48159CF0CACFB381F31622 /* CountryCodePickerSwift */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
 		10DEDCB394BAA0C7FEDEBE330207B074 /* iOS */ = {
 			isa = PBXGroup;
 			children = (
@@ -659,14 +175,18 @@
 			path = "Target Support Files/Pods-CountryCodePickerSwiftExample";
 			sourceTree = "<group>";
 		};
-		1B58864A964E0A34DFD5D5C25729E475 /* Resources */ = {
+		26829643F3E043AB39CD7D08B7A01C70 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				3A5AFE0ED2B12ACF73E25ADC4A6C2494 /* CountryCodes.json */,
-				6312B7D8F9876C3B2A6BACC8844B2840 /* CountryCodesAssets.bundle */,
-				4C3CDB9C3D4D8D50DA63AC43EF62EDC5 /* CountryCodesAssets.bundle */,
+				29ABCE2541BAB36E6103E3C8B7A0F312 /* CountryCodePickerSwift.modulemap */,
+				3439A7E4DBA1897B72AB8F71E724ED48 /* CountryCodePickerSwift.xcconfig */,
+				DB0BE41763F62DE2462FF844B29A5F6D /* CountryCodePickerSwift-dummy.m */,
+				6CCAC05D7F9484D5029FCDDEC97976C4 /* CountryCodePickerSwift-prefix.pch */,
+				5B4C1800370F43DDA8DFBD633CF783FC /* CountryCodePickerSwift-umbrella.h */,
+				5DD50A77AB1921B438549CBF5D59379E /* Info.plist */,
 			);
-			name = Resources;
+			name = "Support Files";
+			path = "../CountryCodePickerSwiftExample/Pods/Target Support Files/CountryCodePickerSwift";
 			sourceTree = "<group>";
 		};
 		378F69889054641BC25EA69EE1ED8703 /* Targets Support Files */ = {
@@ -679,264 +199,20 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
+		3C263D96E03C3045603E34DCE091C64B /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				C40748B93FEE0E30FF878560C393D945 /* CountryCodePickerSwift.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
 		433CD3331B6C3787F473C941B61FC68F /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
 				10DEDCB394BAA0C7FEDEBE330207B074 /* iOS */,
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		4C3CDB9C3D4D8D50DA63AC43EF62EDC5 /* CountryCodesAssets.bundle */ = {
-			isa = PBXGroup;
-			children = (
-				B06CD2920599EE24DE6363CF021603EC /* flag_afghanistan.png */,
-				1D55B324C85B971BA608D1F7159FDE55 /* flag_albania.png */,
-				6DFDB33107CBF990273C0A516B334256 /* flag_algeria.png */,
-				F6256AF8AACDBB889F4C0D1C7EEB4E21 /* flag_american_samoa.png */,
-				3103F392787E8F5073AADB556DF1E801 /* flag_andorra.png */,
-				002B8F159086A75B5C4D3C7C46D4C3C9 /* flag_angola.png */,
-				EDDB53914CCD04BE6F7D1E1762F8F00C /* flag_anguilla.png */,
-				08AD1B1BD5197DBA27045CC6D1D78D4D /* flag_antarctica.png */,
-				6B02F654FCE712135ADF84571BA6D0D2 /* flag_antigua_and_barbuda.png */,
-				9B83F3224D8FA54A77DD66DF909E5B04 /* flag_argentina.png */,
-				FF72FF78D30FFF6EC1A1B85A65F0933E /* flag_armenia.png */,
-				476E0366B4DAB4066C6A71F8D91AA31F /* flag_aruba.png */,
-				23C1176EAB1EF945AD3F8DB919D6C30A /* flag_australia.png */,
-				2385DBA1934FC8E840DFC4618F9D93A3 /* flag_austria.png */,
-				F3EFE5275DF3852F679695499739DA18 /* flag_azerbaijan.png */,
-				3F5C8C6C7FA5A71178D1DE38EDF665A3 /* flag_bahamas.png */,
-				F00143747F4BD9A6576BA03180B0871A /* flag_bahrain.png */,
-				0ED1C274FB8C64D45A7FB71A5DA64D06 /* flag_bangladesh.png */,
-				B6B0F676184ADA9FD3A66BBA6F8E3774 /* flag_barbados.png */,
-				6D33614394FA49306FECFF2F663D3A37 /* flag_belarus.png */,
-				7AC9A0D77696F39955E9A3A345C3D546 /* flag_belgium.png */,
-				D036E60DF08EF8CAD3F8108737CE9806 /* flag_belize.png */,
-				76E5C0123774732C1F1B8BA381C9A00C /* flag_benin.png */,
-				94F10D3A096758E56D4198D970B86AE2 /* flag_bermuda.png */,
-				63380EA2DDF6B54CED53F550CF728A87 /* flag_bhutan.png */,
-				61E803902276E88DFB6924134C138D93 /* flag_bolivia.png */,
-				C475F8A4C8F3C078C5DE31E222CD4E1B /* flag_bosnia_and_herzegovina.png */,
-				E65C87E77D05F0DEE54CA9646D1BDA26 /* flag_botswana.png */,
-				F44F93BC4348484884C5139E5922A922 /* flag_brazil.png */,
-				34B0BD7FDB09B59BA08849A4405A1D3C /* flag_british_virgin_islands.png */,
-				E5FA931BCB8849774DA38B48A237DAAD /* flag_brunei_darussalam.png */,
-				ED88CA1F14C08291563A0AFC8109C514 /* flag_bulgaria.png */,
-				213D644F65326D3183BE7784AB34DEDF /* flag_burkina_faso.png */,
-				EBB56E0D36CBA8869FA477AF1E2EC3CD /* flag_burundi.png */,
-				2B8183F83356061A935981EADD5F6F30 /* flag_cambodia.png */,
-				6325C0BB2702AE12B3396D3B54A11309 /* flag_cameroon.png */,
-				1DC842AF63E0E1913D99CEF4FC1FA575 /* flag_canada.png */,
-				500A00999AD741F1A94DE5F39C7A05E0 /* flag_cape_verde.png */,
-				9BB4EFDE2D1F64E1587718B98749424F /* flag_cayman_islands.png */,
-				8DB2634C39E181D98491E40B91FB8F6E /* flag_central_african_republic.png */,
-				754B6B658A872A50B8EBA9951EAAF3D4 /* flag_chad.png */,
-				809C832A99745ACCF74F6944BDDB6537 /* flag_chile.png */,
-				1F2C7DA5E3A18320CC7A0B129ECAEFE5 /* flag_china.png */,
-				E46EE7F71F300746D2F949DA54A12580 /* flag_christmas_island.png */,
-				A43DE8BC03AA456E47AA567CAF0865BB /* flag_cocos_(keeling)_islands.png */,
-				09C1CD5649259F07E6B8C39702ECAE4D /* flag_colombia.png */,
-				78922FB2D972AA357A35844002976243 /* flag_comoros.png */,
-				BDFA23651E8FD2B38F885596F1836575 /* flag_congo.png */,
-				34296E59F1FA8379CA3B0831F75AAE87 /* flag_congo,_the_democratic_republic_of_the.png */,
-				F0F5FED92E99069D6C8E4AA2139C20E1 /* flag_cook_islands.png */,
-				DCB6DBEF6DDA04D6AF9B148130E4120E /* flag_costa_rica.png */,
-				43F9A29C58905CA23A018E84F06A2D30 /* flag_croatia.png */,
-				7131ACF991ACA8F1E42C96A4D04CC6F2 /* flag_cuba.png */,
-				F4A616FE6CA1A13B4A8DCC889F7E2305 /* flag_cyprus.png */,
-				C9D3EB9B491945B6D3F28425316F0D30 /* flag_czech_republic.png */,
-				1CEF99F7CDEB982B5DEC3C5D47836762 /* flag_côte_d'ivoire.png */,
-				57FCBCCDA9ABEAA5CECB3DE11E5C6936 /* flag_democratic_republic_of_the_congo.png */,
-				4CEB3E89AEC9CF9A3791C7D87DD0BB6C /* flag_denmark.png */,
-				7B246032B599AB115AB8D1A6EA7E854D /* flag_djibouti.png */,
-				B8DD82B998350CC20CDFB63C67A45EF3 /* flag_dominica.png */,
-				88D3FA74DB784C18883BA00B03F3526B /* flag_dominican_republic.png */,
-				00A52A45618B782FCFD726F914C8EF5A /* flag_ecuador.png */,
-				14199A7BA890866626A635DB4E414A96 /* flag_egypt.png */,
-				D70D8103A492E3BB06796FE4321B076F /* flag_el_salvador.png */,
-				95439E0F62C67561D0AE30AB9D1A7B27 /* flag_equatorial_guinea.png */,
-				45FCA47C63855E083F3C9C6C63FD626A /* flag_eritrea.png */,
-				CE5809911013A1B8473C2B239ACE23E7 /* flag_estonia.png */,
-				743C36ED257CFA84692F27D2BC65EFED /* flag_ethiopia.png */,
-				08673CF0F8D610C2D5AE745E0AA1984B /* flag_falkland_islands_(malvinas).png */,
-				A4AF15C47C8205F1D0CF494A6F2810D1 /* flag_faroe_islands.png */,
-				93E5586060DA4809E527DBE4C120C7EF /* flag_fiji.png */,
-				22669DDEC81EC20518934A1A47385342 /* flag_finland.png */,
-				C0BC6E71F983F7CE39EE2D6389B79038 /* flag_france.png */,
-				E5FA464879340F715FF56EA1A352A73A /* flag_french_guyana.png */,
-				BD5941DAED3E4C94D8140C5543959D7C /* flag_french_polynesia.png */,
-				F92FC7A059245DDDD6945ACE6102F0B0 /* flag_gabon.png */,
-				07842D10896E18C3824BA101A47E2F8E /* flag_gambia.png */,
-				9BF63DDBF699B9031C93FCBB7C71C0C2 /* flag_georgia.png */,
-				3C944A83BA2DC73A38B7BDFF81075896 /* flag_germany.png */,
-				F32B82AA4188C1A14D4FF10C904DD99F /* flag_ghana.png */,
-				816660530564EC8C20D7165700F91C92 /* flag_gibraltar.png */,
-				3E8A377379A631FD2C9431F9CDD34D69 /* flag_greece.png */,
-				AEDB279FFD7DD60CB8CA45EC754F06A3 /* flag_greenland.png */,
-				B79D88EDE14AF6F742CAFB1E3BB71E90 /* flag_grenada.png */,
-				EB5EA18B8E10699CD58CD3A356CFC0FE /* flag_guam.png */,
-				D9C1A47F62FB58A529DC72885254B3B2 /* flag_guatemala.png */,
-				86157B0F1D3AA0483795BEB09A49D243 /* flag_guinea.png */,
-				405425868BDA0F9D29374FBCA78ABC3C /* flag_guinea-bissau.png */,
-				8A9EBD37402BB42666BF1E5D0DBE078D /* flag_guyana.png */,
-				FA50AFA6950B7DE6831D12E627B63AF0 /* flag_guyane.png */,
-				0B4D0A77A532378118B748D5A8D060DA /* flag_haiti.png */,
-				CA19BD642CC8C74BBB9E63F8D103DF6D /* flag_holy_see_(vatican_city_state).png */,
-				34F1F45F8B811B6700C3E34BE17FDBF3 /* flag_honduras.png */,
-				C952C00481BB18E86193007878666C85 /* flag_hong_kong.png */,
-				B0D49C0F89E1485134D946D2643061EC /* flag_hungary.png */,
-				DCA2F87B86D6A4163DC5EE7DE7D164EF /* flag_iceland.png */,
-				0AC7567B4EA4BD30E1354ABE9960F950 /* flag_india.png */,
-				69DFD42BCC2C5A62126D355D47BA891C /* flag_indonesia.png */,
-				40DD6AC9C4ACAF24A1CED3760B3D8E94 /* flag_iran.png */,
-				38521747DC06A23A207A433C4D0200E5 /* flag_iraq.png */,
-				BCD4C805F2E00DDD918902599DC4707B /* flag_iraq_new.png */,
-				994411679AD0D1CD47763881A6EF0F7B /* flag_ireland.png */,
-				4F0DC0E3659F9593C48C59600DF98671 /* flag_isle_of_man.png */,
-				AD51CD8595E0AE625F652C329D69F8B9 /* flag_israel.png */,
-				5F19F60EED5AD1E15A55DD8866CCFA85 /* flag_italy.png */,
-				07155B4ADA90F286574675A2D9B31C10 /* flag_jamaica.png */,
-				0792412A284D8A811A0F5718AFEE1318 /* flag_japan.png */,
-				1020944D8CDE0B8DE00488E43C1CEBB0 /* flag_jordan.png */,
-				BD3ECCBBBDE3A07E916F5920586F2E2A /* flag_kazakhstan.png */,
-				B6EAFFC0A72EE6AAD147C6CCEDBB88C5 /* flag_kenya.png */,
-				1DCB4B9FC7DFF8E337BC58FABB9FEE42 /* flag_kiribati.png */,
-				D516713E619278F994E30A9B76822774 /* flag_kuwait.png */,
-				55B03D9F339EB4707A8E925A46591B84 /* flag_kyrgyzstan.png */,
-				812D2BFD3DCA90B120C2E738ADF84B95 /* flag_laos.png */,
-				6B6C2CBCCF15AA070643E8E36296EA55 /* flag_latvia.png */,
-				D499075D8C22B126B7FA808DEC5915D5 /* flag_lebanon.png */,
-				13F7F370295D959A523F5E8A75AEA677 /* flag_lesotho.png */,
-				8C9AAEAE5BAAB99BF16813A5A32F6E68 /* flag_liberia.png */,
-				2506412DB7635CE5C3B2425EC07356C4 /* flag_libya.png */,
-				6EBAE3E5E25E4D5C4EA929121858C9B6 /* flag_liechtenstein.png */,
-				3D97D1A4DD8778AB9BF6CED851912B3E /* flag_lithuania.png */,
-				C63FC3765C878C00B9CDCFE43C771E9C /* flag_luxembourg.png */,
-				531F81BC2B62C9321A5BADA069592F73 /* flag_macao.png */,
-				1DA139E02FEB0A0AD0D7C8A84DC0E03F /* flag_macedonia.png */,
-				B4808725292E2A6D4810A97F049259E4 /* flag_madagascar.png */,
-				0740D65A6C519A8365BA8D9B9DE8C85A /* flag_malawi.png */,
-				714034BBB365A399E3D151B93328604E /* flag_malaysia.png */,
-				1272AD8D85B626945F6316AAF57173DE /* flag_maldives.png */,
-				D4ED475A4A79B778DD542AF156233DB3 /* flag_mali.png */,
-				89A2CD951D241429501718774181961C /* flag_malta.png */,
-				C635D223CF0114603E24908C2A31CD06 /* flag_marshall_islands.png */,
-				FDAE191763653285C2693339B757A67D /* flag_martinique.png */,
-				4EEFA5B4CC92C25481CA4488F52EBB03 /* flag_mauritania.png */,
-				B62B65D489CD8BCFE0796A041EF82360 /* flag_mauritius.png */,
-				42677FA996DB342F21DFDC5F5081CB46 /* flag_mayotte.png */,
-				084B936147314C5E759C7D60396F8AE8 /* flag_mexico.png */,
-				833FEDD59976CA15AA8804AA7C8C1181 /* flag_micronesia.png */,
-				C28CB022310443F898843E2C123E8BED /* flag_moldova.png */,
-				68C04D7C7B387C8E29B0B955363E44A8 /* flag_monaco.png */,
-				197886AEE3AE5E9B2A1BBC0455D889D6 /* flag_mongolia.png */,
-				696DF6F9F72B0DDB79355A055AEE6B7C /* flag_montenegro.png */,
-				8AB7C7CCCA285F41F580838BF2325D5F /* flag_montserrat.png */,
-				18AF360D436FA3A7024186371CA093A5 /* flag_morocco.png */,
-				84CE5F0D99F4E1032D6179664C318231 /* flag_mozambique.png */,
-				65C428280976DFBDAE816578B4C0F2D0 /* flag_myanmar.png */,
-				2E10921EAF14D4F673F86629BC6EE3FD /* flag_namibia.png */,
-				973722ABB5A305DB9C0BFCC5EF484B93 /* flag_nauru.png */,
-				9FB50B6AAE409336D0EC4FEF61EA0EE2 /* flag_nepal.png */,
-				2A13CAFD962324ECE6818705A1832AD7 /* flag_netherlands.png */,
-				5CDA540B3B53791BEB26F8FC08AD0AF3 /* flag_netherlands_antilles.png */,
-				58754852F4B6E864577E78E24D836B04 /* flag_new_caledonia.png */,
-				9E0062208D10B6DCEBF6EC4664847608 /* flag_new_zealand.png */,
-				A28F685EE4E561B58BC80A639025A575 /* flag_nicaragua.png */,
-				3EF4ACF26CC13E2CF4EB275ADBCC24E7 /* flag_niger.png */,
-				0117E6508A9248FF1B439667279BEF86 /* flag_nigeria.png */,
-				2D41E8DBD54EA0488052C076D101A1EB /* flag_niue.png */,
-				243E92A94019ED608AB661CA29535B0A /* flag_norfolk_island.png */,
-				8FEAB2CAE88E7920EC210313B8B8D02B /* flag_north_korea.png */,
-				60E5A4E87AFBC9CE6B29720A5A36C2FA /* flag_norway.png */,
-				58D8053B78313A582C30715785F26D22 /* flag_of_montenegro.png */,
-				DEBF45119E6CD7165BAB40DC4D07976F /* flag_oman.png */,
-				6BAC69A6668BD6C1888645A63FDA6311 /* flag_pakistan.png */,
-				11029A78001393B50F6C41ADACD9194F /* flag_palau.png */,
-				F92E155FFC2923EB948DDEE3AD9100CB /* flag_palestine.png */,
-				11E311425EA1533765BB4B8D88DB860B /* flag_panama.png */,
-				257C18DC8297EA9A556DFECDDB63A428 /* flag_papua_new_guinea.png */,
-				89507D28525A777506680830DC5D6F49 /* flag_paraguay.png */,
-				3FC206C610A9FC463AEEA69F82AE572D /* flag_peru.png */,
-				CBCD8750C0C13588D759CAC2D60446A3 /* flag_philippines.png */,
-				7A0409FD7D65FC797E7D61ABBDFCEED5 /* flag_pitcairn.png */,
-				FD1756FF8EA694F16BED29E862335B56 /* flag_poland.png */,
-				C5B3C3C6E83DF20999B03C0925AD6C69 /* flag_portugal.png */,
-				BC53C3B3C9FCDBEF2F03266BE7DA00F7 /* flag_puerto_rico.png */,
-				496CDD64C3677D937F24C6C0C087ABB9 /* flag_qatar.png */,
-				5B345F1891CB2E5CF00B905B171F5012 /* flag_republic_of_the_congo.png */,
-				441F9E3B145713F1CE6468EE978048B8 /* flag_romania.png */,
-				2DF453B7D9896E3AED57B41783B7F83D /* flag_russian_federation.png */,
-				F6E936505A80EFEE8A09B88DFBAFC26B /* flag_rwanda.png */,
-				952A7C5289DAAB481CEE7DC92222AB6D /* flag_réunion.png */,
-				DB2917171F1FB3B906F79F976B3BC1EA /* flag_saint_barthélemy.png */,
-				66FA5E74103ADB2997E91026363C3DA1 /* flag_saint_helena.png */,
-				BA3D88B89C8861EF7CE0A5C8C2E1D097 /* flag_saint_kitts_and_nevis.png */,
-				7C0CBD738F91839E3CC7F56D2F788483 /* flag_saint_lucia.png */,
-				4C3289CE0A96192DFF737D0342654387 /* flag_saint_pierre_and_miquelon.png */,
-				7BDBC776CCE2BA06C2A8FB8318C3C0EC /* flag_saint_vincent_&_the_grenadines.png */,
-				910E10B21171680D6C69729EF2206213 /* flag_samoa.png */,
-				556467C00056FC21C3C56FB075990AF7 /* flag_san_marino.png */,
-				C6F7E27C76BC8293B72F2F010D72450C /* flag_sao_tome_and_principe.png */,
-				213119C4DFCFDC30DF3B0B4EBB2CCC7F /* flag_saudi_arabia.png */,
-				1EDDF4E556F2665AD0159B94F4E49CBF /* flag_senegal.png */,
-				6B969B41D97E2D63EBF166A2F4779E50 /* flag_serbia.png */,
-				470A2655D819AF7CEFFDB7AEB653B850 /* flag_serbia_and_montenegro.png */,
-				2E7CC8A0066F9FCCB232C7A20DB4F119 /* flag_seychelles.png */,
-				9F0BED8D340C7253698BE5DCE28A4BC6 /* flag_sierra_leone.png */,
-				93CC538DA48E1DFDF73D42F3245089D3 /* flag_singapore.png */,
-				C57292212A17722F4E75F916B148304B /* flag_sint_maarten.png */,
-				EA126B0328AC8EC9F660A9C7EE6EEB8C /* flag_slovakia.png */,
-				935E75D7C6D25CDFC04D8EAB2FE6635F /* flag_slovenia.png */,
-				F040C2EAE1FA7526DDA54033A7CB2BA5 /* flag_solomon_islands.png */,
-				5AE2C823ED34D46C085803968CCEF85F /* flag_somalia.png */,
-				98D609405BC7BFCF8E47A08629D68680 /* flag_south_africa.png */,
-				ACC10C6A7D9723EDD6ABB15C366D2ECC /* flag_south_georgia.png */,
-				B8D6C58022638763D6C96B41CF36C9E8 /* flag_south_korea.png */,
-				A90B876F0D0126DCF031E01C7BB6C0F6 /* flag_soviet_union.png */,
-				9BB3980379EFD903C4BC91FD4824B163 /* flag_spain.png */,
-				508BBB2C57422A92E2325F0AAF304FEA /* flag_sri_lanka.png */,
-				3ADFA3025304FF90BD11156DCB1E00CF /* flag_sudan.png */,
-				4E30C2E85C27644BCB625C1B905F63FE /* flag_suriname.png */,
-				425DAC587613E61AC9A8BAC9D0705F2E /* flag_swaziland.png */,
-				65D9F66D8F3CE811D14A3BE4B91F6347 /* flag_sweden.png */,
-				457F224D7ED4E19FB268FF8ED311CBA4 /* flag_switzerland.png */,
-				62F5C6B8A07B59A1484FDF8CECE37379 /* flag_syrian_arab_republic.png */,
-				02A5895D46EB4A70EBA9A63051A8AFB3 /* flag_taiwan.png */,
-				E302E12D4455BA82799FF42B031EF8C0 /* flag_tajikistan.png */,
-				0712C7673C9C6E2BCABA1DB788402E26 /* flag_tanzania.png */,
-				FB019BDDC112423E5319399B41545605 /* flag_thailand.png */,
-				097A3A996B273DED2F764FB86BB79C7B /* flag_tibet.png */,
-				C31C54983B0E862BDDD7AC6BE8D34604 /* flag_timor-leste.png */,
-				49060F8E4FC17BDCD3A0BD24D447FCFF /* flag_togo.png */,
-				8A15052B17681CFD517F626D22F6B49B /* flag_tokelau.png */,
-				2CACCAA2D49575C6BBFE8137F285EF1B /* flag_tonga.png */,
-				EA80E86C16610B210464D6FB52CF3249 /* flag_transparent.png */,
-				F2B25998192A2675E139D1F519DA27BA /* flag_trinidad_&_tobago.png */,
-				C377105812ACCCCFA68BD513BE9FC403 /* flag_tunisia.png */,
-				35E4FAB8312BA9F67A9B9C78068CE03E /* flag_turkey.png */,
-				F543093465508B8FF20FB75E0E1D3D25 /* flag_turkmenistan.png */,
-				C015AC73C041E343BA152515D954BA16 /* flag_turks_and_caicos_islands.png */,
-				58EF9C46F62CCC85C727255455C511C1 /* flag_tuvalu.png */,
-				ED387512C9A0B073EFBA694FD0EFDA4C /* flag_uganda.png */,
-				7B14528D45A1675DA4BF89D2ED613B21 /* flag_ukraine.png */,
-				B4D95D30F0CC738175765EAE6EA63D5E /* flag_united_arab_emirates.png */,
-				3E1594049C7422830FB941B8F191A597 /* flag_united_kingdom.png */,
-				D0702B24874BF20D153D2DEC8028A987 /* flag_united_states.png */,
-				3BA52975A7C4462B4311A36AA7D85F57 /* flag_uruguay.png */,
-				23DDA0DEFA2F410B53B911EDE146657B /* flag_us_virgin_islands.png */,
-				C0D95609B46D8B425F091670612202EE /* flag_uzbekistan.png */,
-				91488E9607AA4BC85CB56B28A04EE36F /* flag_vanuatu.png */,
-				7BD49CD7F3FC523EE129A41B369B4CD8 /* flag_vatican_city.png */,
-				920D5F5D8392AC96D9C40206F2EFB0A8 /* flag_venezuela.png */,
-				36F404009CC3FF58EE73ADA18A343711 /* flag_viet_nam.png */,
-				F2C3D5A96A017E6E675FDDFDACFCB911 /* flag_wallis_and_futuna.png */,
-				23BBA24AD444D93B02338E7A53DDE61A /* flag_yemen.png */,
-				E1A02B4FC73FC77FEE9BD2020C05FB0B /* flag_zambia.png */,
-				59541D30F9CB004AFB523C91A4910CE7 /* flag_zimbabwe.png */,
-			);
-			name = CountryCodesAssets.bundle;
-			path = CountryCodePickerSwift/Sources/CountryCodesAssets.bundle;
 			sourceTree = "<group>";
 		};
 		55C7057B6795722EE05A1746404ACF4D /* Pods-CountryCodePickerSwiftExampleUITests */ = {
@@ -955,39 +231,6 @@
 			);
 			name = "Pods-CountryCodePickerSwiftExampleUITests";
 			path = "Target Support Files/Pods-CountryCodePickerSwiftExampleUITests";
-			sourceTree = "<group>";
-		};
-		55DDFCE752C84E0E919E5B60258146E1 /* CountryCodePickerSwift */ = {
-			isa = PBXGroup;
-			children = (
-				A65ECE1E83B8B518249CA309B865436C /* CountryCodePickerSwift.h */,
-				A8B2F6AF74804AE2629D1291BC58DBBE /* Pod */,
-				1B58864A964E0A34DFD5D5C25729E475 /* Resources */,
-				5CFA81871F79ADFC7BE7089C3EE93722 /* Sources */,
-				E961E707846B8DB5949823D547C5B3F5 /* Support Files */,
-			);
-			name = CountryCodePickerSwift;
-			path = ../../CountryCodePickerSwift;
-			sourceTree = "<group>";
-		};
-		5CFA81871F79ADFC7BE7089C3EE93722 /* Sources */ = {
-			isa = PBXGroup;
-			children = (
-				C5CE25C8C26CDC20AF334442C3EEC04D /* CountryCodeController.swift */,
-				DAFF7B76649077438975BED89AA0531C /* CountryCodeModel.swift */,
-				BEFA6FA93586A49B5C9112AC905D99E2 /* CountryCodes.swift */,
-				65490FB7537D3AF7CF7DDA79C0995946 /* UIView+Anchors.swift */,
-			);
-			name = Sources;
-			path = CountryCodePickerSwift/Sources;
-			sourceTree = "<group>";
-		};
-		5E971C84C5BB8B77BADD0546650B5D23 /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				55DDFCE752C84E0E919E5B60258146E1 /* CountryCodePickerSwift */,
-			);
-			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 		7075D2924CF0DBEE419B0B18506BA6A3 /* Pods-CountryCodePickerSwiftExampleTests */ = {
@@ -1012,11 +255,23 @@
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				5E971C84C5BB8B77BADD0546650B5D23 /* Development Pods */,
+				0347DA30476837973140BBA82C6D89F1 /* Development Pods */,
 				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
 				A4DC4245347F1A1E6F038016CD6811A3 /* Products */,
 				378F69889054641BC25EA69EE1ED8703 /* Targets Support Files */,
 			);
+			sourceTree = "<group>";
+		};
+		921B351DA19FE148E92E52A838471C55 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				6303A838D7D44698AA145370E1BA9AAC /* CountryCodeController.swift */,
+				1A08D6A6CC1374D5226E73294FFB5F1C /* CountryCodeModel.swift */,
+				1241B7ADC25B5BFEC9F25AA2A8CD741F /* CountryCodes.swift */,
+				DCCEC07BEE026A7922E061FF7F150ADB /* UIView+Anchors.swift */,
+			);
+			name = Sources;
+			path = CountryCodePickerSwift/Sources;
 			sourceTree = "<group>";
 		};
 		A4DC4245347F1A1E6F038016CD6811A3 /* Products */ = {
@@ -1030,37 +285,27 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		A8B2F6AF74804AE2629D1291BC58DBBE /* Pod */ = {
+		E75A03BE1E48159CF0CACFB381F31622 /* CountryCodePickerSwift */ = {
 			isa = PBXGroup;
 			children = (
-				222D1BDF4576279BDC7ED67CB269B5C3 /* CountryCodePickerSwift.podspec */,
+				AEB6915FF85112AE5CF0C99ED0E7F208 /* CountryCodePickerSwift.h */,
+				3C263D96E03C3045603E34DCE091C64B /* Pod */,
+				921B351DA19FE148E92E52A838471C55 /* Sources */,
+				26829643F3E043AB39CD7D08B7A01C70 /* Support Files */,
 			);
-			name = Pod;
-			sourceTree = "<group>";
-		};
-		E961E707846B8DB5949823D547C5B3F5 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				1938341A71A3E6EFBE72B39B848D64D0 /* CountryCodePickerSwift.modulemap */,
-				988B6D4F4BB3B36828D1C396364CD273 /* CountryCodePickerSwift.xcconfig */,
-				A0CB49A44D93F5A06D0A84D26517200C /* CountryCodePickerSwift-dummy.m */,
-				51102AC4024092C8B3B95728D6377977 /* CountryCodePickerSwift-prefix.pch */,
-				984A3910628B5ECA5B4350BD38599BA5 /* CountryCodePickerSwift-umbrella.h */,
-				DEB2000AE0C012E042687CD5C358151C /* Info.plist */,
-			);
-			name = "Support Files";
-			path = "../CountryCodePickerSwiftExample/Pods/Target Support Files/CountryCodePickerSwift";
+			name = CountryCodePickerSwift;
+			path = ../../CountryCodePickerSwift;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		31EDA8F30938109C7815E47AD50CAB03 /* Headers */ = {
+		272A7CB9F19AA539EDEA97DB72224863 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5666C52B931DC729B321C0839E3FF015 /* CountryCodePickerSwift-umbrella.h in Headers */,
-				88FCE8151350F7A5D13F55D4FF2B01F4 /* CountryCodePickerSwift.h in Headers */,
+				6ED224385ED771A52AB7ECB7FEE41EBF /* CountryCodePickerSwift-umbrella.h in Headers */,
+				429F79693DA8646819100F5E5B4E8AC3 /* CountryCodePickerSwift.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1145,14 +390,13 @@
 			productReference = 1ADC284BD07BD573A9CF82715CC17F90 /* Pods_CountryCodePickerSwiftExampleUITests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		DB0F898A1F02B5BFB6003BC44AFBC8AD /* CountryCodePickerSwift */ = {
+		E50F0245FBBD8E1C189F53B551D374F5 /* CountryCodePickerSwift */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 0969F4834FC61D71FDED580FC33A1D62 /* Build configuration list for PBXNativeTarget "CountryCodePickerSwift" */;
+			buildConfigurationList = 2E24245195C6166C8F7AEC9AB0015239 /* Build configuration list for PBXNativeTarget "CountryCodePickerSwift" */;
 			buildPhases = (
-				AAABBD117A5CAB29F8FFDA4B1229A6E5 /* Sources */,
-				30A6F9192D524EF94C5B3FC847915B10 /* Frameworks */,
-				31EDA8F30938109C7815E47AD50CAB03 /* Headers */,
-				114603F36B0D8DFEEE8941A81D78706B /* Resources */,
+				318F11D06012FBE8C358C6AC9862937A /* Sources */,
+				862EE971C2FCF454642A38B91EAF0328 /* Frameworks */,
+				272A7CB9F19AA539EDEA97DB72224863 /* Headers */,
 			);
 			buildRules = (
 			);
@@ -1184,7 +428,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				DB0F898A1F02B5BFB6003BC44AFBC8AD /* CountryCodePickerSwift */,
+				E50F0245FBBD8E1C189F53B551D374F5 /* CountryCodePickerSwift */,
 				283AC3CB8809862BC982CAE4BFD491D0 /* Pods-CountryCodePickerSwiftExample */,
 				1838A1D03452350829084C36ED00293D /* Pods-CountryCodePickerSwiftExampleTests */,
 				76AD13B8E68C81AE393DFF8D4A4F33D7 /* Pods-CountryCodePickerSwiftExampleUITests */,
@@ -1192,280 +436,24 @@
 		};
 /* End PBXProject section */
 
-/* Begin PBXResourcesBuildPhase section */
-		114603F36B0D8DFEEE8941A81D78706B /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
+/* Begin PBXSourcesBuildPhase section */
+		318F11D06012FBE8C358C6AC9862937A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				93A387B556527A014B74FA78EC550330 /* CountryCodes.json in Resources */,
-				7DB61E311A67686D7F94FAC7FCDB36D1 /* CountryCodesAssets.bundle in Resources */,
-				2EDC2796037C3E860B08CD8A03BA3FE9 /* flag_afghanistan.png in Resources */,
-				68A00F8EB590AC30A21CEB146FA50B2B /* flag_albania.png in Resources */,
-				FB30744710723ABE541B32DF26BC084F /* flag_algeria.png in Resources */,
-				259D6EACA2290739BF6B35006730F170 /* flag_american_samoa.png in Resources */,
-				4512148863776518CA3610C3BA4F4392 /* flag_andorra.png in Resources */,
-				52CAE4AC1852207C732BED628FE337EE /* flag_angola.png in Resources */,
-				C1D4307F976EA5D396A258AACDD1BB51 /* flag_anguilla.png in Resources */,
-				17F93DE9BAA2C676D65B50BE43751925 /* flag_antarctica.png in Resources */,
-				0717A0D938EC13A8C96C81108580D158 /* flag_antigua_and_barbuda.png in Resources */,
-				8682133C8A0A16484192AD8270D136D1 /* flag_argentina.png in Resources */,
-				DC491D13B5F87C6574456675546F4D60 /* flag_armenia.png in Resources */,
-				4ECDCC8C29B1C8E8307C2F69EEFA80E6 /* flag_aruba.png in Resources */,
-				F86E15855C45DD0DCDF60E2BCCF95B48 /* flag_australia.png in Resources */,
-				B7AD668C9C364523529E4FC7137C9055 /* flag_austria.png in Resources */,
-				50C6940AEB2AB1CA56A03B67492543A8 /* flag_azerbaijan.png in Resources */,
-				E238C3CA46547240CCF477FA2F9B4581 /* flag_bahamas.png in Resources */,
-				34F4AF2FF2393FD5040AD24F4E64B9CF /* flag_bahrain.png in Resources */,
-				D8884EF7C1BEACDE056D15876DC5C0B8 /* flag_bangladesh.png in Resources */,
-				03A89301AD30D658C31536F12A5DC836 /* flag_barbados.png in Resources */,
-				C2CC8F58CFFEE53D8079939FC528C29D /* flag_belarus.png in Resources */,
-				F9F299E626EBFEB5F2757FBA91017EC5 /* flag_belgium.png in Resources */,
-				6C96A64AF5C4B1BCF61B2A86FA13DECD /* flag_belize.png in Resources */,
-				49CD386717E4B7787289BA2F8F4F3614 /* flag_benin.png in Resources */,
-				25127A496508FB9D90151ED308656D17 /* flag_bermuda.png in Resources */,
-				12876A13297E546FF4DB0F70B0D7B9CF /* flag_bhutan.png in Resources */,
-				971C401299E1AB6EA1758AAAFF181EB2 /* flag_bolivia.png in Resources */,
-				705661B5454967426B311B8B717B6D64 /* flag_bosnia_and_herzegovina.png in Resources */,
-				174AE8C379E60D257ED0CF9AA700FC0C /* flag_botswana.png in Resources */,
-				758B03A9B0655A89B90283547D3E4497 /* flag_brazil.png in Resources */,
-				EC175E2044DB4755AB817A197AD457F0 /* flag_british_virgin_islands.png in Resources */,
-				F948B7BE2940D61559CBFBD5ACA837E7 /* flag_brunei_darussalam.png in Resources */,
-				CA90377C4657CCB1DAB4A76FFCB5C3D8 /* flag_bulgaria.png in Resources */,
-				EE1CEA18733B80789640FB6E2043928B /* flag_burkina_faso.png in Resources */,
-				D1E6B4D129177BE770B9077A3480B1B9 /* flag_burundi.png in Resources */,
-				BA623CF5F4373017855F5D12B25CE028 /* flag_cambodia.png in Resources */,
-				BE86BA638CEA790C8FF52F3F471C4BB4 /* flag_cameroon.png in Resources */,
-				3D8EF09ED567B5F67DE242FD656A4018 /* flag_canada.png in Resources */,
-				7E20E6BEDC6234E63346EA69186B228D /* flag_cape_verde.png in Resources */,
-				528C5ACDB7A25D345134455DE4E42E9B /* flag_cayman_islands.png in Resources */,
-				89DEC88F4B1A427BDB74B5E7528D68B9 /* flag_central_african_republic.png in Resources */,
-				D677CA1521C2A2115028FDFD330AB304 /* flag_chad.png in Resources */,
-				D80B077C14BAB6B23B858F3BA23205A6 /* flag_chile.png in Resources */,
-				AE024AA89250E224D169FC7721EC5A4E /* flag_china.png in Resources */,
-				724F09593741AA9C69F89E1B88E11D89 /* flag_christmas_island.png in Resources */,
-				665573BF35AD3692232F1FA75E30E49D /* flag_cocos_(keeling)_islands.png in Resources */,
-				C5A219E286E5E0A98F9E5DB4B10F33BE /* flag_colombia.png in Resources */,
-				103653D78C9FD5A1C567C1EB456D6B2F /* flag_comoros.png in Resources */,
-				E130C18851300EBB1AD0437D910009A8 /* flag_congo,_the_democratic_republic_of_the.png in Resources */,
-				514D34452364B574E06EF7C243864211 /* flag_congo.png in Resources */,
-				C2C4F9DE0E2FEE4534D56C98E62C9B77 /* flag_cook_islands.png in Resources */,
-				B11091697DE4155420F83B56C446C008 /* flag_costa_rica.png in Resources */,
-				0CD811BACCAEBFAEC9F44A0733C547E8 /* flag_croatia.png in Resources */,
-				81A88B81A38553E6D724D2770A1877C5 /* flag_cuba.png in Resources */,
-				FCEB40D274215CCD85AB0A2B17282CE8 /* flag_cyprus.png in Resources */,
-				172E45280D1C0C26A94E526FD0B0CC54 /* flag_czech_republic.png in Resources */,
-				3BF18C4868EC488193FFAA644C9DC49B /* flag_côte_d'ivoire.png in Resources */,
-				CF529E4E750385E91712CEFB9AAB86D5 /* flag_democratic_republic_of_the_congo.png in Resources */,
-				4C81B5555D2567C44B1165B96E8371F3 /* flag_denmark.png in Resources */,
-				E7ECB2BA667680F9F1C4A219160A3343 /* flag_djibouti.png in Resources */,
-				B212A868B77C09C170EFC11959A2685B /* flag_dominica.png in Resources */,
-				917A32E5C503E5F124A19304FB204FF5 /* flag_dominican_republic.png in Resources */,
-				49498D59BE478A070AAC6E2B1348FD0D /* flag_ecuador.png in Resources */,
-				2E47964F7D3E266DD7011DDFDB254274 /* flag_egypt.png in Resources */,
-				624964DD7733F9FFC92166660567E86E /* flag_el_salvador.png in Resources */,
-				831728B08C189629B329F03AE4241252 /* flag_equatorial_guinea.png in Resources */,
-				5FC93094C8A8701AF396E502FA8CE584 /* flag_eritrea.png in Resources */,
-				77EA1DAA88AB0FAF594D16BD91DAA7B3 /* flag_estonia.png in Resources */,
-				50027104B5562215C16444CA8B65EA58 /* flag_ethiopia.png in Resources */,
-				79300BFA487B53638BE65F1ADA6A6AEC /* flag_falkland_islands_(malvinas).png in Resources */,
-				99A3573B5AAE1A760A531AE0892536F0 /* flag_faroe_islands.png in Resources */,
-				EA7F4CF96BDDBDE7541DA86829855B0B /* flag_fiji.png in Resources */,
-				7B24FC35F224B40886769EB01F4D452B /* flag_finland.png in Resources */,
-				C1B44FEF30A9AD07ACF60B52297DD817 /* flag_france.png in Resources */,
-				D70B33ECA27365F19D3114BFB6DAEA61 /* flag_french_guyana.png in Resources */,
-				716A787E94C51EA6CF4E79FBCC142012 /* flag_french_polynesia.png in Resources */,
-				97C63F8DCE71A532D4015007E6F90CED /* flag_gabon.png in Resources */,
-				CC4C0A7FA13165C64EA1700126B017C7 /* flag_gambia.png in Resources */,
-				F45F3537155A747F40181129BA5EC26F /* flag_georgia.png in Resources */,
-				D3AA3E9DD3D949509D70D5FE82083DD4 /* flag_germany.png in Resources */,
-				D980D4300A737060B7F57C14043B2A40 /* flag_ghana.png in Resources */,
-				447242E18A5190837D85A56DF8BBA651 /* flag_gibraltar.png in Resources */,
-				07032D991749D1C15334E4264CC04551 /* flag_greece.png in Resources */,
-				F749AC4E1B3C88DEA3ABA77C8ADC5B70 /* flag_greenland.png in Resources */,
-				B7830D57D7C5DDE1BD042FFFFFCFC4A2 /* flag_grenada.png in Resources */,
-				C7818F581437BC1EC4A2A96ACB6BF704 /* flag_guam.png in Resources */,
-				1E41D144BBCB1E5E804963A0F8D74AF2 /* flag_guatemala.png in Resources */,
-				DE679F7691C31E14C721D70952048A9C /* flag_guinea-bissau.png in Resources */,
-				62AF73E53BD01354C6FFE46D14388D80 /* flag_guinea.png in Resources */,
-				50C142FAAC4DCD2383721970D8C57E3A /* flag_guyana.png in Resources */,
-				6E7532350F4A62D7C24C9F73469E414A /* flag_guyane.png in Resources */,
-				BB1DE6AEC503187800087E43292CC6B1 /* flag_haiti.png in Resources */,
-				3D1E844498F051BBB3AC5FCB23856AA5 /* flag_holy_see_(vatican_city_state).png in Resources */,
-				33DA88015C41D31C2E2480AB6D47E6EF /* flag_honduras.png in Resources */,
-				4E1C1A911895C3821374BB29D4260BFE /* flag_hong_kong.png in Resources */,
-				F9C1533B88A4E230BE4A3BEDD7B7306C /* flag_hungary.png in Resources */,
-				E4EAA9385ACF925EBCB8EB98AEE7966A /* flag_iceland.png in Resources */,
-				F79CF42B22E9C6D96CF0A6C26CDD8FFB /* flag_india.png in Resources */,
-				FD6494B2E29878B000F9E7EDB184C75D /* flag_indonesia.png in Resources */,
-				87EAEC5D194F86BB66626A53AD14D734 /* flag_iran.png in Resources */,
-				9FFBE67D3219CC8F4F87904B4C2195F8 /* flag_iraq.png in Resources */,
-				2C25982867BDC141ABE22912793E51C4 /* flag_iraq_new.png in Resources */,
-				082FC6D4E609B8C429A9A650B84F588C /* flag_ireland.png in Resources */,
-				F4A2D5B10C6C0FE389FBCFD70742AA40 /* flag_isle_of_man.png in Resources */,
-				27E8BDC2E0F7568140EFA1716C9A6AA8 /* flag_israel.png in Resources */,
-				5A25FA3AEF94685AFE633D8A9C9533FE /* flag_italy.png in Resources */,
-				E7A4B6F0BE1E4E838CD1193BD03CBFB9 /* flag_jamaica.png in Resources */,
-				32EFCAB97B9E2018F1CB9ED7CC9CEB41 /* flag_japan.png in Resources */,
-				9044D6CB8D028E5F1616677D6AF76129 /* flag_jordan.png in Resources */,
-				F30542CC5F46463E04146E9C74B9CE18 /* flag_kazakhstan.png in Resources */,
-				489C0924B0C175777053CD0F88BE4BD0 /* flag_kenya.png in Resources */,
-				8F9907577166C24C11769EBC60528D7C /* flag_kiribati.png in Resources */,
-				55545D1D89F26E95240DE5523A170B41 /* flag_kuwait.png in Resources */,
-				197659FC37FABEEB3EBD131F304D3C3E /* flag_kyrgyzstan.png in Resources */,
-				B824B6BBE6A423D9D8FA198DC9B02961 /* flag_laos.png in Resources */,
-				DD417B0F6860B58AA623CE2F4DD86D7E /* flag_latvia.png in Resources */,
-				0561840B38DD7350618FFDBE51C853B2 /* flag_lebanon.png in Resources */,
-				471A39C3012100D3A925105A02185A75 /* flag_lesotho.png in Resources */,
-				C082ED454E56F98931E52CA5F6AE5885 /* flag_liberia.png in Resources */,
-				91CC5FADC650FF8135898948BAE2FE73 /* flag_libya.png in Resources */,
-				55BCDB84854C77851DFED67FC4BCA07A /* flag_liechtenstein.png in Resources */,
-				5949B909875D43F5C0A4B424AB6A8502 /* flag_lithuania.png in Resources */,
-				F502B52B92768AAEB64207C34A3EBB08 /* flag_luxembourg.png in Resources */,
-				258E01291B48A89429C6EB8698DBEAD6 /* flag_macao.png in Resources */,
-				0CBCA8A66D8F53A655CA3F34844DACA7 /* flag_macedonia.png in Resources */,
-				87C652ACCC32B5204ACF50166D82EC0F /* flag_madagascar.png in Resources */,
-				297FF2C49F0B0EC33B094E487193DA03 /* flag_malawi.png in Resources */,
-				71D2187B2FECE254769E4B5AAAC46B48 /* flag_malaysia.png in Resources */,
-				157CB1644A11CED9CD65C32B0659D5D0 /* flag_maldives.png in Resources */,
-				0FF216252528F34A23D82BC1587D9F26 /* flag_mali.png in Resources */,
-				1C5C0BFD889E90C0560A53CF71614673 /* flag_malta.png in Resources */,
-				843A637BFA6F4EFAF3938AAE9FB4EC61 /* flag_marshall_islands.png in Resources */,
-				A70D605E72DA0D619535EACCB6A155C5 /* flag_martinique.png in Resources */,
-				6F54D3916399F0A977094FAF793FF2FB /* flag_mauritania.png in Resources */,
-				7D06987BDC942C0F9FACB92A25C64E5C /* flag_mauritius.png in Resources */,
-				27F15EC905C3283842860B41D6A1D2C6 /* flag_mayotte.png in Resources */,
-				8ACE8BCB48014734E847D936E6EE4999 /* flag_mexico.png in Resources */,
-				24109E5E013AE3C5FDFAC088806BA5F8 /* flag_micronesia.png in Resources */,
-				8349DE171A690925BEE8D0B05CD3B149 /* flag_moldova.png in Resources */,
-				B07A32DF63C6D6E5AAC3A10A64685DC7 /* flag_monaco.png in Resources */,
-				1788DA772851A07BA31EB7BFBD92A7CE /* flag_mongolia.png in Resources */,
-				8FCC35EC2002AF6DEED2DCF67AABA470 /* flag_montenegro.png in Resources */,
-				BB47C24010A96D268D62F882F680D75B /* flag_montserrat.png in Resources */,
-				B7BED1AEE732EB1F99AC91508C2A8599 /* flag_morocco.png in Resources */,
-				208EB30E6E7F5536B0833A2820E1E956 /* flag_mozambique.png in Resources */,
-				7CC9C2A498F25F089DA34A2198C8710A /* flag_myanmar.png in Resources */,
-				004A1081FD45F72EA5CEAA4EFD296C93 /* flag_namibia.png in Resources */,
-				638641132FA7A08D3D1DF3BD3F65AC5D /* flag_nauru.png in Resources */,
-				40BA63D68A193F7674DECE5C9DFC9E27 /* flag_nepal.png in Resources */,
-				7DD852F665CCEDF8EDE4B546089AC414 /* flag_netherlands.png in Resources */,
-				43477ABE9D26BC2B591B45E091156006 /* flag_netherlands_antilles.png in Resources */,
-				2F7C3A0416447ACDE7DB3F52F6F4EB2B /* flag_new_caledonia.png in Resources */,
-				9A5F8EA0FE7DE93BB8CEF0163CBFCFC3 /* flag_new_zealand.png in Resources */,
-				2A9EE376C96B6D4F47A13A94CD36FBA3 /* flag_nicaragua.png in Resources */,
-				52B974AB723896E206AF45A87AE65652 /* flag_niger.png in Resources */,
-				7203B001B84170583960507ECAEE9089 /* flag_nigeria.png in Resources */,
-				9166DB76B41A6D5274C65CCA619280B6 /* flag_niue.png in Resources */,
-				DA416D22532D4CF60623B888F9D40B67 /* flag_norfolk_island.png in Resources */,
-				31D52B845AB8B16350687DA094012243 /* flag_north_korea.png in Resources */,
-				8447C1B2FBE50D5567010ADDBDE65A0D /* flag_norway.png in Resources */,
-				18F562BD84A01AB1F7141F182D2BE9A8 /* flag_of_montenegro.png in Resources */,
-				D2E5407FBA17BD595E212812AD2EBBCB /* flag_oman.png in Resources */,
-				0A3192D3E374955E57053EF9ECEF21D5 /* flag_pakistan.png in Resources */,
-				8BAC55526CE4F3F6B47BDF0590EC7BEA /* flag_palau.png in Resources */,
-				B5F1CCB452A1C4B6757891889679DBC3 /* flag_palestine.png in Resources */,
-				9676C0C8C19F1283656EF455A4D42BCA /* flag_panama.png in Resources */,
-				E09FDFEF94BE11F4F0067D631DE539F1 /* flag_papua_new_guinea.png in Resources */,
-				5ADE45FD782D7AFB035199348E39F0F5 /* flag_paraguay.png in Resources */,
-				47869C2074630F16CABC3325654E39F3 /* flag_peru.png in Resources */,
-				E6241844327A19C250D24F3B05F9A8A5 /* flag_philippines.png in Resources */,
-				43A99C621A1E57BF9B973C45D08EA37D /* flag_pitcairn.png in Resources */,
-				37ECCB9C646D29E9867603E3956C8340 /* flag_poland.png in Resources */,
-				8ADD3985BCCB30FF8A56D1B0E067FECF /* flag_portugal.png in Resources */,
-				CFCD6A961C4373C2E8F9D4F1E0BD2F26 /* flag_puerto_rico.png in Resources */,
-				5A7E997E2C2E0E81898248F80513A3E2 /* flag_qatar.png in Resources */,
-				971D553027A714E80CE19CF974BAF7FB /* flag_republic_of_the_congo.png in Resources */,
-				30F31546661A935FA68B23AA6D7A7A6B /* flag_romania.png in Resources */,
-				EAAFCAC0D4EBB88D3E6DCB37922C380E /* flag_russian_federation.png in Resources */,
-				4A6F37957C9A6A67FAB09177EF3A0F96 /* flag_rwanda.png in Resources */,
-				3C0A9ED2C74CE34C7E42674CD0E3A4BD /* flag_réunion.png in Resources */,
-				E737D818D07683E1F76D847B28B5D450 /* flag_saint_barthélemy.png in Resources */,
-				FEC19F61272877029CC3D20527DC728B /* flag_saint_helena.png in Resources */,
-				71E1ADFC3D1D7D714A0AD45B5553CA6A /* flag_saint_kitts_and_nevis.png in Resources */,
-				FC6BC3BF4AA2DEE7D828C046F57B3807 /* flag_saint_lucia.png in Resources */,
-				4B30B9E2FB664A47A60562634ADD43F9 /* flag_saint_pierre_and_miquelon.png in Resources */,
-				A28159E99FE7117DBB134E9371313394 /* flag_saint_vincent_&_the_grenadines.png in Resources */,
-				03CC107DCBE6E72FA341E86037B4914E /* flag_samoa.png in Resources */,
-				7CD003A53412A8B7C866379310ACCC16 /* flag_san_marino.png in Resources */,
-				BC6578ADBFCFD7AED63703CDE24267DE /* flag_sao_tome_and_principe.png in Resources */,
-				EF966BF56E255FC50C55BEF8FD13B3BA /* flag_saudi_arabia.png in Resources */,
-				596795049DA34E7B2196917E687A8912 /* flag_senegal.png in Resources */,
-				4195E4399526072403E62F60CD33C497 /* flag_serbia.png in Resources */,
-				1017F1DF67362ACD8C5D22D514F254CF /* flag_serbia_and_montenegro.png in Resources */,
-				A3CFAED7C1756609AB771493E15D5441 /* flag_seychelles.png in Resources */,
-				401176AB69206D7DB6E4FF9C1108F528 /* flag_sierra_leone.png in Resources */,
-				59193D5B78B824D5E599A6161136E1B3 /* flag_singapore.png in Resources */,
-				6760DF5C029A9A62159B1FBE216C0CCA /* flag_sint_maarten.png in Resources */,
-				750E10FED59F38C2A1FC0F0A024AA3B5 /* flag_slovakia.png in Resources */,
-				63CBDC942B3C42903767499DCB6D88F4 /* flag_slovenia.png in Resources */,
-				51FE72863F1018031C19486D09F5FDD7 /* flag_solomon_islands.png in Resources */,
-				1FD4A1D1A0ECA883A6A0FE65C420D06E /* flag_somalia.png in Resources */,
-				71390875BAE8072F894303EC6F108DCE /* flag_south_africa.png in Resources */,
-				6C2B3CC1007CAD1A156FF866792BE31C /* flag_south_georgia.png in Resources */,
-				0AEB6E9B421931EA47C519C09A71FD11 /* flag_south_korea.png in Resources */,
-				6ED33EFBB6368F0FDA0E73AEEE02BF39 /* flag_soviet_union.png in Resources */,
-				B411AA0AB17D30005B77256824872833 /* flag_spain.png in Resources */,
-				CFD50FBB225D1C027D506D2A7D789E8C /* flag_sri_lanka.png in Resources */,
-				B539106C47D3AE0FCF968F5AE0A26F36 /* flag_sudan.png in Resources */,
-				489AC9DB26765CF8151FACCB6592E983 /* flag_suriname.png in Resources */,
-				9C869E117AB78E0F1458E094EE2FA2FE /* flag_swaziland.png in Resources */,
-				A316046667F49342D8C227A0733E4BAF /* flag_sweden.png in Resources */,
-				3495656F9A840C6ABDFE07F322943FEC /* flag_switzerland.png in Resources */,
-				F289ADD07B798C36D865E1E44A48A526 /* flag_syrian_arab_republic.png in Resources */,
-				9D6A3648AE0E7F37CB2A3B05EFF70DE4 /* flag_taiwan.png in Resources */,
-				2507C09B7E6825A780723E16B4A68E91 /* flag_tajikistan.png in Resources */,
-				B6DCCC459A274C5DD8C1C1A68BFF5DE9 /* flag_tanzania.png in Resources */,
-				AC39EB8B409100FB5250A10A8C529175 /* flag_thailand.png in Resources */,
-				F87CA0ACA5A6044630F6C87DD050C215 /* flag_tibet.png in Resources */,
-				D7918DE7C4EC81420082160D9FCD086F /* flag_timor-leste.png in Resources */,
-				85FFD50168AE80D42D6705F720B67311 /* flag_togo.png in Resources */,
-				B9AF5C12028BBC3FD77E6ED6445F158B /* flag_tokelau.png in Resources */,
-				93F2436703352E675C1AB74C0D619455 /* flag_tonga.png in Resources */,
-				394E49515AA0161AEBAE36EE4756EAC3 /* flag_transparent.png in Resources */,
-				96ABDBEB2B5FD2C0515339860A4CFDDD /* flag_trinidad_&_tobago.png in Resources */,
-				139785BD402F4159D6EEAC5369EF7485 /* flag_tunisia.png in Resources */,
-				7EFE6EAAC32E5A560A7BF3F7D7925F8E /* flag_turkey.png in Resources */,
-				1EDDDB98B532E7525B57AA9202BA8AF0 /* flag_turkmenistan.png in Resources */,
-				2A6334CAB2B44659004D8A1D2B2C1129 /* flag_turks_and_caicos_islands.png in Resources */,
-				539F058849EB4C469A9A3730AAE04CA9 /* flag_tuvalu.png in Resources */,
-				933CFDB34D7CCC1849E4191959BB9A9F /* flag_uganda.png in Resources */,
-				6D29A5106CE1373D46E101BFACF50D4D /* flag_ukraine.png in Resources */,
-				D889F4A3B0DD172F19C65E246510F9AA /* flag_united_arab_emirates.png in Resources */,
-				056CB061C22F4C7149ACA6922A24A871 /* flag_united_kingdom.png in Resources */,
-				DADF06997A2F8D66E7D04F519D2DE52A /* flag_united_states.png in Resources */,
-				D250A5A6197F2105A5E585B21AE3EFAB /* flag_uruguay.png in Resources */,
-				EF54CEF4F519E220025F482000268E5D /* flag_us_virgin_islands.png in Resources */,
-				F1C874D2110524A63FDF3F1976945C72 /* flag_uzbekistan.png in Resources */,
-				15C1A2208A05A90B7039F86F2D9C4CDA /* flag_vanuatu.png in Resources */,
-				6C1CDD27E686E9AB6DFF740AA125144E /* flag_vatican_city.png in Resources */,
-				221B6FE3E3F0EBD8222DAF287561A052 /* flag_venezuela.png in Resources */,
-				0AD3D4AE6E4AE9CCBE1FE5992DCA992E /* flag_viet_nam.png in Resources */,
-				41C14BF1C9253FAC651540FF5E197A49 /* flag_wallis_and_futuna.png in Resources */,
-				70FADD6EB03BFE6CFCFE25135687662A /* flag_yemen.png in Resources */,
-				CC39D7BA9A6C7B393C210A0ED4825CAA /* flag_zambia.png in Resources */,
-				A00020644EE2AA1102C95633A7B354E0 /* flag_zimbabwe.png in Resources */,
+				2BDA0451C0677636EDB036F83EA31F6F /* CountryCodeController.swift in Sources */,
+				52259DB3A4C91F47AA2BD92D7956B2A2 /* CountryCodeModel.swift in Sources */,
+				3F789CC89A0D351B5FE6C667DE31744A /* CountryCodePickerSwift-dummy.m in Sources */,
+				77489512B8B0BD1BCD1EEF7BF33A8629 /* CountryCodes.swift in Sources */,
+				F75A8D5C770602EB61F4D9FCBD79A80A /* UIView+Anchors.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-/* End PBXResourcesBuildPhase section */
-
-/* Begin PBXSourcesBuildPhase section */
 		38AD6941668CAB4D82E3648529442AF2 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				0CAF39A6E0EAF9DD2E201DA34239B78C /* Pods-CountryCodePickerSwiftExampleTests-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		AAABBD117A5CAB29F8FFDA4B1229A6E5 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				4219818584049D1AC9DEF485CDA92552 /* CountryCodeController.swift in Sources */,
-				55F2D8EA4D1B7E1CDD26AA7058912DC6 /* CountryCodeModel.swift in Sources */,
-				2331B15C51D0D7BD4B11D0EBC0104199 /* CountryCodePickerSwift-dummy.m in Sources */,
-				0CCD0E0F758E3FE6460E7F3C2D85F506 /* CountryCodes.swift in Sources */,
-				76E1EF2A8562F8CB8500A05DF29419B6 /* UIView+Anchors.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1503,7 +491,7 @@
 		97FB7BBB1701CADD631785D1847BB470 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = CountryCodePickerSwift;
-			target = DB0F898A1F02B5BFB6003BC44AFBC8AD /* CountryCodePickerSwift */;
+			target = E50F0245FBBD8E1C189F53B551D374F5 /* CountryCodePickerSwift */;
 			targetProxy = D4C4C0480EBF08B84F2766986A87232B /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -1610,6 +598,42 @@
 			};
 			name = Debug;
 		};
+		3F2E7FD42F1AEAA8695710911AA00723 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3439A7E4DBA1897B72AB8F71E724ED48 /* CountryCodePickerSwift.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/CountryCodePickerSwift/CountryCodePickerSwift-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CountryCodePickerSwift/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/CountryCodePickerSwift/CountryCodePickerSwift.modulemap";
+				PRODUCT_MODULE_NAME = CountryCodePickerSwift;
+				PRODUCT_NAME = CountryCodePickerSwift;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 		67A47150493D030D77D18F2C81A6AE29 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 9754F7DF3E7B14D0BEDB82D313E53E87 /* Pods-CountryCodePickerSwiftExampleUITests.release.xcconfig */;
@@ -1648,9 +672,9 @@
 			};
 			name = Release;
 		};
-		9AC90CC56C0D0131D65BCEB4A87A981A /* Release */ = {
+		9FB55A77BEE25182B005CFD7DAE9A917 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 988B6D4F4BB3B36828D1C396364CD273 /* CountryCodePickerSwift.xcconfig */;
+			baseConfigurationReference = 3439A7E4DBA1897B72AB8F71E724ED48 /* CountryCodePickerSwift.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1718,42 +742,6 @@
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		ADD88A24FFAFC2F9874F2CDDC6F46C34 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 988B6D4F4BB3B36828D1C396364CD273 /* CountryCodePickerSwift.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/CountryCodePickerSwift/CountryCodePickerSwift-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/CountryCodePickerSwift/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MODULEMAP_FILE = "Target Support Files/CountryCodePickerSwift/CountryCodePickerSwift.modulemap";
-				PRODUCT_MODULE_NAME = CountryCodePickerSwift;
-				PRODUCT_NAME = CountryCodePickerSwift;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -1934,20 +922,20 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		0969F4834FC61D71FDED580FC33A1D62 /* Build configuration list for PBXNativeTarget "CountryCodePickerSwift" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				ADD88A24FFAFC2F9874F2CDDC6F46C34 /* Debug */,
-				9AC90CC56C0D0131D65BCEB4A87A981A /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				199D972A13F2B4C56847F7A89CCA83BC /* Debug */,
 				FDB2FC4A1E5891381CD9D922145497F1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2E24245195C6166C8F7AEC9AB0015239 /* Build configuration list for PBXNativeTarget "CountryCodePickerSwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F2E7FD42F1AEAA8695710911AA00723 /* Debug */,
+				9FB55A77BEE25182B005CFD7DAE9A917 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

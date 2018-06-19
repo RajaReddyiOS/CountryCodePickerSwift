@@ -8,14 +8,23 @@
 
 /* Begin PBXBuildFile section */
 		35BD042620D92848001199B7 /* CountryCodePickerSwift.h in Headers */ = {isa = PBXBuildFile; fileRef = 35BD042420D92848001199B7 /* CountryCodePickerSwift.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		35BD042D20D92867001199B7 /* Sources in Resources */ = {isa = PBXBuildFile; fileRef = 35BD042C20D92867001199B7 /* Sources */; };
+		35BD046B20D9373A001199B7 /* CountryCodesAssets.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 35BD046A20D9373A001199B7 /* CountryCodesAssets.bundle */; };
+		35BD046E20D93816001199B7 /* CountryCodeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35BD046D20D93816001199B7 /* CountryCodeModel.swift */; };
+		35BD047020D9381D001199B7 /* CountryCodes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35BD046F20D9381D001199B7 /* CountryCodes.swift */; };
+		35BD047320D93821001199B7 /* UIView+Anchors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35BD047120D93821001199B7 /* UIView+Anchors.swift */; };
+		35BD047420D93821001199B7 /* CountryCodeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35BD047220D93821001199B7 /* CountryCodeController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		35BD042120D92848001199B7 /* CountryCodePickerSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CountryCodePickerSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		35BD042420D92848001199B7 /* CountryCodePickerSwift.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CountryCodePickerSwift.h; sourceTree = "<group>"; };
 		35BD042520D92848001199B7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		35BD042C20D92867001199B7 /* Sources */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Sources; sourceTree = "<group>"; };
+		35BD046A20D9373A001199B7 /* CountryCodesAssets.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = CountryCodesAssets.bundle; sourceTree = "<group>"; };
+		35BD046C20D93741001199B7 /* CountryCodes.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = CountryCodes.json; sourceTree = "<group>"; };
+		35BD046D20D93816001199B7 /* CountryCodeModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CountryCodeModel.swift; sourceTree = "<group>"; };
+		35BD046F20D9381D001199B7 /* CountryCodes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryCodes.swift; sourceTree = "<group>"; };
+		35BD047120D93821001199B7 /* UIView+Anchors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Anchors.swift"; sourceTree = "<group>"; };
+		35BD047220D93821001199B7 /* CountryCodeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryCodeController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,11 +57,32 @@
 		35BD042320D92848001199B7 /* CountryCodePickerSwift */ = {
 			isa = PBXGroup;
 			children = (
-				35BD042C20D92867001199B7 /* Sources */,
+				35BD046920D9371F001199B7 /* Assets */,
+				35BD046820D93715001199B7 /* Classes */,
 				35BD042420D92848001199B7 /* CountryCodePickerSwift.h */,
 				35BD042520D92848001199B7 /* Info.plist */,
 			);
 			path = CountryCodePickerSwift;
+			sourceTree = "<group>";
+		};
+		35BD046820D93715001199B7 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				35BD046D20D93816001199B7 /* CountryCodeModel.swift */,
+				35BD046F20D9381D001199B7 /* CountryCodes.swift */,
+				35BD047220D93821001199B7 /* CountryCodeController.swift */,
+				35BD047120D93821001199B7 /* UIView+Anchors.swift */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		35BD046920D9371F001199B7 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				35BD046C20D93741001199B7 /* CountryCodes.json */,
+				35BD046A20D9373A001199B7 /* CountryCodesAssets.bundle */,
+			);
+			path = Assets;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -123,7 +153,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				35BD042D20D92867001199B7 /* Sources in Resources */,
+				35BD046B20D9373A001199B7 /* CountryCodesAssets.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -134,6 +164,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				35BD046E20D93816001199B7 /* CountryCodeModel.swift in Sources */,
+				35BD047420D93821001199B7 /* CountryCodeController.swift in Sources */,
+				35BD047320D93821001199B7 /* UIView+Anchors.swift in Sources */,
+				35BD047020D9381D001199B7 /* CountryCodes.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
