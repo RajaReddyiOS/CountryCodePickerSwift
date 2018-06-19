@@ -12,8 +12,7 @@ import CountryCodePickerSwift
 class ViewController: UIViewController {
 
     let button:UIButton = {
-        let btn = UIButton(type: UIButtonType.contactAdd)
-        btn.tintColor = UIColor.white
+        let btn = UIButton(type: UIButtonType.system)
         btn.setTitle("Click Me", for: UIControlState.normal)
         return btn
     }()
@@ -30,6 +29,8 @@ class ViewController: UIViewController {
     }
     
     @objc func buttonAction() {
+        let vc = CountryCodesController()
+        self.navigationController?.pushViewController(vc, animated: true)
         
     }
 
