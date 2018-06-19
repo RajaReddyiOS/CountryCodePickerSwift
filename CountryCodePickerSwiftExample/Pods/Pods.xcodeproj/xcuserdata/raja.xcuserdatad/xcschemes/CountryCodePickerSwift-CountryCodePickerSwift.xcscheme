@@ -14,9 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "76AD13B8E68C81AE393DFF8D4A4F33D7"
-               BuildableName = "Pods_CountryCodePickerSwiftExampleUITests.framework"
-               BlueprintName = "Pods-CountryCodePickerSwiftExampleUITests"
+               BlueprintIdentifier = "94D80FF6774C22FC9367A4D209B6DD83"
+               BuildableName = "CountryCodePickerSwift.bundle"
+               BlueprintName = "CountryCodePickerSwift-CountryCodePickerSwift"
                ReferencedContainer = "container:Pods.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -45,9 +45,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "76AD13B8E68C81AE393DFF8D4A4F33D7"
-            BuildableName = "Pods_CountryCodePickerSwiftExampleUITests.framework"
-            BlueprintName = "Pods-CountryCodePickerSwiftExampleUITests"
+            BlueprintIdentifier = "94D80FF6774C22FC9367A4D209B6DD83"
+            BuildableName = "CountryCodePickerSwift.bundle"
+            BlueprintName = "CountryCodePickerSwift-CountryCodePickerSwift"
             ReferencedContainer = "container:Pods.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
