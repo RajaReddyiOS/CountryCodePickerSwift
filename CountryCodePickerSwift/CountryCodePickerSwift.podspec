@@ -13,6 +13,6 @@ s.name         = "CountryCodePickerSwift"
   s.source_files  = "CountryCodePickerSwift/**/*.{h,m,swift}"
   s.resources = "CountryCodePickerSwift/**/*.{png,bundle,json}"
   s.framework  = "UIKit"
-  s.swift_version = "3.2"
+  s.swift_version = "4.0"
 
 end
