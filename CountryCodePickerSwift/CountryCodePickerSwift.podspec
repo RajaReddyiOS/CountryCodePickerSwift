@@ -11,7 +11,7 @@ s.name               = "CountryCodePickerSwift"
   s.source           = { :git => "https://github.com/RajaReddyiOS/CountryCodePickerSwift.git", :tag => "#{s.version}" }
   s.source_files     = "CountryCodePickerSwift/**/*.{h,m,swift}"
   s.ios.deployment_target = "9.0"
-  s.resources        = "CountryCodePickerSwift/**/*.plist"
+#s.resources        = "CountryCodePickerSwift/**/*.plist"
 #s.resource_bundles = {'CountryCodePickerSwift' => ['CountryCodePickerSwift/Assets/CountryCodes.plist']}
   
   

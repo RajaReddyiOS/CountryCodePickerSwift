@@ -9,8 +9,8 @@ EXTERNAL SOURCES:
     :path: "../CountryCodePickerSwift/"
 
 SPEC CHECKSUMS:
-  CountryCodePickerSwift: ab94f3cb1d7659c1e78ecbf1a550db28d70bca6c
+  CountryCodePickerSwift: a88ca3468cd4582f058f9df1b2df2272161c12f7
 
 PODFILE CHECKSUM: 31e57792542aac07cc4aa39c33b3ebaab5dd4e39
 
-COCOAPODS: 1.5.3
+COCOAPODS: 1.5.0

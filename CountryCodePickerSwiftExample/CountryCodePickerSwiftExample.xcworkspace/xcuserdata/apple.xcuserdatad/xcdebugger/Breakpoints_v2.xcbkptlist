@@ -10,11 +10,27 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "../CountryCodePickerSwift/CountryCodePickerSwift/Classes/CountryCodes.swift"
-            timestampString = "551116179.50647"
+            timestampString = "551118464.984544"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "18"
-            endingLineNumber = "18"
+            startingLineNumber = "43"
+            endingLineNumber = "43"
+            landmarkName = "getAllCountryCodes()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../CountryCodePickerSwift/CountryCodePickerSwift/Classes/CountryCodes.swift"
+            timestampString = "551118464.985202"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "19"
+            endingLineNumber = "19"
             landmarkName = "getAllCountryCodes()"
             landmarkType = "7">
          </BreakpointContent>

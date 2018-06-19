@@ -16,11 +16,7 @@
   "platforms": {
     "ios": "9.0"
   },
-  "resource_bundles": {
-    "CountryCodePickerSwift": [
-      "CountryCodePickerSwift/Assets/**/*.{json,bundle}"
-    ]
-  },
+  "resources": "CountryCodePickerSwift/**/*.plist",
   "frameworks": "UIKit",
   "swift_version": "4.0"
 }
