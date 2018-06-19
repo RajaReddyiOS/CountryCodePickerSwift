@@ -9,10 +9,14 @@ s.name               = "CountryCodePickerSwift"
   s.license          = "MIT"
   s.author             = { "Raja Reddy" => "rajareddy2606@gmail.com" }
   s.source           = { :git => "https://github.com/RajaReddyiOS/CountryCodePickerSwift.git", :tag => "#{s.version}" }
-  s.source_files     = "CountryCodePickerSwift/**/*.{h,m,swift,json,bundle}"
+  s.source_files     = "CountryCodePickerSwift/**/*.{h,m,swift}"
   s.ios.deployment_target = "9.0"
+  s.resources        = "CountryCodePickerSwift/**/*.plist"
+#s.resource_bundles = {'CountryCodePickerSwift' => ['CountryCodePickerSwift/Assets/CountryCodes.plist']}
+  
+  
 #s.resource_bundles = {
-#   "CountryCodePickerSwift" => ["CountryCodePickerSwift/Assets/*.{json,bundle}"]
+#   "CountryCodePickerSwift" => ["CountryCodePickerSwift/Assets/*.{plist,bundle}"]
 #   }
   s.framework        = "UIKit"
   s.swift_version    = "4.0"
