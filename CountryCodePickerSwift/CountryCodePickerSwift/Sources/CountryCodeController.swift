@@ -12,7 +12,7 @@ protocol CountryCodesDelegate {
     func didSelectCountryCode(_ countryName:String,dialingCode:String)
 }
 
-class CountryCodesViewController: UIViewController , UITableViewDelegate, UITableViewDataSource, UISearchBarDelegate {    
+public class CountryCodesController: UIViewController , UITableViewDelegate, UITableViewDataSource, UISearchBarDelegate {
     
     fileprivate var scrollContentOffset = CGPoint()
     fileprivate var isScrollingDown = false
@@ -27,7 +27,7 @@ class CountryCodesViewController: UIViewController , UITableViewDelegate, UITabl
     var timer = Timer()
     var delegate:CountryCodesDelegate?
     
-    let tableView:UITableView = {
+    fileprivate let tableView:UITableView = {
         let tv = UITableView(frame: .zero, style: UITableViewStyle.plain)
         tv.estimatedRowHeight = 200
         tv.translatesAutoresizingMaskIntoConstraints = false
@@ -35,7 +35,7 @@ class CountryCodesViewController: UIViewController , UITableViewDelegate, UITabl
         return tv
     }()
     
-    let titleLbl:UILabel = {
+    fileprivate let titleLbl:UILabel = {
         let lbl = UILabel()
         lbl.translatesAutoresizingMaskIntoConstraints = false
         lbl.text = "Your Country"
@@ -45,7 +45,7 @@ class CountryCodesViewController: UIViewController , UITableViewDelegate, UITabl
         return lbl
     }()
     
-    let searchBar:UISearchBar = {
+    fileprivate let searchBar:UISearchBar = {
         let sb = UISearchBar(frame: .zero)
         sb.translatesAutoresizingMaskIntoConstraints = false
         sb.barTintColor = UIColor.black
@@ -53,36 +53,35 @@ class CountryCodesViewController: UIViewController , UITableViewDelegate, UITabl
     }()
     
     
-    let customNavBar:UIView = {
+    fileprivate let customNavBar:UIView = {
         let view = UIView()
         view.translatesAutoresizingMaskIntoConstraints = false
         view.backgroundColor = UIColor.black
         return view
     }()
     
-    let backButton:UIButton = {
+    fileprivate let backButton:UIButton = {
         let btn = UIButton(type: UIButtonType.system)
         btn.translatesAutoresizingMaskIntoConstraints = false
         btn.setImage(UIImage(named: "back")?.withRenderingMode(UIImageRenderingMode.alwaysOriginal), for: UIControlState.normal)
         return btn
     }()
     
-    
-    override func viewDidLoad() {
+    public override func viewDidLoad() {
         super.viewDidLoad()
         guard let array = CountryCodes.sharedInstance.getAllCountryCodes() else {return}
         countryCodesArray = array
         self.setupViews()
     }
     
-    func setupViews() {
+    fileprivate func setupViews() {
         self.setupNavBar()
         self.setupSearchBar()
         self.setupTableView()
         self.setupBackBtn()
     }
     
-    func setupSearchBar() {
+    fileprivate func setupSearchBar() {
         self.view.addSubview(searchBar)
         
         [self.searchBar.leftAnchor.constraint(equalTo: self.customNavBar.leftAnchor, constant: 0),
@@ -98,7 +97,7 @@ class CountryCodesViewController: UIViewController , UITableViewDelegate, UITabl
         self.searchBar.delegate = self
     }
     
-    func setupBackBtn() {
+    fileprivate func setupBackBtn() {
         self.customNavBar.addSubview(self.backButton)
         self.backButton.leftAnchor.constraint(equalTo: self.customNavBar.leftAnchor, constant: 12).isActive = true
         self.backButton.centerYAnchor.constraint(equalTo: self.customNavBar.centerYAnchor).isActive = true
@@ -154,18 +153,18 @@ class CountryCodesViewController: UIViewController , UITableViewDelegate, UITabl
     }
     
     
-    func numberOfSections(in tableView: UITableView) -> Int {
+    public func numberOfSections(in tableView: UITableView) -> Int {
         return 1
     }
     
-    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+    public func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         if self.isSearchResults {
             return self.filteredCountryCodesArray.count
         }
         return countryCodesArray.count
     }
     
-    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+    public func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: self.cellIdentifier) as! CountryCodeCell
         if self.isSearchResults {
             if filteredCountryCodesArray.count > indexPath.row {
@@ -190,7 +189,7 @@ class CountryCodesViewController: UIViewController , UITableViewDelegate, UITabl
         return cell
     }
     
-    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+    public func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         if delegate != nil {
             if self.isSearchResults {
                 if self.filteredCountryCodesArray.count > indexPath.row {
@@ -206,7 +205,7 @@ class CountryCodesViewController: UIViewController , UITableViewDelegate, UITabl
         }
     }
     
-    func tableView(_ tableView: UITableView, viewForHeaderInSection section: Int) -> UIView? {
+    public func tableView(_ tableView: UITableView, viewForHeaderInSection section: Int) -> UIView? {
         if section == 1 && !self.isSearchResults {
             let viewForHeader = UIView(frame: CGRect(x: 0, y: 0, width: tableView.frame.width, height: 20))
             viewForHeader.backgroundColor = UIColor.groupTableViewBackground
@@ -215,14 +214,14 @@ class CountryCodesViewController: UIViewController , UITableViewDelegate, UITabl
         return nil
     }
     
-    func tableView(_ tableView: UITableView, heightForHeaderInSection section: Int) -> CGFloat {
+    public func tableView(_ tableView: UITableView, heightForHeaderInSection section: Int) -> CGFloat {
         if section == 1 && !self.isSearchResults {
             return 20
         }
         return 0
     }
     
-    func scrollViewDidScroll(_ scrollView: UIScrollView) {
+    public func scrollViewDidScroll(_ scrollView: UIScrollView) {
         DispatchQueue.main.async {
             if self.scrollContentOffset.y < scrollView.contentOffset.y {
                 if !self.isScrollingUp {
@@ -246,17 +245,16 @@ class CountryCodesViewController: UIViewController , UITableViewDelegate, UITabl
         }
     }
     
-    func scrollViewDidScrollToTop(_ scrollView: UIScrollView) {
+    public func scrollViewDidScrollToTop(_ scrollView: UIScrollView) {
         print("scrollview did scroll top")
     }
     
-    
-    func scrollViewWillBeginDragging(_ scrollView: UIScrollView) {
+    public func scrollViewWillBeginDragging(_ scrollView: UIScrollView) {
         self.scrollContentOffset = scrollView.contentOffset
     }
     
     
-    func searchBar(_ searchBar: UISearchBar, textDidChange searchText: String) {
+    public func searchBar(_ searchBar: UISearchBar, textDidChange searchText: String) {
         print("search bar text: ",searchText)
         if let searchText = self.searchBar.text {
             if searchText.isBlank {
@@ -282,13 +280,13 @@ class CountryCodesViewController: UIViewController , UITableViewDelegate, UITabl
 
 
 class CountryCodeCell: UITableViewCell {
-    override init(style: UITableViewCellStyle, reuseIdentifier: String?) {
+    public override init(style: UITableViewCellStyle, reuseIdentifier: String?) {
         super.init(style: style, reuseIdentifier: reuseIdentifier)
         
         self.setupViews()
     }
     
-    required init?(coder aDecoder: NSCoder) {
+    public required init?(coder aDecoder: NSCoder) {
         fatalError("init(coder:) has not been implemented")
     }
     
@@ -312,7 +310,7 @@ class CountryCodeCell: UITableViewCell {
         return lbl
     }()
     
-    var countryCodelModelObj:Countries? {
+    public var countryCodelModelObj:Countries? {
         didSet {
             if let countryCodelModelObj = countryCodelModelObj {
                 self.countryNameLbl.text = countryCodelModelObj.name
@@ -332,7 +330,7 @@ class CountryCodeCell: UITableViewCell {
         }
     }
     
-    func setupViews() {
+    fileprivate func setupViews() {
         self.addSubview(self.flagImageView)
         self.flagImageView.anchor(self.topAnchor, left: self.leftAnchor, bottom: self.bottomAnchor, right: nil, topConstant: 8, leftConstant: 8, bottomConstant: 8, rightConstant: 0, widthConstant: 45, heightConstant: 30)
         self.addSubview(self.dialingCodeLbl)

@@ -1,0 +1,22 @@
+{
+  "name": "CountryCodePickerSwift",
+  "version": "1.0.0",
+  "summary": "Pick your country dial code.",
+  "description": "Select your Country it will returns you Country Name, Dial Code, Even you can filter based on your search",
+  "homepage": "https://github.com/RajaReddyiOS/CountryCodePickerSwift",
+  "license": "MIT",
+  "authors": {
+    "Raja Reddy": "rajareddy2606@gmail.com"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source": {
+    "git": "https://github.com/RajaReddyiOS/CountryCodePickerSwift.git",
+    "tag": "1.0.0"
+  },
+  "source_files": "CountryCodePickerSwift/**/*.{h,m,swift}",
+  "resources": "CountryCodePickerSwift/**/*.{png,bundle,json}",
+  "frameworks": "UIKit",
+  "swift_version": "4.0"
+}

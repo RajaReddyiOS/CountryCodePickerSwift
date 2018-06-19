@@ -1,0 +1,6 @@
+framework module CountryCodePickerSwift {
+  umbrella header "CountryCodePickerSwift-umbrella.h"
+
+  export *
+  module * { export * }
+}
