@@ -24,9 +24,10 @@ public class CountryCodesController: UIViewController , UITableViewDelegate, UIT
     fileprivate var countryCodesArray = [Countries]()
     fileprivate var isSearchResults = Bool()
     
-    var timer = Timer()
+    fileprivate var timer = Timer()
     var delegate:CountryCodesDelegate?
     
+    // MARK: - Components
     fileprivate let tableView:UITableView = {
         let tv = UITableView(frame: .zero, style: UITableViewStyle.plain)
         tv.estimatedRowHeight = 200
@@ -63,7 +64,7 @@ public class CountryCodesController: UIViewController , UITableViewDelegate, UIT
     fileprivate let backButton:UIButton = {
         let btn = UIButton(type: UIButtonType.system)
         btn.translatesAutoresizingMaskIntoConstraints = false
-        btn.setImage(UIImage(named: "back")?.withRenderingMode(UIImageRenderingMode.alwaysOriginal), for: UIControlState.normal)
+        btn.setImage(UIImage(named: "back_arrow")?.withRenderingMode(UIImageRenderingMode.alwaysOriginal), for: UIControlState.normal)
         return btn
     }()
     
@@ -72,8 +73,22 @@ public class CountryCodesController: UIViewController , UITableViewDelegate, UIT
         guard let array = CountryCodes.sharedInstance.getAllCountryCodes() else {return}
         countryCodesArray = array
         self.setupViews()
+        self.navigationController?.isNavigationBarHidden = true
+        loadImages()
     }
     
+    public override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(true)
+        self.navigationController?.isNavigationBarHidden = true
+    }
+    
+    fileprivate func loadImages()  {
+        let bundle = Bundle(for: CountryCodesController.self)
+        print("bundle : ",bundle)
+        let img = UIImage(named: "back_arrow", in: bundle, compatibleWith: nil)
+    self.backButton.setImage(img?.withRenderingMode(UIImageRenderingMode.alwaysOriginal), for: UIControlState.normal)
+    }
+
     fileprivate func setupViews() {
         self.setupNavBar()
         self.setupSearchBar()
@@ -105,10 +120,14 @@ public class CountryCodesController: UIViewController , UITableViewDelegate, UIT
     }
     
     @objc fileprivate func backBtnHandler() {
-        self.dismiss(animated: true, completion: nil)
+        if self.isBeingPresented {
+            self.dismiss(animated: true, completion: nil)
+        }else {
+            self.navigationController?.popViewController(animated: true)
+        }
     }
     
-    func setupNavBar() {
+    fileprivate func setupNavBar() {
         self.view.addSubview(self.customNavBar)
         if #available(iOS 11.0, *) {
             [self.customNavBar.topAnchor.constraint(equalTo: self.view.safeAreaLayoutGuide.topAnchor, constant: 0),
@@ -168,7 +187,7 @@ public class CountryCodesController: UIViewController , UITableViewDelegate, UIT
         let cell = tableView.dequeueReusableCell(withIdentifier: self.cellIdentifier) as! CountryCodeCell
         if self.isSearchResults {
             if filteredCountryCodesArray.count > indexPath.row {
-                if filteredCountryCodesArray[indexPath.row].phone_code == self.selectedCountryCode {
+                if "\(filteredCountryCodesArray[indexPath.row].phone_code)" == "\(self.selectedCountryCode)" {
                     cell.accessoryType = .checkmark
                 }else {
                     cell.accessoryType = .none
@@ -177,7 +196,7 @@ public class CountryCodesController: UIViewController , UITableViewDelegate, UIT
             }
         }else {
             if countryCodesArray.count > indexPath.row {
-                if countryCodesArray[indexPath.row].phone_code == self.selectedCountryCode {
+                if "\(countryCodesArray[indexPath.row].phone_code)" == "\(self.selectedCountryCode)" {
                     cell.accessoryType = .checkmark
                 }else {
                     cell.accessoryType = .none
@@ -193,12 +212,12 @@ public class CountryCodesController: UIViewController , UITableViewDelegate, UIT
         if delegate != nil {
             if self.isSearchResults {
                 if self.filteredCountryCodesArray.count > indexPath.row {
-                    delegate?.didSelectCountryCode(self.filteredCountryCodesArray[indexPath.row].name, dialingCode: self.filteredCountryCodesArray[indexPath.row].phone_code)
+                    delegate?.didSelectCountryCode(self.filteredCountryCodesArray[indexPath.row].name, dialingCode: "\(self.filteredCountryCodesArray[indexPath.row].phone_code)")
                     dismiss(animated: true, completion: nil);
                 }
             }else {
                 if countryCodesArray.count > indexPath.row {
-                    delegate?.didSelectCountryCode(countryCodesArray[indexPath.row].name, dialingCode: countryCodesArray[indexPath.row].phone_code)
+                    delegate?.didSelectCountryCode(countryCodesArray[indexPath.row].name, dialingCode: "\(countryCodesArray[indexPath.row].phone_code)")
                     dismiss(animated: true, completion: nil)
                 }
             }
@@ -246,7 +265,7 @@ public class CountryCodesController: UIViewController , UITableViewDelegate, UIT
     }
     
     public func scrollViewDidScrollToTop(_ scrollView: UIScrollView) {
-        print("scrollview did scroll top")
+        
     }
     
     public func scrollViewWillBeginDragging(_ scrollView: UIScrollView) {
@@ -255,14 +274,14 @@ public class CountryCodesController: UIViewController , UITableViewDelegate, UIT
     
     
     public func searchBar(_ searchBar: UISearchBar, textDidChange searchText: String) {
-        print("search bar text: ",searchText)
+        
         if let searchText = self.searchBar.text {
             if searchText.isBlank {
                 self.isSearchResults = false
             }else {
                 self.filteredCountryCodesArray.removeAll()
-                let array = countryCodesArray.filter({$0.name.lowercased().contains(searchText.lowercased()) || $0.phone_code.lowercased().contains(searchText.lowercased())})
-                print("array count: ",array.count)
+                let array = countryCodesArray.filter({$0.name.lowercased().contains(searchText.lowercased()) || "\($0.phone_code)".lowercased().contains(searchText.lowercased())})
+                
                 self.filteredCountryCodesArray = array
                 self.isSearchResults = true
             }
@@ -314,9 +333,10 @@ class CountryCodeCell: UITableViewCell {
         didSet {
             if let countryCodelModelObj = countryCodelModelObj {
                 self.countryNameLbl.text = countryCodelModelObj.name
-                self.dialingCodeLbl.text = countryCodelModelObj.phone_code
+                self.dialingCodeLbl.text = "\(countryCodelModelObj.phone_code)"
                 let imageName = "flag_"+countryCodelModelObj.name.lowercased().replace(" ", "_")
-                if let bundleUrl = Bundle.main.url(forResource: "CountryCodesAssets", withExtension: "bundle") {
+                print("country names: ", countryCodelModelObj.name)
+                if let bundleUrl = Bundle(for: CountryCodeCell.self).url(forResource: "CountryCodes", withExtension: "bundle") {
                     if let bundle = Bundle(url: bundleUrl) {
                         let imagePath = bundle.path(forResource: imageName, ofType: "png")
                         let image = UIImage(contentsOfFile: imagePath ?? "")

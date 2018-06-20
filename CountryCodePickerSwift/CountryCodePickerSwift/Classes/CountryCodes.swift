@@ -11,46 +11,29 @@ import Foundation
 class CountryCodes:NSObject {
 
     static let sharedInstance = CountryCodes()
+    
     override init() {
         super.init()
     }
+    
     public func getAllCountryCodes() -> [Countries]? {
         
         if let path = Bundle(for: CountryCodes.self).url(forResource: "CountryCodes", withExtension: "plist") {
-            print("path : ", path)
             
             do {
-                let data = try Data(contentsOf: path, options: Data.ReadingOptions.dataReadingMapped)
-                
-                
-                let dictData =  try JSONSerialization.jsonObject(with: data, options: []) as? [[String: Any]]
 
-                print("dictionary: ",dictData)
+                guard let dict = NSDictionary(contentsOf: path) else {return nil}
                 
-                let decodedCountries = try JSONDecoder().decode(CountryCodeModel.self, from: data)
-                print("data: ",decodedCountries)
-                
+                let jsonData = try JSONSerialization.data(withJSONObject: dict, options: .prettyPrinted)
+                if let str = String(data: jsonData, encoding: String.Encoding.utf8) {
+                    
+                    if let data = str.data(using: .utf8) {
+                        let decodedCountries = try JSONDecoder().decode(CountryCodeModel.self, from: data)
+                        return decodedCountries.countries
+                    }
+                }
             }catch let error {
                 print("error : ", error)
-            }
-            
-        }
-        
-        
-        
-        
-        
-        if let path = Bundle.main.path(forResource: "CountryCodes", ofType: "plist") {
-            do {
-                let data = try Data(contentsOf: URL(fileURLWithPath: path), options: .mappedIfSafe)
-                do {
-                    let decodedCountries = try JSONDecoder().decode(CountryCodeModel.self, from: data)
-                    return decodedCountries.countries
-                } catch {
-                    print(error)
-                }
-            } catch let error {
-                print("can't convert exception: ",error)
             }
         }
         return nil

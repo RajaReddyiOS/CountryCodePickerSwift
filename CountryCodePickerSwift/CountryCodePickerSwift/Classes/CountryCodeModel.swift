@@ -13,7 +13,7 @@ struct Countries:Codable {
     var name = String();
     var english_name = String();
     var name_code = String();
-    var phone_code = String();
+    var phone_code = Int();
 }
 
 struct CountryCodeModel:Codable {

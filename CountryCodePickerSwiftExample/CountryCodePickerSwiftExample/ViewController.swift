@@ -30,7 +30,9 @@ class ViewController: UIViewController {
     
     @objc func buttonAction() {
         let vc = CountryCodesController()
-        self.navigationController?.pushViewController(vc, animated: true)
+//        self.navigationController?.pushViewController(vc, animated: true)
+        
+        self.present(vc, animated: true, completion: nil)
         
     }
 
