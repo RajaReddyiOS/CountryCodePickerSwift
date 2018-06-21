@@ -2,7 +2,7 @@
 Pod::Spec.new do |s|
 
 s.name               = "CountryCodePickerSwift"
-  s.version          = "1.0.0"
+  s.version          = "1.0.1"
   s.summary          = "Pick your country dial code."
   s.description      = "Select your Country it will returns you Country Name, Dial Code, Even you can filter based on your search"
   s.homepage         = "https://github.com/RajaReddyiOS/CountryCodePickerSwift"
