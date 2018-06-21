@@ -58,7 +58,6 @@
 		35BD042320D92848001199B7 /* CountryCodePickerSwift */ = {
 			isa = PBXGroup;
 			children = (
-				35BD046920D9371F001199B7 /* Assets */,
 				35BD046820D93715001199B7 /* Classes */,
 				35BD042420D92848001199B7 /* CountryCodePickerSwift.h */,
 				35BD042520D92848001199B7 /* Info.plist */,
@@ -69,21 +68,14 @@
 		35BD046820D93715001199B7 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				180EF1E420D9604200028B7E /* CountryCodes.bundle */,
+				180EF1E620D9605300028B7E /* CountryCodes.plist */,
 				35BD046D20D93816001199B7 /* CountryCodeModel.swift */,
 				35BD046F20D9381D001199B7 /* CountryCodes.swift */,
 				35BD047220D93821001199B7 /* CountryCodeController.swift */,
 				35BD047120D93821001199B7 /* UIView+Anchors.swift */,
 			);
 			path = Classes;
-			sourceTree = "<group>";
-		};
-		35BD046920D9371F001199B7 /* Assets */ = {
-			isa = PBXGroup;
-			children = (
-				180EF1E420D9604200028B7E /* CountryCodes.bundle */,
-				180EF1E620D9605300028B7E /* CountryCodes.plist */,
-			);
-			path = Assets;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
