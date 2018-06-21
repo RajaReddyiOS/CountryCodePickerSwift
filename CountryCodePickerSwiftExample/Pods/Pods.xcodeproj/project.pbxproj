@@ -7,14 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0C5FEBFE03A92A7C7EC650816FF66627 /* CountryCodes.plist in Resources */ = {isa = PBXBuildFile; fileRef = 66AAAACFAC333B3869E6391EF1B426A4 /* CountryCodes.plist */; };
 		0CAF39A6E0EAF9DD2E201DA34239B78C /* Pods-CountryCodePickerSwiftExampleTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C2F88863FF5D44DE422172513D3AFB2 /* Pods-CountryCodePickerSwiftExampleTests-dummy.m */; };
 		19A4FB40D8C66080AAF5706E22DA09C7 /* UIView+Anchors.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAA0B2FB5DC52B6E158C04EA62F9610D /* UIView+Anchors.swift */; };
 		2A6E0CA9137A98242407C6B6D9B854F7 /* Pods-CountryCodePickerSwiftExampleTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CA3F157FA575499F0C24ECCC8187807C /* Pods-CountryCodePickerSwiftExampleTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2ED0247C618553F52E63823F65927176 /* Pods-CountryCodePickerSwiftExample-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D4BAD147D18E4FAB2F5A93D27EAD0DFE /* Pods-CountryCodePickerSwiftExample-dummy.m */; };
 		33A4F4EC3CE05DFD24F4BCC569615D29 /* CountryCodePickerSwift-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 409AB7094E0DC00619513A183EB76730 /* CountryCodePickerSwift-dummy.m */; };
-		350F18A320DA1D6500D98E41 /* CountryCodes.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 350F18A220DA1D6500D98E41 /* CountryCodes.bundle */; };
-		350F18A520DA216F00D98E41 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 350F18A420DA216F00D98E41 /* Images.xcassets */; };
+		3544377920DBD56600D71A9B /* CountryCodes.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3544377620DBD56600D71A9B /* CountryCodes.plist */; };
+		3544377A20DBD56600D71A9B /* CountryCodes.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 3544377720DBD56600D71A9B /* CountryCodes.bundle */; };
+		3544377B20DBD56600D71A9B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3544377820DBD56600D71A9B /* Images.xcassets */; };
 		41D40E54B24F9104887BB8D897129FCC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
 		425B6B7693FBC99CFCE5BA772FE9BA30 /* CountryCodeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C34FC983AC2077C055A73C8479CBEF09 /* CountryCodeController.swift */; };
 		51BEB644A21FA92997CCAA4CDB68ADF9 /* CountryCodeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B0090F35319801EA9D37BAFF6F120CC /* CountryCodeModel.swift */; };
@@ -66,8 +66,9 @@
 		2C0387C4C741C3FB8A4DB68F05E8824C /* Pods-CountryCodePickerSwiftExampleUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CountryCodePickerSwiftExampleUITests-dummy.m"; sourceTree = "<group>"; };
 		313606BA66D9D7DDC5BB521A2B4A03B3 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		32A7327D74325D4FF9B906FE21F41B5E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		350F18A220DA1D6500D98E41 /* CountryCodes.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = CountryCodes.bundle; sourceTree = "<group>"; };
-		350F18A420DA216F00D98E41 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		3544377620DBD56600D71A9B /* CountryCodes.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = CountryCodes.plist; sourceTree = "<group>"; };
+		3544377720DBD56600D71A9B /* CountryCodes.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = CountryCodes.bundle; sourceTree = "<group>"; };
+		3544377820DBD56600D71A9B /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		389B42D8DBF75C61CEE49ECA78C86732 /* CountryCodePickerSwift.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CountryCodePickerSwift.xcconfig; sourceTree = "<group>"; };
 		38C78B8AB9B78D5D2264BC66E5DF14AA /* CountryCodePickerSwift-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CountryCodePickerSwift-umbrella.h"; sourceTree = "<group>"; };
 		3B32BDD92832338E983EDFAFB013773D /* Pods-CountryCodePickerSwiftExampleTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CountryCodePickerSwiftExampleTests.release.xcconfig"; sourceTree = "<group>"; };
@@ -79,7 +80,6 @@
 		52526B1634015C64A102D0969F0A9D79 /* Pods_CountryCodePickerSwiftExampleTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CountryCodePickerSwiftExampleTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		585A699C01AFEC8C5ABEAFF9B9937C4C /* Pods-CountryCodePickerSwiftExampleTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CountryCodePickerSwiftExampleTests-acknowledgements.plist"; sourceTree = "<group>"; };
 		5D1A61CA8D60B8E4CC440B7C6B9126B1 /* Pods-CountryCodePickerSwiftExample-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CountryCodePickerSwiftExample-acknowledgements.markdown"; sourceTree = "<group>"; };
-		66AAAACFAC333B3869E6391EF1B426A4 /* CountryCodes.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = CountryCodes.plist; sourceTree = "<group>"; };
 		6FCED9593929D5C42941D3EBA711B3D0 /* CountryCodePickerSwift.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = CountryCodePickerSwift.modulemap; sourceTree = "<group>"; };
 		7274DA2D5374909BD332D4B243756175 /* Pods-CountryCodePickerSwiftExample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CountryCodePickerSwiftExample.release.xcconfig"; sourceTree = "<group>"; };
 		76B68AF7F92219FA7306AB0327559E5D /* CountryCodes.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CountryCodes.swift; sourceTree = "<group>"; };
@@ -152,7 +152,6 @@
 			isa = PBXGroup;
 			children = (
 				9A33900C12057981E07F9999CDF29DF1 /* Info.plist */,
-				396D0A9C9627D3C365774E80A29CCA1D /* Assets */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -178,6 +177,9 @@
 		23D1CFEA866D0074713FF601F4CBDBE4 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				3544377720DBD56600D71A9B /* CountryCodes.bundle */,
+				3544377620DBD56600D71A9B /* CountryCodes.plist */,
+				3544377820DBD56600D71A9B /* Images.xcassets */,
 				C34FC983AC2077C055A73C8479CBEF09 /* CountryCodeController.swift */,
 				9B0090F35319801EA9D37BAFF6F120CC /* CountryCodeModel.swift */,
 				76B68AF7F92219FA7306AB0327559E5D /* CountryCodes.swift */,
@@ -195,17 +197,6 @@
 				55C7057B6795722EE05A1746404ACF4D /* Pods-CountryCodePickerSwiftExampleUITests */,
 			);
 			name = "Targets Support Files";
-			sourceTree = "<group>";
-		};
-		396D0A9C9627D3C365774E80A29CCA1D /* Assets */ = {
-			isa = PBXGroup;
-			children = (
-				350F18A220DA1D6500D98E41 /* CountryCodes.bundle */,
-				66AAAACFAC333B3869E6391EF1B426A4 /* CountryCodes.plist */,
-				350F18A420DA216F00D98E41 /* Images.xcassets */,
-			);
-			name = Assets;
-			path = CountryCodePickerSwift/Assets;
 			sourceTree = "<group>";
 		};
 		433CD3331B6C3787F473C941B61FC68F /* Frameworks */ = {
@@ -471,9 +462,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				350F18A320DA1D6500D98E41 /* CountryCodes.bundle in Resources */,
-				350F18A520DA216F00D98E41 /* Images.xcassets in Resources */,
-				0C5FEBFE03A92A7C7EC650816FF66627 /* CountryCodes.plist in Resources */,
+				3544377B20DBD56600D71A9B /* Images.xcassets in Resources */,
+				3544377A20DBD56600D71A9B /* CountryCodes.bundle in Resources */,
+				3544377920DBD56600D71A9B /* CountryCodes.plist in Resources */,
 				FB4EA80F8473CD033F0D41D758BFBC07 /* Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
