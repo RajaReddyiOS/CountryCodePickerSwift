@@ -15,7 +15,6 @@ class ViewController: UIViewController , CountryCodesDelegate {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        view.backgroundColor = .red
     }
     
     @IBAction func pushButtonAction(_ sender:Any) {

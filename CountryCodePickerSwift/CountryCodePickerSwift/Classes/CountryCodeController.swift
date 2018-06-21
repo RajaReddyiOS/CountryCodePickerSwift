@@ -84,6 +84,11 @@ public class CountryCodesController: UIViewController , UITableViewDelegate, UIT
         self.navigationController?.isNavigationBarHidden = true
     }
     
+    public override func viewWillDisappear(_ animated: Bool) {
+        super.viewWillDisappear(animated)
+        self.navigationController?.isNavigationBarHidden = false
+    }
+    
     //MARK: - setup Views
     fileprivate func setupViews() {
         self.setupNavBar()
