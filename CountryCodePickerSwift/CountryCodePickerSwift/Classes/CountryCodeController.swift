@@ -8,7 +8,7 @@
 
 import UIKit
 
-protocol CountryCodesDelegate {
+public protocol CountryCodesDelegate {
     func didSelectCountryCode(_ countryName:String,dialingCode:String)
 }
 
@@ -23,9 +23,9 @@ public class CountryCodesController: UIViewController , UITableViewDelegate, UIT
     fileprivate var filteredCountryCodesArray = [Countries]()
     fileprivate var countryCodesArray = [Countries]()
     fileprivate var isSearchResults = Bool()
-    
+    fileprivate var isControllerPresented = Bool()
     fileprivate var timer = Timer()
-    var delegate:CountryCodesDelegate?
+    public var delegate:CountryCodesDelegate?
     
     // MARK: - Components
     fileprivate let tableView:UITableView = {
@@ -68,27 +68,23 @@ public class CountryCodesController: UIViewController , UITableViewDelegate, UIT
         return btn
     }()
     
+    // MARK: - Controller Overrides
     public override func viewDidLoad() {
         super.viewDidLoad()
         guard let array = CountryCodes.sharedInstance.getAllCountryCodes() else {return}
         countryCodesArray = array
         self.setupViews()
         self.navigationController?.isNavigationBarHidden = true
-        loadImages()
     }
     
     public override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(true)
+        print("is presented: ",isBeingPresented)
+        isControllerPresented = isBeingPresented
         self.navigationController?.isNavigationBarHidden = true
     }
     
-    fileprivate func loadImages()  {
-        let bundle = Bundle(for: CountryCodesController.self)
-        print("bundle : ",bundle)
-        let img = UIImage(named: "back_arrow", in: bundle, compatibleWith: nil)
-    self.backButton.setImage(img?.withRenderingMode(UIImageRenderingMode.alwaysOriginal), for: UIControlState.normal)
-    }
-
+    //MARK: - setup Views
     fileprivate func setupViews() {
         self.setupNavBar()
         self.setupSearchBar()
@@ -113,6 +109,9 @@ public class CountryCodesController: UIViewController , UITableViewDelegate, UIT
     }
     
     fileprivate func setupBackBtn() {
+        let bundle = Bundle(for: CountryCodesController.self)
+        let img = UIImage(named: "back_arrow", in: bundle, compatibleWith: nil)
+        self.backButton.setImage(img?.withRenderingMode(UIImageRenderingMode.alwaysOriginal), for: UIControlState.normal)
         self.customNavBar.addSubview(self.backButton)
         self.backButton.leftAnchor.constraint(equalTo: self.customNavBar.leftAnchor, constant: 12).isActive = true
         self.backButton.centerYAnchor.constraint(equalTo: self.customNavBar.centerYAnchor).isActive = true
@@ -120,7 +119,8 @@ public class CountryCodesController: UIViewController , UITableViewDelegate, UIT
     }
     
     @objc fileprivate func backBtnHandler() {
-        if self.isBeingPresented {
+        print("is presented: ",isControllerPresented)
+        if self.isControllerPresented {
             self.dismiss(animated: true, completion: nil)
         }else {
             self.navigationController?.popViewController(animated: true)
@@ -171,7 +171,7 @@ public class CountryCodesController: UIViewController , UITableViewDelegate, UIT
         self.tableView.dataSource = self
     }
     
-    
+    //MARK: - Table View Overrides
     public func numberOfSections(in tableView: UITableView) -> Int {
         return 1
     }
@@ -213,12 +213,14 @@ public class CountryCodesController: UIViewController , UITableViewDelegate, UIT
             if self.isSearchResults {
                 if self.filteredCountryCodesArray.count > indexPath.row {
                     delegate?.didSelectCountryCode(self.filteredCountryCodesArray[indexPath.row].name, dialingCode: "\(self.filteredCountryCodesArray[indexPath.row].phone_code)")
-                    dismiss(animated: true, completion: nil);
+                    self.backBtnHandler()
+                    
                 }
             }else {
                 if countryCodesArray.count > indexPath.row {
                     delegate?.didSelectCountryCode(countryCodesArray[indexPath.row].name, dialingCode: "\(countryCodesArray[indexPath.row].phone_code)")
-                    dismiss(animated: true, completion: nil)
+                    self.backBtnHandler()
+                    
                 }
             }
         }
@@ -335,7 +337,7 @@ class CountryCodeCell: UITableViewCell {
                 self.countryNameLbl.text = countryCodelModelObj.name
                 self.dialingCodeLbl.text = "\(countryCodelModelObj.phone_code)"
                 let imageName = "flag_"+countryCodelModelObj.name.lowercased().replace(" ", "_")
-                print("country names: ", countryCodelModelObj.name)
+                
                 if let bundleUrl = Bundle(for: CountryCodeCell.self).url(forResource: "CountryCodes", withExtension: "bundle") {
                     if let bundle = Bundle(url: bundleUrl) {
                         let imagePath = bundle.path(forResource: imageName, ofType: "png")

@@ -9,32 +9,32 @@
 import UIKit
 import CountryCodePickerSwift
 
-class ViewController: UIViewController {
-
-    let button:UIButton = {
-        let btn = UIButton(type: UIButtonType.system)
-        btn.setTitle("Click Me", for: UIControlState.normal)
-        return btn
-    }()
+class ViewController: UIViewController , CountryCodesDelegate {
+    
+    @IBOutlet weak var displayLbl:UILabel!
     
     override func viewDidLoad() {
         super.viewDidLoad()
         view.backgroundColor = .red
-        
-        view.addSubview(button)
-        button.anchorCenterSuperview()
-        
-        button.addTarget(self, action: #selector(self.buttonAction), for: UIControlEvents.touchUpInside)
-        
     }
     
-    @objc func buttonAction() {
+    @IBAction func pushButtonAction(_ sender:Any) {
         let vc = CountryCodesController()
-//        self.navigationController?.pushViewController(vc, animated: true)
-        
-        self.present(vc, animated: true, completion: nil)
-        
+        vc.delegate = self
+        self.navigationController?.pushViewController(vc, animated: true)
     }
+    
+    @IBAction func presentButtonAction(_ sender:Any) {
+        let vc = CountryCodesController()
+        vc.delegate = self
+        self.present(vc, animated: true, completion: nil)
+    }
+    
+    func didSelectCountryCode(_ countryName: String, dialingCode: String) {
+        print("selected Country name: \(countryName) and dialing code: \(dialingCode)")
+        displayLbl.text = "CountryName: \(countryName)\nDialCode: \(dialingCode)"
+    }
+
 
 }
 
